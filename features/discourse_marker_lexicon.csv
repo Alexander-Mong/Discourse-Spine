@@ -1,0 +1,21 @@
+surface,category,fp_note,version
+but,contrast,discourse-transition filler ("but anyway"); intra-clause contrast with no claim,1.0.0
+however,contrast,rarely a false positive; watch for "however small" (adverbial not discourse),1.0.0
+not X but Y,contrast,pattern not literal; fires on "not … but" sequence; check span for genuine reframe,1.0.0
+although,contrast,subordinating; may introduce weak concession rather than genuine reframe,1.0.0
+yet,contrast,temporal "yet" (e.g. "has not yet") is a false positive; check for discourse-contrast use,1.0.0
+on the other hand,contrast,almost always discourse contrast; low FP rate,1.0.0
+instead,contrast,directional replacement ("instead of X do Y") vs discourse pivot; check context,1.0.0
+should,deontic,reported/quoted obligation common in interview transcripts; check speaker role,1.0.0
+must,deontic,reported speech or quoted requirement is a false positive; confirm speaker is advising,1.0.0
+need to,deontic,conversational filler ("you just need to") may lack genuine prescriptive force,1.0.0
+have to,deontic,colloquial obligation; reported/quoted usage is a false positive,1.0.0
+ought to,deontic,rare in transcripts; low FP when present,1.0.0
+might,hedging,social politeness ("I might say") vs genuine epistemic hedge; check proposition strength,1.0.0
+may,hedging,permission sense ("you may go") is a false positive; target epistemic uncertainty only,1.0.0
+I think,hedging,deference hedge vs genuine epistemic uncertainty; extremely common in spoken language,1.0.0
+I believe,hedging,similar to "I think"; check whether proposition is hedged or asserted confidently,1.0.0
+perhaps,hedging,low FP; almost always epistemic,1.0.0
+probably,hedging,low FP; watch for "probably the best" (superlative minimiser not hedge),1.0.0
+seems,hedging,perceptual/epistemic hedge; the bigram "seems like" missed "it seems" and "seems to be"; watch for "seems like a good idea" (social softener),1.0.0
+could,hedging,ability sense ("you could do X") is borderline; target uncertainty/possibility reading,1.0.0

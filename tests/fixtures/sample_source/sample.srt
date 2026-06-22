@@ -1,0 +1,23 @@
+1
+00:00:01,000 --> 00:00:05,000
+Welcome to our panel on the foundation model economy.
+
+2
+00:00:05,000 --> 00:00:09,500
+It's not a feature you bolt on at the end, it's the architecture you start from.
+
+3
+00:00:09,500 --> 00:00:13,000
+If you're building here, you need to focus on unit economics.
+
+4
+00:00:13,000 --> 00:00:17,000
+The risk is that inference cost eats your margin.
+
+5
+00:00:17,000 --> 00:00:20,500
+But who actually owns the model weights?
+
+6
+00:00:20,500 --> 00:00:25,000
+For example, look at what the open source labs are doing.

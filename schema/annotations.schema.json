@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "annotations.schema.json",
+  "title": "Annotation (HOP 1 -> 2): one rule hit = one vote envelope",
+  "description": "A rule hit is a recorded vote, not truth. authority_mode active|shadow (CP1 freeze; shadow carries no standalone routed vote). taxonomy resolves GAP-1 (cue|code namespace). enumRef keys validated against schema/enums.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["annotation_id", "source_id", "run_id", "unit_ref", "anchor", "method", "rule_id", "rule_version", "label_vote", "taxonomy", "trigger_text", "authority_level", "authority_mode", "review_state"],
+  "properties": {
+    "annotation_id": {"type": "string", "pattern": "^ann_"},
+    "source_id": {"type": "string"},
+    "run_id": {"type": "string"},
+    "unit_ref": {"type": "string", "pattern": "^unit_"},
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["char_span", "timecode_ref"],
+      "properties": {
+        "char_span": {"type": "array", "items": {"type": "integer", "minimum": 0}, "minItems": 2, "maxItems": 2},
+        "timecode_ref": {"type": "string"}
+      }
+    },
+    "method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "matcher"],
+      "properties": {
+        "stage": {"type": "string", "enumRef": "stage"},
+        "matcher": {"type": "string"}
+      }
+    },
+    "rule_id": {"type": "string"},
+    "rule_version": {"type": "integer", "minimum": 1},
+    "label_vote": {"type": "string", "enumRef": "label_vote"},
+    "taxonomy": {"type": "string", "enumRef": "taxonomy"},
+    "trigger_text": {"type": "string", "minLength": 1},
+    "authority_level": {"type": "string", "enumRef": "authority_level"},
+    "authority_mode": {"type": "string", "enumRef": "authority_mode"},
+    "gate": {"type": "string", "enumRef": "gate"},
+    "review_state": {"type": "string"}
+  }
+}

@@ -1,0 +1,4 @@
+feature_name,version,role,signal_basis,presentation,lifecycle_state,payload_summary,interpretation_guide_ref,added_date,notes
+surface_complexity_profile,1.0.0,measurement,deterministic_surface,pack_visible_when_triggered,proposed,"length_tokens,length_chars,lexical_density,suppressed,suppression_reason",feature_interpretation_guide.md#f-proof-1,2026-06-12,"suppressed on unpunctuated/window_mode or <5 tokens"
+discourse_marker_profile,1.0.0,cue,deterministic_surface,pack_visible_when_triggered,proposed,"markers[{surface,category,lexicon_version,fp_note}],categories_present",feature_interpretation_guide.md#f-proof-2,2026-06-12,"versioned lexicon; contrast/deontic/hedging; fp_note per term"
+possible_visual_or_deictic_dependence,1.0.0,warning,deterministic_surface,pack_visible_when_triggered,proposed,"phrases[{surface,kind}],confidence",feature_interpretation_guide.md#f-proof-3,2026-06-12,"high-confidence phrases only; precision over recall"

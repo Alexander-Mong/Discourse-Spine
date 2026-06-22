@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "term_occurrences.schema.json",
+  "title": "Term occurrence: gazetteer/seed hit (rank-boost signal, never a routing gate)",
+  "description": "Term/seed hit. role=rank_boost per decision report (terms boost candidate rank, never gate routing). enumRef keys validated against schema/enums.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["term_occurrence_id", "source_id", "run_id", "unit_ref", "anchor", "method", "term", "category", "role", "authority_level", "review_state"],
+  "properties": {
+    "term_occurrence_id": {"type": "string", "pattern": "^term_"},
+    "source_id": {"type": "string"},
+    "run_id": {"type": "string"},
+    "unit_ref": {"type": "string", "pattern": "^unit_"},
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["char_span", "timecode_ref"],
+      "properties": {
+        "char_span": {"type": "array", "items": {"type": "integer", "minimum": 0}, "minItems": 2, "maxItems": 2},
+        "timecode_ref": {"type": "string"}
+      }
+    },
+    "method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "matcher"],
+      "properties": {
+        "stage": {"type": "string", "enumRef": "stage"},
+        "matcher": {"type": "string"}
+      }
+    },
+    "term": {"type": "string", "minLength": 1},
+    "canonical_form": {"type": "string"},
+    "category": {"type": "string"},
+    "role": {"type": "string", "const": "rank_boost"},
+    "trigger_text": {"type": "string"},
+    "authority_level": {"type": "string", "enumRef": "authority_level"},
+    "review_state": {"type": "string"}
+  }
+}

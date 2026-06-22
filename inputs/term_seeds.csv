@@ -1,0 +1,22 @@
+term,category,notes
+foundation model,technology,GPT/Claude/Gemini class systems
+inference cost,economics,cost-curve signal; variant 'inference spend'
+fine-tuning,technology,contrasted with prompting or RAG
+RAG,technology,retrieval-augmented generation
+AI agent,technology,loose usage; high-volume anchor
+agentic,technology,appears in forward-looking claims
+vertical AI,market-structure,sector-specific deployment framing
+AI wrapper,market-structure,thin-layer product framing; dispute signal
+moat,market-structure,defensibility language; reframe attractor
+commoditization,market-structure,falling model prices; strategic consequences
+evals,methodology,marker of serious practitioners
+hallucination,risk,reliability failure; caveat attractor
+open source,market-structure,open vs closed debate signal
+AI governance,policy,caveat and question attractor
+unit economics,economics,viability framing; advice/caveat attractor
+context window,technology,attention/long-context capability framing
+benchmark,methodology,evaluation reference point; pairs with evals
+product-market fit,market-structure,PMF; viability/traction framing
+distribution,market-structure,go-to-market advantage; counter-moat argument
+incumbent,market-structure,established-player framing in moat and commoditization debates
+open weights,market-structure,distinct from open source in the open-vs-closed debate

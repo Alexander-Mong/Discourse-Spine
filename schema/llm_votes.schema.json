@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "llm_votes.schema.json",
+  "title": "LLM vote (HOP 3 -> 4): bounded evaluator judgment, vote-only",
+  "description": "Produced at stage 4 (evaluator pass). REVISED 2026-06-12: supersedes the CP2 stub (discourse_move + sharp_vs_bland) per the Stage-4 Evaluator Spec planning. The evaluator confirms/rejects whether a routed candidate is a genuine instance of its family, holding up in context. The LLM may set review_state=llm_reviewed and no higher. model = exact string reported by claude -p at call time. injection_guard must be present. Malformed votes are rejected+logged, never retried into compliance (S4: zero retries in baseline). is_control is set by the harness from the pre-registered control manifest and is never visible to the model.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["llm_vote_id", "candidate_ref", "source_id", "run_id", "pack_id", "prompt_id", "prompt_version", "model", "injection_guard", "vote", "token_counts", "authority_level", "review_state", "attempt", "tier"],
+  "properties": {
+    "llm_vote_id": {"type": "string", "pattern": "^llmv_"},
+    "candidate_ref": {"type": "string", "pattern": "^cand_"},
+    "source_id": {"type": "string"},
+    "run_id": {"type": "string"},
+    "pack_id": {"type": "string"},
+    "prompt_id": {"type": "string"},
+    "prompt_version": {"type": "integer", "minimum": 1},
+    "model": {"type": "string"},
+    "lane": {"type": "string"},
+    "injection_guard": {"type": "string", "const": "present"},
+    "attempt": {"type": "integer", "minimum": 1},
+    "tier": {"type": "string", "enumRef": "vote_tier"},
+    "is_control": {"type": "boolean"},
+    "vote": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verdict", "inference_type", "confidence", "rationale"],
+      "properties": {
+        "verdict": {"type": "string", "enumRef": "verdict"},
+        "inference_type": {"type": "string", "enumRef": "inference_type"},
+        "confidence": {"type": "string", "enumRef": "confidence"},
+        "rationale": {"type": "string", "minLength": 1},
+        "rejection_reason": {"type": "string", "enumRef": "rejection_reason"},
+        "reason_note": {"type": "string"}
+      },
+      "if": {"properties": {"verdict": {"const": "reject"}}, "required": ["verdict"]},
+      "then": {"required": ["rejection_reason"]}
+    },
+    "token_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prompt", "completion"],
+      "properties": {
+        "prompt": {"type": "integer", "minimum": 0},
+        "completion": {"type": "integer", "minimum": 0}
+      }
+    },
+    "authority_level": {"type": "string", "enumRef": "authority_level", "const": "llm_vote"},
+    "review_state": {"type": "string"}
+  }
+}

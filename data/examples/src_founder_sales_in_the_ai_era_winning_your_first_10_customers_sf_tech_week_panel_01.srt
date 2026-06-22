@@ -1,0 +1,660 @@
+1
+00:00:05,520 --> 00:00:32,380
+Hello, SF Tech Week people. We're going to talk about founder sales in the AI era today, and we're kind of going to take an approach of talking about how these companies are built with the founder-led sales motion. Joined here today by my co-founder, Keith, who, if you don't know, previously worked on Instagram and Facebook and built the camera and a lot of things you might use every day. Kayvon, who previously founder of Periscope.
+
+2
+00:00:32,380 --> 00:00:54,910
+And also grew Twitter to many more users than when he joined. And then Will, who famously fought money laundering at Facebook, and also led payments teams on WhatsApp, and now founder of Greenlight. So excited to hear a little bit about each one of these founders' stories here.
+
+3
+00:00:54,910 --> 00:01:19,300
+And maybe shed some light on the journey from having an idea, wanting to start a company, figuring out who you're going to serve with that company, like the right people, and then what the company needs to become in order to actually serve them. So excited to get into that with you guys. Before we do, maybe just to give everyone some color, we'd love to maybe hear a little bit about the things that people are building. Cool, let's get into it.
+
+4
+00:01:19,300 --> 00:01:46,960
+Thanks everyone for coming. My name is Kayvon, and I was previously the founder of Periscope, led product and engineering at Twitter for many years, and now we're building a product called Macroscope. So at a high level, Macroscope is what we like to say, it's an understanding engine for your company. So if you are a company that builds software, as I'm sure many people in this room are, you probably have lots of questions that you ask on a daily or weekly basis like,
+
+5
+00:01:46,960 --> 00:02:09,889
+What progress did we make on our priorities? And how did the code base change? And what is everyone on the team working on? Now, most companies, whether you're an enormously large company like Twitter or you're a small startup like us, the state-of-the-art way that you solve this problem is meetings and tickets in Jira and Linear and status updates over Slack.
+
+6
+00:02:09,889 --> 00:02:38,220
+And what we do with Macroscope is we answer these questions for you automatically using the actual code base as the source of truth. So when you install Macroscope, you link your GitHub, you link your Slack, you link your Linear or Jira if you have it, and we build you a story automatically of what is happening at your company. So would love for anyone here to give it a whirl. You can install Macroscope on our website. We have a two-week free trial, and let me know what you think. Send me a DM on Twitter.
+
+7
+00:02:39,980 --> 00:03:08,020
+Insights on product analytics are really useful. We use them to help write a lot of our customer feedback, just looking at what our engineering team is shipping every week. So it's actually a really useful tool. Thanks, Kayvon. And Will, would you mind taking a couple of minutes to just share what you guys do? Can I stand for a moment? I don't know, just got to see everyone. We sell to banks. So at Greenlight, we sell enterprise contracts to bank compliance and risk teams. Meaning our product does not look nearly, nearly as nice as that.
+
+8
+00:03:08,020 --> 00:03:37,760
+In fact, the GreenLine product doesn't look like very much at all. And we build AI agents. Agents live inside of your existing tools at a bank or a fintech platform. So quick question for the audience as we're going to go into founder sales here. How many people are doing enterprise contracts? I might categorize that as like $250,000 plus contracts. Okay. That's the world that we occupy. We have dozens of customers, not hundreds or thousands. Companies like Coinbase, Ramp, Mercury use us every day in production. Happy to talk about those user paradigms that we're really excited about.
+
+9
+00:03:37,760 --> 00:04:05,380
+But I think there's a ton of opportunity building AI agents for the enterprise space. Even though it's less visible from the outside, there are really exciting things taking place in that world. So that's all I'll say. I'll save it for the panel. Thanks. And Keith? Great. I guess I'll tell you all a little bit about Lightfield. You know, Henry and I have been working on it for a while. I'd say that maybe the origin story, before we say exactly what we do, is that our first product was an AI presentations product, Tome.
+
+10
+00:04:05,380 --> 00:04:32,190
+You know, we scaled it very quickly. And I think we had two really interesting learnings from it that really led us to wanting to build Lightfield. I'm getting some signal to stand up. The first one was obviously that we, sort of this technical insight of, you know, context construction is really, really important to be able to do great knowledge work. So we're like, we want to build a great context engine so that we can do real, high-quality, generative AI for people.
+
+11
+00:04:32,190 --> 00:04:57,860
+And then the other one was more company building insight of, you know, we had sort of gone through a pretty massive pivot in the past two years. And one of the hardest things about pivoting your company is honestly navigating the fog of war. And like, what does that mean? You know, when you're trying to figure out what to build, who to serve, how to sell it, there's so much data and noise in the world that you don't have to make sense of.
+
+12
+00:04:57,860 --> 00:05:27,150
+You know, for us, you know, we were a big team. We had like 70 people. And, you know, when you have a lot of people at your company, it's hard to get to ground truth, right? You have some people that speak to customers, some people that speak to prospects, you know, we have some people that like speak on social, and then all of those people make a deck for you like once a month and give you insights that are supposed to teach you what to build. And of course, none of those people are engineers. And, you know, none of those people are
+
+13
+00:05:27,150 --> 00:05:47,020
+People are people that can actually construct the product. And we're like, oh, this actually seems like a broken part of company building right now. But the people who build the software are out of touch with the customers they serve and the prospects that they want to serve. So we started to reimagine, you know, could we reinvent?
+
+14
+00:05:47,020 --> 00:06:06,480
+The idea of like a boring old CRM to become the source of ground truth and customer memory that you could run your whole company on so that you would be able to keep honing like who do I serve, how do I speak to them, like what should we build next, and how do we know that it's working?
+
+15
+00:06:06,480 --> 00:06:35,390
+So that's what we've been building for the past, I would say, 18 months. And it's been going really well. We'd say we have hundreds of customers so far. It's free for four more weeks. So if you're interested in trying it, reach out to one of the people with the Lightfield jacket. So that's why we're excited to chat with all of you today. Let's get into the discussion. So I mean, I think maybe some good background color to get everyone...
+
+16
+00:06:35,390 --> 00:07:03,980
+Will, I don't know if you want to kick us off here. Why compliance? Why Greenline? Yeah, happy to. I wanted to start a company for a long time. I've always enjoyed building, and when I knew I wanted to do that, I looked at the area where I had some expertise. I used to be on the product team for anti-money laundering over at Facebook Payments, and so you build a lot of unique domain knowledge working.
+
+17
+00:07:03,980 --> 00:07:30,740
+Fighting terrorists and catching money laundering. And so the journey to understand what we build with Greenlight and the sales journey was actually the same journey. I spent the first like three to four months while I was still in my last job just interviewing anyone who would talk to me who worked in compliance, risk, or some form of anti-money laundering profession. I would kind of do the mom test. So for anyone, I highly recommend the mom test if anyone hasn't read it. It's a great book on customer discovery. It's effectively talking to people and saying like, where do you spend your time doing?
+
+18
+00:07:30,740 --> 00:07:54,400
+What are the things keeping you up at night today? Open-ended questions to understand pain points. After about 30 or 40 of those, I think I had a pretty good understanding of what some of those pain points were. And we ended up building several different prototypes. The first version we built of Greenlight was a completely different idea. Put it in front of those people. They're like, yeah, this is cool. This is like priority number 20 for me. Okay, great. Let's try the next one. Next one, we want to go out and try to prototype as priority number nine.
+
+19
+00:07:54,400 --> 00:08:23,730
+And I was like, okay, we're going in the right direction, but still not important enough. And then we got to something that was like, oh, this solves my immediate pain point, which that person who said that thing became our first customer. So I think maybe, especially if it has a B2B company, early sales and early discovery are actually the same thing. I'm a product person. Early product discovery is the same as early sales. So that's how we got to the idea for Greenlight back in summer of 2023. Awesome. Kayvon, what about you?
+
+20
+00:08:24,050 --> 00:08:47,600
+A lot of the same. The only thing I would add, given the product that we build, we have the luxury of being customers of our own product. And frankly, everything I've ever built in my life, that property has been true for. I've built consumer apps before, even my first B2B company. It was a very selfish process. We just wanted to be users of a product that didn't exist, and so we went out and built it.
+
+21
+00:08:47,600 --> 00:09:16,690
+And I think that philosophy actually works for a surprisingly long time. Even at Twitter, there was truth to prioritizing our most ambitious ideas that way. I think it can fall apart also when you have an app that hundreds of millions of people are using. But I think in the case of Macroscope, we just live this problem viscerally. I was the head of product at Twitter, and I spent most of my time just understanding what the fuck people were working on. It's actually a really hard problem.
+
+22
+00:09:16,690 --> 00:09:43,940
+When you have thousands of engineers at a company, even my engineering partners would have no idea. I could tell you on any given day what the top five most important priorities were, but I would have no idea whether our engineering allocation was actually aligned to those priorities. The head of engineering, the process of getting to that ground truth is basically a game of telephone. It's like you ask your senior managers who ask their tech leads who go distract a bunch of engineers from building stuff to go,
+
+23
+00:09:43,940 --> 00:10:11,740
+Answer questions to fill out a report that's old by the time, it's stale by the time it's put together. And so having lived this pain, we, you know, our team, when we started building the product, really just wanted to kind of decompose those problems into the most granular parts that would be useful to us as a small team, because obviously a five-person engineering team has very different problems than a multi-thousand-person engineering team. But we set out to build like a skateboard or a tricycle, like it's, you know.
+
+24
+00:10:11,740 --> 00:10:39,420
+More nascent incarnations of what the product has now turned into. The first barometer was, is this useful for us as a five-person team? Then as soon as we could say yes to that question, we would go out and reach out to all the customers we talked to in our process of doing research. We talked to public company engineering team leads, to all of our startup friends that were building companies, and asking them similar sorts of things like, what problems do you face in this area?
+
+25
+00:10:39,420 --> 00:11:07,580
+And we would just sort of like slowly increase the size of customer that we would reach out to and say like, does this solve the problem for you? And that was surprisingly useful. Like we started with companies that were five-person engineering teams and eventually were able to build features that were useful to 15-person engineering teams. And now we have multi-hundred-person engineering teams using the product and we kind of had to just gradually go chip away at the problems until we could, you know, they could say yes to that.
+
+26
+00:11:07,580 --> 00:11:36,380
+I mean, that really resonates. I think we're going to talk about ground truth a lot in this discussion. But I think sort of on a meta level, like I feel like that's very much like what inspired us to do this too. And that like, it feels like once your company gets to a certain level of maturity like that head of product scenario you were describing, it's so hard to get the ground truth of what customers want or what users want, right? And so I think just like it was hard for you to get the ground truth of what people were building. So I think that kind of motivated us.
+
+27
+00:11:36,380 --> 00:12:05,470
+I don't know, Keith, if you want to share how we got to our first few customers with Lightfield. Yeah. I mean, I think one of the biggest challenges of building something as broad as an AI CRM is that you're just never done from a feature perspective, right? And, you know, right now, I would say that we've got a product that a lot of people use every day and they like, but that wasn't the case a year ago. So we sort of needed to cheat a little, right? And I think one piece of it was identifying folks that were really underserved.
+
+28
+00:12:05,470 --> 00:12:33,260
+Because, you know, I think we started a little upmarket. You know, we started with these, like, larger companies, and we found that larger companies go-to-market are incredibly over-served, right? Like, every go-to-market department in a tech company has, like, 50 tools, and there's, like, another 500 that want to get in. So they're actually incredibly over-served, so it's very easy to get a pilot, and it's very hard to go from pilot to them paying for something.
+
+29
+00:12:33,260 --> 00:12:57,250
+So we're like, let's find a group of people that actually all of this stuff doesn't work for. And it just so happens that that was us. We had to cobble together some go-to-market tooling to understand our customers, and it was brutal. So we wanted to build something for ourselves. And then the other part was, honestly, the product was so early.
+
+30
+00:12:57,250 --> 00:13:25,280
+At the start of the year that we had to do some things that didn't scale. One of the things that I'm more proud of in our journey was that we inherited this big office from our last company. And at first there was kind of this stench. I remember we had this salesperson who worked here. He was like, wow, it smells like dead unicorn in here. And then when we were pivoting, a lot of the team was complaining about how this reminded them of good times. We decided to like...
+
+31
+00:13:25,280 --> 00:13:46,460
+We weaponized that, so we decided to give the office space away for free to anyone that would use our product. And we had some strange people show up, and then we also had some great people show up, you know, who sort of had a moral obligation to at least try our CRM for like a month.
+
+32
+00:13:46,460 --> 00:14:13,490
+Through that, we got a lot of feedback, and then we eventually got to a state where they liked it, and then we asked them for referrals, and I think that's when we started to host again and start to get people to care. Yeah, I think competitive space is actually a really interesting question in the context of getting your first customers. Will, I'm super curious. There's a handful of compliance companies out there that make that easier. How did you convince your first few to go with you specifically?
+
+33
+00:14:13,490 --> 00:14:38,290
+I'll say there's less than there are go-to-market companies. So I'm a huge fan of solving super boring problems. Sometimes we'll describe greenlight. We do AI for compliance teams at banks, and I can see the eyes of the person I'm speaking to glaze over in real time. And I love that because ultimately the competition we face is not as meaningful or good, frankly, as some of the competition that I think you face in sexier things. Sometimes I think like we did YC.
+
+34
+00:14:38,290 --> 00:15:06,990
+Had a lot of 21-year-old founders. Awesome. That's great. None of them were building compliance software for banks. And so in that way allowed us to really focus on what is the pain that we're trying to solve. In many ways, you don't really differentiate on how advanced frontier AI you're bringing to this use case. How well can you solve this problem repeatedly many times before? And as soon as we were able to solve that problem, it became pretty clear. Maybe I'll make a general comment as we're talking about AI and the positioning of these types of companies.
+
+35
+00:15:06,990 --> 00:15:32,880
+Generally speaking, I think agents are going to be most useful when they do the same work as a human counterpart. For us, we do AI compliance analysts or AI risk analysts. Those workflows as they exist today exist outside of current tooling. So my team at Facebook, we had all this great technology we built, but then we also had thousands of people doing risk and compliance operations. So the question is like, what are those people doing all day long? And it's starting to codify in those workflows.
+
+36
+00:15:32,880 --> 00:15:54,260
+And so while there was competition in like the areas that have already been brought into software world, there's a lot of problems that have not yet been to software world. Our belief here is that, I think I've heard this before, but it's worth repeating, the exciting thing about AI is it's going to essentially bring out data that hasn't been possible to use before. Specifically for us, that's knowledge inside the head of white collar workers.
+
+37
+00:15:54,260 --> 00:16:19,790
+There's a lot of knowledge tapped there that has not been used for training or for scaled software. And so we're really excited about that. And by doing that, we don't end up competing with existing software. We tend to compete with things like outsourced BPOs and managed services, which we just have a huge edge on in terms of speed and scale that we can support. Yeah, so it sounds like it's a completely like orthogonal framing to like, you know, I'm just going to buy a compliance thing or I'm going to hire an agency to help us do this.
+
+38
+00:16:19,790 --> 00:16:46,690
+But I will say, especially to founders in the room, like, nailing that positioning is absolutely critical. Because when we jump on a call, within the first five minutes, I want to convince them that we are completely different than all the software they already own. And if you fail to do that, you don't escape that world. So, like, we have, like, a specific slide I have where I'm like, this is what you have today, this is why we're different, and we layer on top, or we do this. That was a huge unlock for us. As soon as we got our positioning right, the conversation just became a lot easier. Makes sense.
+
+39
+00:16:46,690 --> 00:17:12,099
+And how many revs did it take you to get the positioning right? Probably 80 to 100 sales calls. I closed our first two and a half million of revenue myself, and that was really fun. Again, as product discovery in addition to sales. But every time I got one or 2% better, and now it became easier such that when we ramped up our first, we have seven AEs today. Our first two AEs, they could just take my playbook and run with it. It's not lost.
+
+40
+00:17:12,099 --> 00:17:35,810
+It's not lost doing those reps. So we were able to turn that into something quite useful. That's awesome. I mean, it feels like macroscope is kind of similar in that. I don't think it's like going up head-to-head against anything I've heard about before, like as like a way to understand what the product team is building. Curious how you sort of position it to your first customers. Yeah, I mean, we really have two, if you were to really simplify our product down, there's really two pieces of it.
+
+41
+00:17:35,810 --> 00:18:01,250
+One piece of it is this company understanding engine that helps you see how the product is changing. And then the other part of it is review. For the first part, the real competition is the workflows that these companies are engaging in on a daily basis. They have their status meetings, they've got their spreadsheet trackers, they have their issue management system. We have not found another technology product.
+
+42
+00:18:01,250 --> 00:18:18,050
+That is solving this problem. It's made those conversations a lot easier with customers because to the extent that they've seen anything like Macroscope, it's way more metrics driven. It's like, oh yeah, I can see Dora metrics for how long PRs have been opened. But I think what a lot of those customers really want is, I want a qualitative change log.
+
+43
+00:18:18,050 --> 00:18:44,720
+Around what's happening at the company. And so it makes the sort of positioning conversation a lot easier. For the other aspect of our product, it is a much more competitive space. Like everyone and their mother is building an AI code review tool. We were not the first, we're not going to be the last. And so really for our positioning, A, we had to know when we're talking to a customer, which do they care more about? Are they the CEO? If they're the CEO, they probably are more interested in understanding what their team is doing, how the product is changing, how the priorities are progressing.
+
+44
+00:18:44,720 --> 00:19:02,940
+If it's the CTO, they maybe care about both. Maybe they're particularly trying to invest in, you know, AI tooling to make the team more productive. And so that's one part of the, I think, special sauce is just knowing upfront and asking them, like, what are the problems you're having and, like, where do you want to focus? Because our product can kind of help with both of these areas.
+
+45
+00:19:02,940 --> 00:19:31,950
+But for CodeReview in particular, we had to spend way more energy explaining how we're different, like Will was talking about. For us, we have a technical bet that we've made with our product that we've essentially leveraged the AST for the engineers in this room. We leveraged the AST of all the programming languages that we support to create a graph of the customer's code base. We're really doing a lot of special sauce that has nothing to do with LLMs to set the LLMs up to be successful when we're doing inference.
+
+46
+00:19:31,950 --> 00:19:55,040
+This is the thing that differentiates us from a lot of the other code review tools out there that have a more shallow understanding of the code base. When we talk to a customer about why our code review is different and why they should try it, we emphasize this technical approach that we've taken. That usually peaks their eyebrows because they're like, oh, cool, I've looked at a lot of code review tools and I haven't heard this approach.
+
+47
+00:19:55,040 --> 00:20:22,480
+I'm still skeptical because I've seen a lot of these tools and they suck for one reason or another, but I'm interested in trying your tool because you've told me a story that is different than the story I've heard about the other tools. And so that I think was a core part of why we were able to get consideration in the early days from a lot of those customers. And then later on, it's like doing evals and benchmarks helps a lot because you can just show the proof in the pudding. And that's just yet another sort of data point that helps in the call.
+
+48
+00:20:22,510 --> 00:20:52,270
+That makes sense. And you guys were, you know, you're starting with this position, you take hundreds of customer calls and refine and refine it. How do you then kind of decide like who you kind of care about in this space? Because like you have presumably hundreds of calls now under your bell. Are you deciding that like every one of them is ICP? Are you like kind of narrowing down to one for a particular reason? What did that process look like? You know, for us, we had to make a decision.
+
+49
+00:20:52,430 --> 00:21:21,440
+There was an important point in our journey where we needed to decide when we were going to prioritize building features that would support larger companies. What I mean by that is our first 20 customers were, call it, under 50 engineers. We felt like we got the product pretty dialed for that size of company. Then we started talking to customers that were larger, like 100-plus engineers, and in some cases, multi-hundred-person engineering teams. When we first had those calls,
+
+50
+00:21:21,440 --> 00:21:44,720
+It was just very clear from understanding how they felt this pain that the product as we had built it at the time just wasn't ready. And we had to make a call basically, all right, do we want to spend the next quarter working on features so that we could actually feel proud of the product for that customer? And, you know, there was a period where we just didn't, we weren't ready yet. We actually said, hey, thank you. Like, let us get back to you when we're ready to.
+
+51
+00:21:44,720 --> 00:22:13,330
+You know, solve these pain points for you. And we actually circled back to those customers like two or three months later because we felt like we had to get our ducks in a row with the current customers that we were serving. So that was an important decision point for us. And we still have that decision ahead of us. Like we are, you know, actively in conversations with a few companies that are, you know, multi-thousand person engineering teams. And there's just, there are things that are different about the size of these code bases, about the specific programming languages that they use, or the specific workflows that they have, or
+
+52
+00:22:13,330 --> 00:22:35,970
+They're compliance and security needs that we have to make a real prioritization decision around, hey, we're not going to burn a bunch of time on our roadmap or waste the customer's time until we can go back to them and say, we are ready to serve you. I think for us, we have to decide what those milestones were, and that definitely, there is more art than science there. It's really just a vibe check of like.
+
+53
+00:22:35,970 --> 00:23:03,200
+How badly do we want to serve that tier of customer and how close are we based on what the product is actually capable of today? Yeah, I mean, it's probably worth us talking about this because I think the segmentation has been so, so important. I think we decided really early on as a company that we are going to compete with Salesforce for like the next four years because we just have so much to build. We have a radically different product and it's honestly just going to waste the team's time thinking about
+
+54
+00:23:03,200 --> 00:23:32,740
+Salesforce migrations and the long tail of integrations. So we've always been thinking about building sort of a small business and startup company. And this interesting thing happened when we started to open up our waitlist, we got a pretty broad type of small business and startup, right? Where the next thing we knew, we had insurance companies, doctor's offices, construction companies, startups, vertical SaaS startups.
+
+55
+00:23:32,740 --> 00:23:57,730
+And we sort of let them all in. And I think through that learned that a lot of the requirements were similar and that made us feel good about the sort of go-to-market approach, but there are also a lot of requirements that were different. And I would say that the big differences were around like what needs to be integrated, how is it integrated? You know, the sort of like workplace policy around privacy.
+
+56
+00:23:57,730 --> 00:24:24,380
+And then we started to sort of break this up into clumps. One, there's a lot more similarity than difference among startups. And it was a great place to start. It's the people we knew. It's the people we are. And then two, we also had this other consideration that it's very hard to go viral. It's hard to build a big brand.
+
+57
+00:24:24,380 --> 00:24:43,710
+When you start in small business alone, right? Because in this world where we like build for commercial real estate, which is actually like a growing segment of Lightfield, it's very hard to become like the de facto tool in commercial real estate and then jump to construction and then jump to, you know, compliance and then jump to...
+
+58
+00:24:43,710 --> 00:25:12,580
+Startups because those industries aren't as networked as tech startups. So we sort of made this decision of, wait a minute, it seems like step one has to be startups because that's the only way to build a big brand. It's the only way to sort of like focus on fewer requirements, better, and then give us option value to get to the other parts of SMB later. So it was a little bit of, it was like a mix of reasons. Yeah, that's interesting. I mean, I think this network density thing is kind of an interesting
+
+59
+00:25:12,580 --> 00:25:40,340
+I think to click on with a go-to-market that you want to be efficient. I mean, Will, you were saying earlier that, you know, you go to these events, right, where, you know, people that are looking for this sort of thing, or like at least larger financial institutions kind of gather in like a tight cluster, right, like one big room. Probably pretty important for that to be efficient. I'm curious, like, how that, I mean, I don't know how else you could sort of grow really quickly as a startup seeking that sort of audience. Curious if you can chime in on that.
+
+60
+00:25:40,340 --> 00:26:10,210
+Yeah, and I'll tie this into the last conversation we just had, and I'll tell it, like, maybe in a story. We did YC in summer of 2023, and we had another company that was trying to do pretty much the same thing as us in a different space, and we took slightly different approaches. We both wanted to be an enterprise company, to Keith's point, like, where do you want to end up? We both wanted to be enterprise. They said, we're going to hold off until we can get our first 500K contract, essentially, and they're going to keep trying to get to that first 500K. We took a different approach. We're like, we'll use who wants to use us, right? Water through the pipes was the thought, and this was like,
+
+61
+00:26:10,210 --> 00:26:37,790
+If you get more product usage, you can build a better and better product. So our first customer ever was like $5,000, and then it was $10,000, and that was $25,000, then it was $25,000 again, actually. Then it was $50,000, and then it went, so it started to go up and up. And we were at kind of like maybe $500,000 in revenue before that team had closed their first customer. And so I think there's a lot of value to getting, or at least in our world of B2B, getting water through the pipes, improving the product. And maybe it's, I don't know if this is financial services specifically, but it's very reputationally heavy.
+
+62
+00:26:37,790 --> 00:27:02,180
+Every time you go into a bank, they're like, which other bank of our size is we using you? And the short answer for a while is none. And so you have to work your way up. I still remember, you know, our first logo that anyone knew was like Betterment. And like Betterment's an awesome company. We love them. They're a private company. That helped us close Robinhood, which is our first public company. And then Robinhood helped us close Mercury, Ramp, Gusto, Rippling, all these companies, which then helped us close multiple public companies. So it's like a ladder up.
+
+63
+00:27:02,180 --> 00:27:30,690
+I don't think it would have been as successful if we were just like, we're going to only go work with JP Morgan, right? Even though directionally, like that's where we want to get to. So that was like one thought there. As it relates to building pipeline though, I think there's like two thoughts. It really depends on the go-to-market motion. I don't know. There's really like four go-to-market motions. There's like your SMB, your mid-market, your enterprise, and what you might call strategics. Each of those is a different go-to-market motion. We purely are in like the enterprise and strategic category today.
+
+64
+00:27:30,690 --> 00:27:55,040
+Meaning, yes, we host a ton of expensive dinners, and we go to great steakhouses, and that's just, and we sell to people. I'm always the youngest person in the room by 15 to 20 years, and that's just the nature of our business. And you gotta get comfortable with that. For me, it was like literally, what is my role amongst these people? I've learned that I have to kind of be like their smart kid is kind of like what they like to see because they don't see me as a peer, but they love working with their smart kid.
+
+65
+00:27:55,040 --> 00:28:21,520
+And that's fine. I can close contracts with my smart kid. So that was totally okay. But dinners have been super successful for us. Events have been super successful for us. And also in person, like we travel a ton. We go, I've been to like a lot of, I'm Canadian, so I got to explore the US. I got to go to the random corners of the US to shake hands with bank CEOs, because that's what they want to see. Ultimately, it goes to like, what is the go-to-market motion you're doing? Virality is a great example of something we've never thought about. And it's just because it's a different motion.
+
+66
+00:28:21,580 --> 00:28:47,840
+Yeah, I mean, I guess you have your own, like, small version of it, right, where you make the reputation to kind of speak for you, and you can, yeah, kind of have the positive references. That's cool. I want to go to a steak dinner with Will, but I'm not a bank CEO. I'll wait. These are expensive. I can't get it. I can't just let anyone in. Yeah, that's super interesting. Yeah, is there, I mean, what, yeah, what is the sort of, like, the grassroots version of you guys' go-to-market right now? Have you done anything like that, Kevon?
+
+67
+00:28:47,840 --> 00:29:15,340
+I think we're still pretty early in our grassroots journey just because we, you know, we were in the shadows until two weeks ago. I think, you know, for the first year of the product existing in private beta, you know, we were really just, you know, we had essentially one outbound motion, you know, reaching out to first sort of mid-market and now enterprise. And it was, we had our own version of the laddering strategy that Will mentioned.
+
+68
+00:29:15,340 --> 00:29:43,600
+For us, it took two different approaches based on the size of the company. We found that as we unlocked larger companies, it then further unlocked larger companies. A lot of these customers we talked to would say, come back to me once you've served an engineering team that's about 100 engineers. I don't want to be the guinea pig, but I'm happy to work early with you guys if you've figured it out with at least one other customer. Then the other angle that mattered for us was unlocking different engineering
+
+69
+00:29:43,600 --> 00:30:11,810
+Engineering variants, right? Like for us as programming languages, like our stack requires building discipline on a language by language basis. Like we started by serving Go and TypeScript repos because our stack is Go and TypeScript. And that allowed us to go, you know, we were shameless about leveraging our investors and their portfolio companies. We went and found all the customers in our, across our investor portfolio companies that, you know, leveraged Go and TypeScript for their repos.
+
+70
+00:30:11,810 --> 00:30:41,280
+And then we would go unlock Python, and then we would go unlock Swift, and then we would unlock Java, and then Kotlin. And then, you know, so we sort of used that approach because it allowed us incredible with the engineering teams or the CTOs to say, hey, we just unlocked Python support. Here are all the customers we're serving with our product, which, you know, we had to qualify, right? Like it had to be appealing to them. But by going to them and saying, hey, we just spent a bunch of time making this work awesomely for Python codebases. We're ready to serve you. That sort of unlocked a channel for us that
+
+71
+00:30:41,280 --> 00:31:00,420
+Also incidentally built credibility that, oh, wow, they're doing something special for Python-based codebases. That approach was really effective for us, but it was still your typical enterprise motion. For the larger companies, these are longer sales cycles. Still in our case,
+
+72
+00:31:00,420 --> 00:31:23,940
+No more than two months, it was still pretty fast given these are large companies. But now that we're launched publicly, we have this entire new section of the market that I think can come to the product, right? Like folks in this audience, you know, to the extent that you care about understanding what your team is working on and how the product is changing, you can just sign up on the website. And so there's more we need to do as a part of our go-to-market motion to sort of build interest and visibility and awareness.
+
+73
+00:31:23,940 --> 00:31:52,610
+And so, yeah, we're still early in that journey, but it's an exciting new sort of fragment of the market for us. Makes sense. I think maybe one thing that both of you guys glossed over but is super important is you ultimately have to have a product that people love for any of this stuff to matter. And I found for us, it wasn't really until we had a product that people love that they were ready to talk about that any of this stuff started to like compound. Say that we...
+
+74
+00:31:52,610 --> 00:32:21,570
+As of like a few months ago, we started to get this almost like, um, like virality coefficient, right? You make one customer happy, and they tell three other, uh, they tell three other, uh, customers about it, and then we get referrals. And that's sort of the, like, flywheel I think you need to build before all the, like, go-to-market tooling kicks in. Um, so I think that that's been, like, critical to our motion. And then maybe the other thing that's worth saying is that, um, you know, you've heard me use this bump.
+
+75
+00:32:21,570 --> 00:32:49,940
+I think CEO of Bumble once said that you have to see the Bumble app seven times before you decide to download it. And so much of her early go-to-market was making sure that college students saw it seven times before caffeine season. And I think about that with us. We have a highly concentrated go-to-market. We're right now focused on
+
+76
+00:32:49,940 --> 00:33:02,910
+Founders in Silicon Valley building great companies. Our caveman version of it is product works, need to make money, needs to be your mindset as a founder.
+
+77
+00:33:02,910 --> 00:33:29,420
+Events are really great for that. This is the first of many that we're going to be running around founder-led sales. We're co-hosting hackathons. We're hosting a Gouda Market Bootcamp in a couple of months for a bunch of early-stage founders. And we found that if we can just be top of mind for you and we have customers that love our product, the rest will connect.
+
+78
+00:33:29,940 --> 00:33:59,520
+I think it's interesting. I think there were several distinct moments, I can remember, at least five or six, where it felt like, oh, now closed beta is really starting. We started a closed beta, and then we got a few people interested enough through social posts, et cetera, to try the CRM. And then they'd be like, there's all these circumstances. There's just a few of them. They're busy. They might be trying it a little bit and not sure whether to actually use a CRM or not. And then over time, as we got a little bit closer to that,
+
+79
+00:33:59,520 --> 00:34:26,510
+Product that I think served the sort of minimum requirement, then like the feedback started to kind of quickly become unmanageable. And then, you know, each of those moments kind of felt like its own kind of threshold that broke. Yeah, and I'm curious if you guys have had like sort of similar experiences where like the threshold sort of broke and you're like, oh shit, I could spend every waking moment of my day responding to these things. And like, you know, I need to like figure, I need some help.
+
+80
+00:34:27,790 --> 00:34:56,830
+I can start, and I might start by being deliberately provocative here, and I hope this is well-received. I think it's never been easier to make a great product. It is so easy to make a product that looks amazing, and so much so that, at least in our buyers, they've all seen dozens of incredible, incredible demos. It has never been easier. And again, we do YC, the companies that did well, the ones just focused on go-to-market aggressively. And I'm a strong believer usage will make your product better.
+
+81
+00:34:56,830 --> 00:35:22,770
+And the iterating on the product itself will not get you too, too far. Because again, it's never been as easy to make a product that looks great, at least in theory. And so I go to like, what am I seeing as paradigms that the founders I think are amazing and crushing it? It's like they value, they care, they work really intensely on go-to-market. They don't think of it as like something you hire salespeople for. It's something that you drive end-to-end. I'm saying this like, because there's founders in the room like.
+
+82
+00:35:22,770 --> 00:35:52,080
+I don't want you to think like if you built this great product, it will do anything, like anything will come. You don't deserve anything for that. That's not, there's a hard part to it. But ultimately it's like building the business, willing it into existence is sales, especially in B2B. If you're doing something else, like willing it into existence, being embarrassed, like jumping on the plane to close that first 10K contract, that's the name of the game. It's less so. So that's where I might start there. When we started to see, like things started to work when we started to hear our names in, you know, hey, someone was talking about you here.
+
+83
+00:35:52,080 --> 00:36:22,020
+So just successful outcomes from that customer doing it. But maybe I'll go back to like that view is you just need to help them with any problem worth solving. So I go back to like the product matters, but the problem you're solving is probably more important. In some ways, you might say this is like the constant thing of the Sequoia view of the world is like the market determines everything. That whatever the market you're tackling, it'll pull a great company out of you. It'll pull a great product out of you. I'm a strong subscriber of that camp. And that if you're solving a problem that matters enough and there's big enough budgets for it,
+
+84
+00:36:22,020 --> 00:36:51,790
+It will carry you for a long period of time. And when you get to a competitive dynamic, then you just got to be super aggressive and push against it. I don't think AI is going to be top of mind for everyone for five more years. I think you have a year and a half to crush it, land it, be the biggest player in your category. And then from there, we might have the luxury of thinking about how do we make great moats or something like that. Maybe that's my school of thought in the world, especially because we're in a super competitive, dynamic environment. I don't know. Rambly answer, but that's how I was thinking about that question.
+
+85
+00:36:51,790 --> 00:37:17,360
+I'm trying to think of how to answer this because there's two component parts of the question. When did we know things were working? And also, how did that influence our prioritization? But there was a lot of experimentation that we did around how to activate certain features in our product, both to
+
+86
+00:37:17,360 --> 00:37:46,130
+Maximally solve the customer problem, but then the way we built certain features really ended up inflecting how much our customers were liking the product and their likelihood of telling other customers. There's a few specific things that are very particular to our product that I'll share as stories. One of the first features we built is that homepage that I demoed. It shows you the pie chart of what your team is working on, and you can see how the projects have changed. When we first built that feature,
+
+87
+00:37:46,130 --> 00:38:13,500
+You know, it just wasn't, it hadn't quite clicked for our customers, or like the usage of it didn't quite meet our expectations, let's say. And we sort of like beat our heads against the wall for a few weeks, and we ended up doing a very simple thing, which was building a feature that allowed the customer to sign up any number of emails to have that report at the end of the week automatically send to n number of email addresses. And that like, it was like the simplest thing, like that feature took like 30 minutes.
+
+88
+00:38:13,500 --> 00:38:42,350
+But it completely unlocked for our existing customers. They're like, oh shit, I can send this to my CEO. I can send this to my CFO. I can send this to a bunch of other stakeholders that normally have no idea what's happening in product and engineering land. And then that just got the entire company, like at least the company's leadership team, bought in on like, let me go dive into this tool and see what's happening. And so it was just like a, if we hadn't have been kind of experimenting with other ways to activate that feature, it wouldn't have unlocked that visibility.
+
+89
+00:38:42,350 --> 00:39:07,490
+Another very simple example, you know, I mentioned we have a code review tool, which typically like any other code review tool, we identify bugs in your PRs, we leave a comment in GitHub, you know, saying, hey, there's a bug here, here's how to fix it. The feature that we launched was like a simple add-on, but that really like set things on fire was we added a feature that let you have a long-running dialogue within the PR.
+
+90
+00:39:07,490 --> 00:39:34,500
+Engineers sometimes want to ask clarifying questions like, are you sure this is a bug based on the behavior? Or maybe I want to fix this in a different way. And so we now have a fully interactive AI assistant that you can talk to. You can have it fix the bug. You can ask it clarifying questions and all that. And our team, in the early days, we were seeing every one of these interactions that customers were having. And as soon as we launched that feature, engineers at our customer companies were just having full-on conversations with the bot, basically.
+
+91
+00:39:34,500 --> 00:40:03,700
+And it was so interesting because these conversations would sometimes have lots of personality in them. People would argue with the bot, people would compliment the bot, people would like really test the limits of it. And it sort of like went viral within the company. And I think it really accidentally, this was not our intention, but it accidentally really improved satisfaction of the product. And it sort of built credibility and trust that this bot is actually more sophisticated than you otherwise would have thought.
+
+92
+00:40:03,700 --> 00:40:29,150
+We never would have changed the relationship that our users had with the product if we wouldn't have dabbled around the edges. Those two features are still the features that have our customers recommending to their friends at other companies. In some ways, I totally agree. It's so much of the success of any of these products is about to go to market, but there's also some
+
+93
+00:40:29,150 --> 00:40:56,720
+Maybe it's the consumer founder in me that you do have to dabble around the edges to find the features that end up kind of going viral, even if viral means infecting the company internally with visibility around what the value proposition is. And that ended up being really important for us. That's funny. Well, it's a good provocation. I feel like there are definitely some spaces where there's a clear problem to solve. It's easy enough to solve it well, and it's just a land grab.
+
+94
+00:40:56,720 --> 00:41:26,190
+Right? And you just have to go for it. And I totally agree with you, by the way. Now we have so much startup CRM data. And honestly, I could say, even with our, like, 10 of hundreds of customers, that the founders that do sales themselves tend to be the ones that build great companies. The founders that, like, do marketing themselves first before hiring people tend to be the ones that build great companies. And actually the ones that try to hire those people too early don't get very far.
+
+95
+00:41:26,190 --> 00:41:56,700
+So I would totally agree with that. One, no one can sell the product like you. I think it's enthusiasm. It's how you sign and saying that you're going to fix something when shit goes wrong is, I think, required to move forward. And also, I think it gives you enough insight into how to run those departments well when you hire people.
+
+96
+00:41:56,700 --> 00:42:22,180
+I completely agree with that, and on the land grab point, no question. I do think there are some spaces, though, where sooner or later you just need to have the best product, and I think a lot of the PLG are like that too, where there's like 10 for us, and we found just like...
+
+97
+00:42:22,180 --> 00:42:53,040
+Having the one that feels nicest and is fastest actually goes a long way. And I think we talk about craft here a lot in terms of performance. It turns out fastest product does a whole lot of performance. And the other thing that I would say is that we sort of discovered this while building the company, but we found that there's gain in productivity for an account executive in our space.
+
+98
+00:42:53,040 --> 00:43:15,500
+And that was an interesting realization where like, wait a minute, I don't think an LLM can make an AE-10X more productive. So as a result, it's going to be really hard to replace tools with that value prop. So we had this realization by being in hundreds of companies of, wait a minute, the thing that's really happening is we're like,
+
+99
+00:43:15,500 --> 00:43:42,080
+We're making the engineers more productive because now they know what to build and they know how to write a PRD because they're connected to the customers and it's making the founder more productive because they can sharpen their ICP, which is a thing you never stop doing. I feel like even when you have a giant company... So I think that was the sort of discovery, for me at least, that what we have is interesting. I do think...
+
+100
+00:43:42,080 --> 00:44:10,720
+I haven't been in YC, and I don't exactly know what the conversations there are like, but I feel like companies are starting to look pretty different now in terms of the people that are doing the selling are maybe traditionally engineers a lot of the time. And actually, there's a really high rate of pass-through of information that comes from customer conversations and hits the rest of the team, whatever function anyone plays. It's kind of interesting because I think on the flip side, I agree with...
+
+101
+00:44:10,720 --> 00:44:39,170
+Part of your provocation, which is I think one of the best features that we have right now, or one of the things that I'm trying to work on as being a human feature, is responding to the Slack channels as soon as possible with the utmost attitude of service in these Slack channels. And I think it really does make a difference, especially when we have a lot of product holes to apologize for still. And then I think you have to think about the entropy that naturally occurs when you bring on additional people.
+
+102
+00:44:39,170 --> 00:45:06,400
+Right? That also talk to those customers. And there's this interesting balance of like, you kind of want everyone to hear it from the horse's mouth as much as possible. But then I don't think you want someone to become the Oracle of the customer that like kind of passed through a lossy translation of the needs that is somehow less insightful than your original version. So I'm curious how you guys are thinking about that now, or if that's a question on your mind. Well, I mean, we do lots of little things that I think help.
+
+103
+00:45:06,400 --> 00:45:30,300
+One, every customer conversation is recorded, transcribed, and published into Slack for every single team member, not just our engineering team, to see. I think it's a tiny thing, it's a feasible thing, but it's a really important thing. I know everyone on our team looks at that Slack channel when a new customer call ends and just reads through it. I know, because I get questions afterwards being like, why did they say this? And I think that's really, really important.
+
+104
+00:45:30,300 --> 00:45:54,860
+Another little thing that we started very early on was we do rotations where I will just randomly pick an engineer from the team to join me on a customer call. Sometimes I'm thinking based on who can add value to this conversation or maybe they know someone who works at the company. Maybe they're just a huge fan of the product. I think that's a helpful way of building empathy amongst our engineering team of like,
+
+105
+00:45:54,860 --> 00:46:21,060
+What are the customers actually saying? How does it sound when it comes out of their mouth? How much do they care about X, Y, or Z feature? And I think those things have been really helpful. And then the final thing I would add is just we truly do have an unfair advantage. And I think you guys are somewhat similar in this boat that we are customers of the product. We have so much intuition for the problems that our customers are facing because we face them ourselves.
+
+106
+00:46:21,060 --> 00:46:50,850
+That there's like a separate prioritization problem of like, do we want to prioritize the problem as we feel it as a 17-person team? Or do we want to prioritize solving it for the 200-person engineering team? Like that's definitely gnarly. I have a lot of empathy for, I mean, you guys probably have less of that dynamic. You have a lot of understanding of the space, obviously, but I'm curious how much of that you feel as an internal engineering team. Are you sort of having to proxy for a lack of being able to feel the pain yourself?
+
+107
+00:46:50,850 --> 00:47:18,780
+I don't know how many terrorists you have trying to use your internal tooling. You never know, really. So at first, it was pretty easy for the first 10 people. We had engineers very much involved with every one of the pre-sales and kind of also post-sales and implementation. So they were around and knew that pretty well. We have a proof of concept, proof of emotion. So before we start working with the customer, we start to get deeply embedded into their organization and hopefully help them solve a problem or two. That worked really well for 10 or so people. We're now about 35.
+
+108
+00:47:18,780 --> 00:47:45,040
+And it's a little harder when you have to disseminate across those organizations. So the way we've structured it is just to be more intentional with our forward deployed engineering motion, of which it's our largest part of our engineering team. So simple examples of this is like, just like actually this morning, we agreed we're going to be in Europe in two weeks with engineers on site to help one of our largest customers go live with a new use case. And just like bringing them physically to the customer helps a lot.
+
+109
+00:47:45,040 --> 00:48:14,450
+We do involve them a lot in the calls, so like the pre-sales and the post-sales. I think that becomes very, very important. We also spend a lot of time building up our deployment strategist team, which is broadly an incredible product meets customer success organization who are thinking about how do you solve problems by building product. So kind of like a forward deployed product manager is how we think about it. And so we're trying to put as many touchpoints as we can in the customer journey of meeting other members of the team. We also find it allows us to multi-thread. So again, when we go on site with this customer,
+
+110
+00:48:14,450 --> 00:48:38,480
+Me and the sales guy are going to go meet everyone, shake hands, and kiss babies throughout the organization. The engineers can get to know the engineering counterparts. The deployment strategists can get to know the product managers. It allows us to cover more surface area in the accounts that we work with while also giving them the specialized knowledge that they need to succeed. And then as we think about scaling the team, we're always trying to think about how do we enable new account executives and go-to-market staff with knowledge of the product as well as the market.
+
+111
+00:48:38,480 --> 00:49:07,070
+Something we're still working on, but we're trying to do as many training sessions as we can, getting them out to those events, hearing what their customers are saying and what their prospects are saying. So that's always a constant struggle for us is how do you enable people with the market intelligence and the product intelligence that they need to be successful? And on the engineering side, how do you equip them with new business context? We try to do that by bringing them on site. I have another very specific hack that is one of my favorite things that we do. I don't know how broadly applicable it is for the audience, but...
+
+112
+00:49:07,070 --> 00:49:35,940
+Early on, we decided that we wanted to have shared Slack channels with every single customer. This made a ton of sense while we were in private beta, but this ended up being so effective that we not only do this for all of our enterprise customers, but for any self-serve customer. Like if anyone in this audience signs up for Macroscope right now, you'll see in our onboarding flow that we invite you to initiate a shared Slack channel that all the founders and all of our engineering leads join automatically. And this has become our de facto customer success.
+
+113
+00:49:35,940 --> 00:49:59,580
+We support email and other mechanisms, but we prefer to have our engineers and your engineers and the founders and our founders in the same channel. And this is tremendous for a bunch of reasons. One, it shows the customer that you are serious about supporting them. I am often the very first person responding in any of these channels when our customers have a problem. And two, it allows our engineers to get
+
+114
+00:49:59,580 --> 00:50:28,460
+The raw exposure to what are the CTOs and what are the IC engineers from our customers saying to us when they're sharing bugs, you're hearing it directly from the horse's mouth. I hope that there is not a point at which this no longer works. Thankfully, there are lots of great YC companies like Pylon trying to productize solutions to this problem, but I think for anyone in the audience that's in a similar B2B space, it's just such a simple thing that you can do that I think builds trust with your customers.
+
+115
+00:50:28,460 --> 00:50:57,980
+And it's just more fun. I'd rather hear directly from our customers in a Slack channel. You sort of feel like you're on the same team. Well, one thing I was going to ask about is just, you said earlier today, Will, you're now looking for a VP of sales. If anyone knows a great VP of sales, talk to this guy. But I'm curious how you're thinking about bringing that person into the fold and letting them be an additional voice that...
+
+116
+00:50:57,980 --> 00:51:26,980
+Reflects what the customer's needs are, and also has to internalize both the capabilities of your eng team and the needs of your market. It's funny, the version of what you just asked is not the angle I've always thought about it on. I've thought of way more mechanically in that each of our sales rep has a million or $1.5 million quota. I need to activate them as quickly as I possibly can, ramp them up as quickly as possible. Normally now it takes about six months to ramp them up to be fully productive.
+
+117
+00:51:26,980 --> 00:51:54,540
+And if you know that, you can math your way into like, what are my goals for next year? How much capacity will I need? All right, I need someone to focus on hiring and enabling those people to be successful. And then there's a third part of this that I think about is like, how do you give them the structure they need such that they know when they're off the rails? So again, like one of our contracts will take eight to nine months to close. So you know the checkpoints and milestones you need to hit, you need someone to increase, like have that execution velocity there.
+
+118
+00:51:54,540 --> 00:52:24,180
+And the fortunate thing as a founder, I'm not going to fully step away from go-to-market, have someone drive that component, but I get to jump a little bit more into a head of product style role. And that's how I anticipate working with that leader as they can communicate what we're hearing out for market while I still am a big part of most of those sales. But I anticipate that person to drive the rhythms, if you will. I think it's really important, though, to be involved for as long as humanly possible. And my thought here is we kind of think of go-to-market as one of two modes.
+
+119
+00:52:24,180 --> 00:52:53,540
+Case study replication mode, like you've closed, I don't know, I'll just use an example, like Coinbase, and now you're going to go close Kraken. That's a case study replication. There's that mode of go-to-market where it's like repeatable and it's working well. I think that's something that VP sales can drive. Then there's the zero to one, like our first national bank. And I think it's much more important if the founders spend time on the zero to ones while setting up the case study replication. So it's funny, the way you framed it is not the way I thought about it. Like how do I bring online capacity?
+
+120
+00:52:53,540 --> 00:53:23,250
+For an enterprise sales organization to be really effective while allowing me to spend more time, not on the individual account, but on the macro across the accounts. And that's how we're thinking about bringing on that leader and why we think they'd be helpful for us. We have a little bit of time now for Q&A. Anything else you want to jump into before we do that? So in the early stage of customer discovery, you kind of said that customer discovery is similar to doing sales.
+
+121
+00:53:23,250 --> 00:53:52,960
+How do you initiate those calls? What do you say to get people to be on those calls, and how do you run them in the early days when it's kind of like an overlap between customer discovery and sales? Just jump in. Happy to start. I would cold DM people on LinkedIn. My exact message was something like, hey, I'm Will. I used to work on anti-money laundering systems at Facebook. We're now building something with AI in this space. I'd love to learn some of your pain points in this area. Send it out to hundreds and hundreds of people. Dozens responded.
+
+122
+00:53:52,960 --> 00:54:20,820
+Of that dozen, 50% get on a call with you. You do a discovery call against it. At some point, you're like, oh, that pain point, that's actually what our product solves. Would you want to see a demo of that product? You bring them into a demo of that product. And again, we demoed it to like our first, before our first customer, we demoed it to maybe like 10 or so people. One person totally got it, like, hey, how much does it cost? Like, where can I put my credit card? And that was how we got our first sale. So big fan of just cold DMing on LinkedIn or emailing or calling, depending on your market.
+
+123
+00:54:20,820 --> 00:54:46,450
+Asking them to do proper discovery with them, learn about their pain points. And then if you can help them, help them. If you can't help them, go back to them. Of that initial group of people we spoke to, many of them became customers later at another point in our journey because we ended up expanding features to solve them. So that was ours specifically for a B2B motion. A lot of what Will said resonated and was similar for us. The other thing I would add is just use every unfair advantage.
+
+124
+00:54:46,450 --> 00:55:11,630
+You have available to you. In my case, I was shameless about saying, hi, I'm Kayvon. I started Periscope. I was the head of product at Twitter. I would love to show you the new product that I'm building and see if it resonates. You just got to spray and pray that to the people who you want to get on the phone with. Whatever the version of that is for you, I think the proof point of what you've worked on in the past can really resonate and be helpful.
+
+125
+00:55:11,630 --> 00:55:40,050
+And then once you get more targeted with like the specific company, because at the beginning, you're just trying to learn. You're trying to understand what their problems are. And then over time, as you get more targeted with the specific companies that you want to get on the phone with, you can tailor that messaging a little bit more. Like for our version of that was, you know, we spent a lot of time, you know, building the best code review product for customers, you know, for companies that use Python repos. And we would just be very specific about like, we pre-qualified and know that you all are a big Python shop. And we're going to call that out so that this is like tailored.
+
+126
+00:55:40,050 --> 00:56:00,240
+So those are some techniques that worked for us. Now, that end, use your investors. Like, we were shameless about asking our investors, hey, you know, such and such companies in your portfolio, we'd love to get on the phone with our CTO. Can you please introduce me? Totally agree with that. But one thing I would add is that I think at this stage of company building, you...
+
+127
+00:56:00,240 --> 00:56:28,830
+You want to do stalker-level research on the people that you're trying to speak to, and that really worked for me. I found no AI outbounding tool has ever worked at this stage. When I reached out to people, I looked up the jobs they were posting, I looked up what they tweeted, what their LinkedIn post, what their VCs said about them, and then just try to form a hypothesis about the pain that they're feeling and show that you...
+
+128
+00:56:28,830 --> 00:56:57,820
+That you're interested enough to help. And I think that's like the way to like overcome the, you might not have perfect experience relative to the company you're building. Like the founders, I know that do this well, they spend like two hours writing a LinkedIn message. And I would just like do things that don't scale at that stage. Next question. Hi, I'm Ashley. This question is specifically for Will, since I'm also...
+
+129
+00:56:57,820 --> 00:57:27,390
+Looking at banks right now, like smaller banks, but also, like, we're basically doing customer discovery with a lot of different types of financial firms, and we're trying to figure out what type of financial firm would be the best, because I think one thing we realized was having a problem is one thing, but then finding the people who have the problem and are willing to solve it is another thing. So how do you kind of figure out, like, because we have noticed problems in different institutions, how do you figure out what type of
+
+130
+00:57:27,390 --> 00:57:53,810
+Yeah, great question. I think it's all about the pain. How much are they feeling that pain? To your point, are they willing to solve it? The quick answer to that is how much are they willing to pay for it? I'm a big fan of using like, okay, great, you have this problem. How much would you pay for this thing? Or would you pay $50,000 or $100,000 to solve this problem? Chances are 90% of them will say no, and there's a 10% that eventually will say yes.
+
+131
+00:57:53,810 --> 00:58:23,330
+If you don't ever hear yes after like 20 or 30 of those conversations, maybe it's not the right problem to solve. So I'm a huge fan of using like revenue as like a gating factor for how painful is this problem for you to solve, especially when you're talking to like a bank like that. And then urgency kind of comes out of that, right? Like, hey, if it's a hair on fire problem, they're probably willing to pay a little bit more if it was not a hugely important problem for them. I know that's overly simplistic, but revenue can actually tell you a lot about how meaningful of a problem that is for that bank.
+
+132
+00:58:23,330 --> 00:58:53,730
+Thank you for the conversation. I have a question. What are some tips you have for early-stage founders for attending in-person events? Any hacks that worked for you? There are many founders today in the room. They're going to be going around for SF Tech Week. What did you do to maybe get those early customers and get the conversation started? I'm definitely not the best at this, but I think in general, building a business is just nonstop relationship building.
+
+133
+00:58:53,730 --> 00:59:20,930
+And I think there's nothing more off-putting than someone trying to meet you and sell you a thing in like 30 seconds. So I found that people that are the best at this are just like really interested in people. So I think if you like try to form, if you have genuine curiosity and you show genuine interest in people, I think that these things will sort of come. And I would just be like comfortable with the fact that it'll take a while. Like it's unlikely you will meet.
+
+134
+00:59:20,930 --> 00:59:47,330
+A person at an event who's ICP, who's ready to buy, who has your exact pain. But I think if you just show interest and demonstrate interesting point of views, that person might lead you to the right person. But that's just been my only take on it. You should probably have a bit of a social media presence. I say this as someone who sort of hates that part of my job, but I think you need to have enough
+
+135
+00:59:47,330 --> 01:00:15,780
+Content, opinions, product out there so that people can sort of like grasp onto things when they speak to you. I don't know, you're the expert on this stuff. On social media? I'm not going to go down that rabbit hole right now. I think the only thing else I would add is just like show up and experiment and be ready. I mean, literally like today I showed up and Keith was like, do you want a demo? And I was like, sure, I guess. Like, you know, like I think you're right that there's sort of a
+
+136
+01:00:15,780 --> 01:00:46,910
+It's a blurry line between just being authentic and getting to know people, but also being ready to show what you're building and why you're excited about it and how it works. And I think figuring out how that manifests depending on the venue, it just takes experimentation. Next question. Does this work? Okay. So I have a question. I'm in enterprise sales as well, and it's not a specific ICP. We have buying committees.
+
+137
+01:00:46,910 --> 01:01:17,140
+Whole groups of people in a function that have to have consensus or some sort of majority in order to buy anything. For those of us who are reading the title of how to win your first 10 customers, in my mind, everybody in the buying committee is a customer. What's your advice or guidance around that? Because
+
+138
+01:01:17,620 --> 01:01:45,500
+Initially starting the sales process and using the Lightfield product, I initially thought the customer was the company, but the customer's not a company. It's everybody that's in the buying committee. What advice do you have about buying committees and selling a product? Thank you. Yeah, happy to help. Fortunately, this is what you might call a solve problem. People have thought about this when they sell these big...
+
+139
+01:01:45,500 --> 01:02:15,220
+The things I would research is things like MedPIC, qualification frameworks and structures for doing enterprise sales. A very simple thing is in that type of world, for a buying committee, you need a champion who feels the pain specifically and has influence enough on the buying committee that they can sway things. You also, as the founder, when I know all the stakeholders involved and your champions say, hey, who are the eight people that need to make this and who's on the buying committee? I try, beg, borrow, and steal to try and get in front of each member of that team.
+
+140
+01:02:15,220 --> 01:02:44,670
+Understand their unique needs. As quickly as like, hey, I'm talking with John in this department. He said, you guys are thinking about this purchase. Do you have 10 minutes? I just want to make sure I'm getting your perspective around the table. People love that kind of stuff. You need influence everyone on that table, but you need someone to push you through the buying committee. Again, if I go back to, if someone says, oh, it's a buying committee, it's not my decision, they're probably not your champion or the pain point's not painful enough. Like we sell the banks that normally take years and we have closed things in five to six months.
+
+141
+01:02:44,670 --> 01:03:14,800
+If you find a strong enough pain point and a strong enough champion. Yeah. In the early days, how did you guys manage the building of features and offerings for maybe a design partner versus someone that you're really wanting to close and they say, oh, this would be great, but we would love to see this and that informing your product? I mean, I think this is the hardest part in our space. I'm not sure how to answer it other than saying that it's just...
+
+142
+01:03:14,830 --> 01:03:43,090
+It's a lot of vibes and a lot of like, which customer do you want to prioritize first? How strategic is it to unlock a new category of customer by building X, Y, and Z features? And how much of the pain did that customer feel? Was this a burning hair on fire problem for that customer? Or were they like, yeah, I mean, this seems interesting. If you did X, Y, and Z. Sometimes when you hear the, if you did X, Y, and Z, it's just sort of an excuse.
+
+143
+01:03:43,090 --> 01:04:11,380
+It's easier for them to say that than to say, this just isn't an important thing for me right now. You need to vibe check which of those it is. Sometimes, genuinely, it's like, I really want to use this tool, but because of X, Y, and Z reason, it's just not going to work for us unless you build these features. If it's a really large customer that we really want because they were passionate about what we were building and we thought they'd be a great design partner for us, we would drop what we're doing and go build those features.
+
+144
+01:04:11,380 --> 01:04:37,410
+We sort of had to develop an intuition for other times when we heard that. We were like, okay, they're just not really bought in. Like, whatever we're building is not resonating with them. We're not going to go disrupt our roadmap to go build those features because it sounds like a recipe for a goose chase. You just have to feel out which it is and prioritize accordingly. That's a really good insight. I think it applies to sales, recruiting, fundraising. But I think that there's like...
+
+145
+01:04:37,410 --> 01:04:54,270
+Often a customer or someone you're working with who has this mindset of, I really want to use this platform and I just need X to make it work. And I think you need to find those relationships. It's sort of your job as a founder to find those. And then you'll hear a lot of like, I don't, I can't.
+
+146
+01:04:54,270 --> 01:05:21,980
+If you did X, maybe I'll use your product. Or if you got to X milestone, maybe I would want to fund you. Or if you guys were a little smaller, this would make more sense. And I think that's always just the San Francisco conflict-avoidant way of passing. And I think you just have to develop a barometer for that. The other sort of tactic we use to try and tease those things apart is for customers that
+
+147
+01:05:21,980 --> 01:05:51,820
+This was relevant for where they're like, well, we sort of need X, Y, and Z. We would ask them to sign up and we would just decide upfront, like, hey, instead of a one-month trial, we're going to give you a three-month trial. We think it's going to take us three months to build all these things that we talked about. And we are willing to prioritize that if you're willing to sign up today. And that's like a very helpful way to tease out, like, how invested are they? Because if they are invested, they'll be like, cool, I'm going to take your word for it that in three months, this will be ready. I'm willing to go through the process of an
+
+148
+01:05:51,820 --> 01:06:21,520
+Vesting in you and doing the onboarding and all that stuff. And then, you know, the value exchange is that we're not going to charge you until we're proud of the solution we've built for you. And if they're not willing to do that, that's a signal, right? That tells you, well, they're kind of like not sold enough to even do a free design partnership for some period of time. I think these dynamics change once the product is more mature. Like we wouldn't do the same sort of thing now that we've launched publicly. But when we were six months in and we're just trying to find design partners, that was extremely useful.
+
+149
+01:06:22,290 --> 01:06:51,980
+Awesome. Last question. Hi. All right. Very cool. Yeah, I guess my question is back to how you mentioned founder sales, a lot of it is discovery, especially winning your first 10 customers. That is a lot of figuring out who your ICP, what value prop. I just want to hear more, I guess, in terms of your experiences, how long did that take you? And also, how much did...
+
+150
+01:06:51,980 --> 01:07:18,240
+Your product, your value proposition, your ICP changed, and how did you navigate through that? How do you know that it was the value prop that isn't good enough, or maybe the ICP that isn't correct, or the product? Having to start, I think we did that discovery of DMing people, asking them questions when we were at zero revenue for three or four months of that, just learning the product that we wanted to build.
+
+151
+01:07:18,240 --> 01:07:44,460
+When we had the product that we wanted to build, we essentially did a public launch that, hey, this is the product we're building, this is the main point we solve. We had people who came inbound, and from that moment to like our first customer was about a week. And that's because we did a lot of discovery ahead of time. We front-loaded a lot of that conversations. In terms of how it shifted, the products were like the problem, because again, we're solving like this boring B2B problem that we love. The problems stay the same. It's just the scale and complexity of it increased.
+
+152
+01:07:44,460 --> 01:08:08,930
+Over time, you need more bells and whistles to serve a public company versus a, you know, 20-person fintech in our world. But the product stayed remarkably similar over time. For us, you know, we, again, we had sort of two versions of our product, right? We have code review and we have this understanding engine piece. And for the latter, similar to what Will was saying, like the complexity and the bells and whistles we needed.
+
+153
+01:08:08,930 --> 01:08:35,810
+To serve different tranches of customers changed quite a bit, but the actual value proposition, the story we told, was like fundamentally pretty similar. And it all sort of was grounded in the early customer discovery we did. We sort of understood the pain points that CEOs and heads of product and heads of engineering had when they were trying to understand how things were changing. What really changed about our positioning was when we started building features that served engineers, like IC engineers, which are code of the future.
+
+154
+01:08:35,810 --> 01:09:02,689
+It does. We're building code review not for the CEO. We're building code review to solve problems, save time for IC engineers. We really had to adapt our story. When we're talking to a CTO, how do we tell the story? How do we make sure we show them the features we're building for them and also how we're solving problems for their IC engineer? That part of our sales pitch is admittedly complicated because we're building some things for the actual customer who's paying us.
+
+155
+01:09:02,689 --> 01:09:29,939
+But we're also building some features for their constituents. And it's sort of like we have to tease apart that story. And it took us a bit of iteration to nail that messaging. It was probably like a couple of months of taking some swings and iterating and just kind of feeling like we muddled through the story. But again, you just have to experiment. Like I would change my pitch and the ordering of my demo and what I showed and what I showed with every conversation.
+
+156
+01:09:29,939 --> 01:10:00,290
+It was pretty clear afterwards based on my own vibe check and also how badly did they want to move forward. You can just tell these things. As long as you're pushing yourself to iterate, I think you'll find your own path towards a pitch that resonates and feels localized. I'll give the really short answer and then we can just all informally chat after. It took us a while. It took us probably over a year.
+
+157
+01:10:00,290 --> 01:10:28,770
+And I would say that it's one of those problems that you actually need to solve for all variables at once. You can't quite isolate because like a great company means that you're solving a problem for someone, they're happy with your solution, and you can efficiently get more customers like that that will pay you enough to build the entire product and company, right? So I think the worst way to look at this is like let me hold
+
+158
+01:10:28,770 --> 01:10:56,160
+Four variables constant, and then try to find the go-to-market engine, or let me hold the customer constant, and then try to find the other piece. You sort of have to solve for it all at once. And it can take a week, it can take a year, it could take five years. I think there's companies like Figma and Roblox that it took half a decade for it to click, but when you know, you know. And what I mean by that is...
+
+159
+01:10:56,160 --> 01:11:14,960
+Things start to feel easy. And I'll give you some examples of what starts to feel easy. For us, like a leading indicator was the number of calls we have that move to trial. Like when it was hard, it was like one in ten, you know, and at some point it was like...
+
+160
+01:11:14,960 --> 01:11:43,650
+9 out of 10. And we're like, oh, interesting. Maybe we can go and get more of these people. And then another sign that it was easy was going from trial to ready to pay. And when it was hard, it was like 4 out of 10. And then at some point, everyone that activated was ready to pay. And then the other piece was, I think the worst part of being a founder is if you have a product where people have apathy.
+
+161
+01:11:43,650 --> 01:12:11,040
+They don't hate it, they don't love it, it's just sort of there. And I think you want to get to a state where your product is so important to people that they're yelling at you about all of the things that it needs to do in addition to its core. And I think we woke up one day and we were just flooded with pylon and slap tickets, and there was this step change for the company, but I would be discerning about it.
+
+162
+01:12:11,040 --> 01:12:40,460
+It might take a little longer than you want, but getting to that, the right hill is really important. Maybe going back to Kayvon, your example of finding someone that is really excited to use your thing and maybe doesn't have everything that they need yet and trying to discern the authenticity of that desire and trying to replicate or study that interaction. What are they into about what I'm selling?
+
+163
+01:12:40,460 --> 01:13:10,460
+Is that true about everyone else in the organization, other folks, other types of companies in the market? And I think it is constantly rotating this pizza dough almost where it's like, you're shaping this thing, it's really unstructured, but eventually you want it to kind of be a circle. One quick little hack that that reminded me of, going back to your question. One thing that we did that was really effective for our customers that were really getting value out of the product and using it, we would just ask them. Because early on, we kind of didn't know exactly how to describe this.
+
+164
+01:13:10,460 --> 01:13:39,100
+It was this amorphous blob that we were still building. So we just ask our customers, like, now that you've used the product for two months, like, what is this team? Like, how would you describe the product back to me? Like, when you go tell your team about this new tool you're about to roll out, like, what is your one-liner? And that was really insightful because oftentimes the way they explained the product was not the way we had sort of trained ourselves to pitch it. And I think getting a reality check on that as time goes on is actually really useful. Like, six months goes by, like, ask the same customers, like,
+
+165
+01:13:39,100 --> 01:13:49,680
+What is the product to you? Awesome. Will, Kayvon, Keith, thank you so much for joining us today. And thank you all for coming to listen.
+

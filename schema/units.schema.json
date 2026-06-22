@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "units.schema.json",
+  "title": "Unit (HOP 0 -> 1): normalized SRT cue with dual anchors",
+  "description": "One sentence-segmented unit. authority_level=source (truth floor). enumRef keys are validated against schema/enums.json by validate.py.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["unit_id", "source_id", "run_id", "method", "anchor", "text", "segmentation_quality", "source_hash_ref", "authority_level", "review_state"],
+  "properties": {
+    "unit_id": {"type": "string", "pattern": "^unit_"},
+    "source_id": {"type": "string"},
+    "run_id": {"type": "string"},
+    "method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "normalization_profile"],
+      "properties": {
+        "stage": {"type": "string", "enumRef": "stage"},
+        "normalization_profile": {"type": "string"}
+      }
+    },
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["char_span", "timecode"],
+      "properties": {
+        "char_span": {"type": "array", "items": {"type": "integer", "minimum": 0}, "minItems": 2, "maxItems": 2},
+        "timecode": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end", "srt_index"],
+          "properties": {
+            "start": {"type": "string"},
+            "end": {"type": "string"},
+            "srt_index": {"type": "integer", "minimum": 1}
+          }
+        }
+      }
+    },
+    "text": {"type": "string", "minLength": 1},
+    "segmentation_quality": {"type": "string", "enumRef": "segmentation_quality"},
+    "source_hash_ref": {"type": "string"},
+    "authority_level": {"type": "string", "enumRef": "authority_level", "const": "source"},
+    "review_state": {"type": "string"}
+  }
+}

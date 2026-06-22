@@ -1,0 +1,21 @@
+{
+  "claude": {
+    "votes": 414,
+    "model_malformed": 4,
+    "lane_failures": 0,
+    "malformed_rate": 0.009569377990430622,
+    "verdict_distribution": {
+      "reject": 241,
+      "confirm": 172,
+      "uncertain": 1
+    },
+    "uncertain_rate": 0.0024154589371980675,
+    "control_votes": 29,
+    "control_rejection_rate": 0.9655172413793104,
+    "control_bar_0_90_passed": true,
+    "token_counts_total": {
+      "prompt": 3256530,
+      "completion": 36619
+    }
+  }
+}

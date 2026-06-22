@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "candidate_case_files.schema.json",
+  "title": "Candidate case file (HOP 2 -> 3): content-addressed, routed, capped",
+  "description": "Produced at CP3 (stage 3). Schema locked at CP2 so IDs/shape are stable. GAP-5: segmentation_quality copied forward from unit. GAP-3: Tier C/D attribution collapses to N/A for evidence_ready. candidate_id is content-addressed, NOT run-scoped (see ids.py).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidate_id", "source_id", "run_id", "anchor", "context_window", "segmentation_quality", "vote_refs", "method", "routing", "caps_applied", "evidence_ready", "attribution", "authority_level", "review_state"],
+  "properties": {
+    "candidate_id": {"type": "string", "pattern": "^cand_[0-9a-f]{8}$"},
+    "source_id": {"type": "string"},
+    "run_id": {"type": "string"},
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["char_span", "timecode", "unit_ref"],
+      "properties": {
+        "char_span": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2},
+        "timecode": {"type": "string"},
+        "unit_ref": {"type": "string", "pattern": "^unit_"}
+      }
+    },
+    "context_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sentences_before", "sentences_after"],
+      "properties": {
+        "sentences_before": {"type": "integer", "minimum": 0},
+        "sentences_after": {"type": "integer", "minimum": 0}
+      }
+    },
+    "segmentation_quality": {"type": "string", "enumRef": "segmentation_quality"},
+    "vote_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "dedup"],
+      "properties": {
+        "stage": {"type": "string", "enumRef": "stage"},
+        "dedup": {"type": "string"}
+      }
+    },
+    "routing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["bucket", "reason"],
+      "properties": {
+        "bucket": {"type": "string", "enumRef": "routing_bucket"},
+        "reason": {"type": "string", "minLength": 1}
+      }
+    },
+    "caps_applied": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["family", "rank_in_family", "kept"],
+      "properties": {
+        "family": {"type": "string"},
+        "rank_in_family": {"type": "integer", "minimum": 1},
+        "kept": {"type": "boolean"}
+      }
+    },
+    "evidence_ready": {"type": ["boolean", "string"]},
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tier", "speaker"],
+      "properties": {
+        "tier": {"type": "string", "enumRef": "attribution_tier"},
+        "speaker": {"type": "string"}
+      }
+    },
+    "authority_level": {"type": "string", "enumRef": "authority_level"},
+    "review_state": {"type": "string"}
+  }
+}

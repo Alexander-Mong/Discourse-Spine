@@ -1,0 +1,8 @@
+# Discourse Spine: runnable core dependencies.
+#
+# The deterministic pipeline (ingest -> annotate -> candidates -> enrich,
+# driven by run_demo.py) needs ONLY the Python standard library.
+# The two packages below cover the jargon builder and the test suite.
+
+wordfreq>=3.0     # jargon keyness vs a general-English baseline (offline, no API)
+pytest>=7.0       # test suite

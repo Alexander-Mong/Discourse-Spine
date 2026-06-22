@@ -1,0 +1,9 @@
+# Optional. Only needed to run the LLM precision lane (Stage 4) yourself.
+# The deterministic core needs none of this; precomputed sample outputs are
+# shipped under precomputed/ so you can see the lane's results without keys.
+
+requests>=2.28    # direct HTTP adapter for the Anthropic API
+
+# In addition to the package above you need ONE judgment backend:
+#   * the `claude` CLI on PATH  (subscription; no metered API spend on a Max plan), or
+#   * an API key in .env        (see .env.example)

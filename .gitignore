@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets / local env
+.env
+
+# Generated pipeline outputs (regenerate with: python run_demo.py)
+runs/
+
+# Test / build noise
+.pytest_cache/
+*.bak
+.DS_Store
+Thumbs.db

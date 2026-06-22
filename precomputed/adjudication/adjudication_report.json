@@ -1,0 +1,37 @@
+{
+  "adjudicator_model": "claude-sonnet-4-6",
+  "adjudicator_lane": "claude",
+  "base_model": "claude-haiku-4-5",
+  "n_compared": 29,
+  "agree": 25,
+  "agreement_rate": 0.8620689655172413,
+  "n_flips": 4,
+  "flips": [
+    {
+      "candidate_ref": "cand_d0c72222",
+      "base": "reject",
+      "claude-sonnet-4-6": "confirm"
+    },
+    {
+      "candidate_ref": "cand_a3d568a4",
+      "base": "confirm",
+      "claude-sonnet-4-6": "reject"
+    },
+    {
+      "candidate_ref": "cand_d4941950",
+      "base": "reject",
+      "claude-sonnet-4-6": "confirm"
+    },
+    {
+      "candidate_ref": "cand_139c1992",
+      "base": "reject",
+      "claude-sonnet-4-6": "confirm"
+    }
+  ],
+  "confusion": {
+    "base_reject__strong_reject": 7,
+    "base_confirm__strong_confirm": 18,
+    "base_reject__strong_confirm": 3,
+    "base_confirm__strong_reject": 1
+  }
+}

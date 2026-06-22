@@ -1,0 +1,800 @@
+1
+00:00:00,140 --> 00:00:36,580
+So basically, everyone answered this question, and we formed a word cloud. Word cloud? You know what? We can get started. Well, okay, perfect. So the question is, what do you think is still missing for us to get to a true A2A? And let's just take 30 seconds and look at this. Substrate never been built. Okay, that sounds good. All right.
+
+2
+00:00:36,580 --> 00:00:57,740
+Sorry to keep you all waiting. We're going to get the panel started. So the title of this panel is An A2A World, Who Builds It, Who Wins, and What's Still Missing? And I am Kathy. Nice to meet you guys. I'm the CEO and co-founder of Daedalus Labs. We went through YC Summer 25, and we are building the fastest persistent VMs on the market.
+
+3
+00:00:57,740 --> 00:01:24,320
+So I wanted to frame this conversation less as a narrow protocol conversation and more so just as a conversation about what happens when agents become real actors in the software economy. So today, when I refer to agent-to-agent or the concept A2A, we are talking about more so the agent-native future in general and not just Google's protocol. I wanted to make that clear. But we will also talk about Google's protocol.
+
+4
+00:01:24,320 --> 00:01:46,770
+So today, most agents call tools, and increasingly, they'll talk to other agents. They delegate work, they transact, they negotiate, and they also operate across organizational boundaries. So that raises a lot of questions, right? Who builds the rails? Who captures the value? What breaks first? And what infrastructure is still missing? So before we dive into it, I'm going to let the speakers introduce themselves.
+
+5
+00:01:48,560 --> 00:02:18,160
+Awesome. Thanks, Kathy. Hi, everyone. I'm Jen. I am a product lead at Stripe focused on agentic commerce and specifically within that, machine payments. This July, it would be five years for me at Stripe having spent four of those years on crypto. So what I do think is really interesting is how in this new machine payments world, how we're basically thinking about things from like a financial infrastructure perspective, especially
+
+6
+00:02:18,160 --> 00:02:46,940
+In like a fiat and crypto world. Hey everyone, I'm Eric. I'm one of the co-founders of Sponge. Sponge is a YC-backed company. We just graduated from YC winter 26. We're building financial infrastructure for AI agents. So we give your agents a credit card, a virtual bank account, a wallet that they can use to pay for things and transact online. Previously, I was at Stripe for five years. I worked with Jen actually on the crypto team.
+
+7
+00:02:46,940 --> 00:03:14,420
+Hey guys, good to see you all. My name is Ban Sethi. I'm from Google. I'm on this team called Global Founders Advocacy Team. It's a new function, and my team's job is to work with founders, make sure they are successful. And what that means is taking the best of what Google is building, DeepMind is building, and helping you wire that into your startups.
+
+8
+00:03:14,420 --> 00:03:38,190
+And then the other half is, you know, taking your feedback and working with our product team. So we are making the right products that will actually make you successful. I've been at Google over five years now. I came from VMware. And then before that, I've been a founder myself. So I, if you're building, I truly understand your hustle and, you know, grit. And I'm here to make you successful. So feel free to ask questions after this as well.
+
+9
+00:03:39,340 --> 00:04:03,730
+Hi, everyone. My name's Casey. I'm a software engineer at OpenAI. I work on the connectors team. I think we're calling it that. I don't know what names we use anymore. And a lot of the responsibilities that me and my team have kind of revolve around building out a connectors ecosystem within ChatGPT, within Codex, making it good, and then kind of like
+
+10
+00:04:03,860 --> 00:04:28,620
+Running that impossible balance between making an experience that's really good for users, really good for developers, and all around really good for agents as well. So definitely happy to chat about the ecosystem within and without ChatGPT as well as Codex. Great. Just out of curiosity, raise your hand if you've been to a Daedalus event before.
+
+11
+00:04:29,710 --> 00:04:56,580
+Okay, not too bad. We're really big on building community, so that's something that I'm also very keen on talking about. But the first question I'm going to give to all the panelists is, so when you hear the word agent-native, what does that mean to you? I think that, so basically a little bit of context. When Stripes started thinking about
+
+12
+00:04:56,580 --> 00:05:24,080
+Speaker 1. So we started with agentic commerce, which is essentially the area that makes the most sense for us to initially play in. We essentially first started with this use case of within your ChatGPT, like within your Claude, basically making it so when you're looking for like a white t-shirt to buy, you're able to actually see whatever suggestion that agent is suggesting to you, and then you as a human go and click that.
+
+13
+00:05:24,080 --> 00:05:52,210
+And you're able to do that within the context of your chatbot that you are talking to. And I think what's interesting is that we've been working on that for a year and a half, two years plus at this point, but the world has changed pretty significantly, where at the time, maybe that was considered agent-native, but I think that is out of date. And I think that's actually why we've been making a significantly more, like,
+
+14
+00:05:52,210 --> 00:06:02,370
+Like higher investment in the concept of machine payments. And the idea of essentially we can start with these like chat bot like interfaces.
+
+15
+00:06:02,370 --> 00:06:30,060
+But the future is going to look a lot more like agents actually acting on your behalf autonomously. And then I think what Stripe has been calling like level five of agentic commerce is when agents are actually predicting your needs and using the ability to act autonomously to basically make your life easier, more productive, and more interesting. And what that means is that in order for that to happen,
+
+16
+00:06:30,060 --> 00:06:55,170
+And for machine payments to be successful, I actually think that being agent-native sounds really cool from like a marketing perspective, but actually just, yes, exactly. But it actually just means as a merchant, you just have to make yourself headless. Like you are only as good as your endpoints and your servers that you're offering for the agents to
+
+17
+00:06:55,170 --> 00:07:24,350
+Hit on the other end. And to me, it basically means that the agent economy is equivalent to the API economy and the equivalent of that. It's basically the economy without UI, and the checkout page is just an endpoint, which is not as fun to say, but is the infrastructure that's needed for this to be successful. Let me bounce off that a little bit.
+
+18
+00:07:24,350 --> 00:07:53,020
+I find it very interesting that you say, for example, there needs to be enough API coverage for the things that the agent needs in order to successfully pay someone for some service and probably have very clear tracking or track record or traceability. So one of my favorite talks that I've been to recently is actually by the founder of Resend. Resend does email APIs. And he talked a lot about how great DX and great UX are important things.
+
+19
+00:07:53,020 --> 00:08:14,860
+Of like the past era, but now it's also important to have great AX, agent experience. And part of what great AX means to me, this is something that we think about pretty extensively at Daedalus, is does your product or platform have enough coverage so that agents can actually access all the things it needs to? For example, like can an agent even sign up? Can an agent create a new org?
+
+20
+00:08:14,860 --> 00:08:41,940
+Because that's something that a lot of people overlook. Can agents pay successfully? Can they actually access the tracing for the payment? Many different things that we don't really think about because it's so easy for a human to just click a few buttons and do it. But for agents, everything comes down to APIs and CLIs, right? Does anyone have anything they want to add here? I think I agree with most of... I think I have very similar thoughts as what you guys have. Yeah, like...
+
+21
+00:08:41,940 --> 00:09:11,230
+To me, agent-native means the business is optimizing their product and designing their product in a way where it's like agents are the main consumer of that product. And, you know, their services and business is sort of geared towards supporting agents first and maybe human consumers secondary. So, yeah, I think like not having a UI, yeah, I mean, a UI probably isn't the best interface for an agent to interact with your site, and API is a lot.
+
+22
+00:09:11,230 --> 00:09:40,800
+A lot easier for agents to use. I think one distinction that should be kind of made is that like when we're talking about an agent, it doesn't necessarily need to be a background agent, right? It could also be something that you're interacting with, you're steering, you're guiding, and being agent-native is not about saying, I am not touching my computer anymore. It's a lot more about saying, I am touching my computer to provide like the high-level steering that I think is necessary.
+
+23
+00:09:40,800 --> 00:10:09,890
+And that, like, I feel comfortable with. Because we're all on this journey towards, I think, eventual AI psychosis, right? And we don't want to leave behind the people who are still thinking about ChatGPT and copy-pasting things in and out of it, right? This is one of the most common, I would say, like, failure modes that I see, for example, in our ChatGPT apps ecosystem, is a lot of people try to build apps that operate only as UI.
+
+24
+00:10:09,890 --> 00:10:37,200
+That operate only to, like, allow people to, like, jump in and say, okay, open this widget and then touch things. When the reality is, like, having a much more nuanced approach where you, or hybrid approach, rather, where, like, you are showing UI, you are presenting things to the user that are valuable to them that, like, the model doesn't necessarily, that the model might be able to see but, like, isn't easy for the user to see. For example, like, a scroll carousel is a very
+
+25
+00:10:37,200 --> 00:11:06,300
+It's a common successful example of something that you see inside of agents these days because it's so useful to understand very quickly what kind of things are available. Not making it so, for example, hitting this edit button is required inside of any sort of user interface is, I think, another piece that we are starting to push away from and is making it a lot harder in the current era.
+
+26
+00:11:06,300 --> 00:11:35,810
+For people to kind of like push and find new ways for us to interact with our models and for us to interact with our agents. Maybe it serves as a good subway right now, so let's just quickly define what an agent means. So what does an agent mean to you, Casey? Absolutely nothing. I know there's like, there's a world in which like, I think there's a world in which like we can, I've had a lot of discussions where I was like, that's not an agent.
+
+27
+00:11:35,810 --> 00:12:05,780
+And it's, like, at the end of the day, I think that an agent really, especially as I relate to, because I was on, I was spending a lot of time working on the Codex plugins launch, right? And you can see, like, a lot of the things that you see between a plugin and, let's say, ChatGPT recently launched an experience called, like, the team agents. The difference between how you look at a Codex plugin or a Cloud plugin and how you look at an agent,
+
+28
+00:12:05,780 --> 00:12:35,360
+Inside of ChatGPT workspace agents, it looks the same. It looks exactly the same. The only difference really is that like that agent has some kind of trigger points. But I think to me that's like that's something that's going to go away eventually. Like we do have hooks inside of plugins, for example, and we will have triggers inside of plugins at some point. So to me it's like agent is going to be a marketing term. It is something that like we can assign
+
+29
+00:12:35,360 --> 00:12:59,460
+It's funny that you say that because
+
+30
+00:12:59,460 --> 00:13:14,160
+If you go to SF, the word agent is on every single billboard you can ever find, right? Like it's such an over-hyped up word. I used to work at Salesforce back when there were no agents and just workflows, and we called that agents, right? Like headless agents, things like that.
+
+31
+00:13:14,160 --> 00:13:30,240
+And I think it's 100% a marketing word that people throw around without really defining it, which is also why I think definitions are really important. So I'm not sure if anyone here has seen me on Twitter, but I wrote an article a little bit like a while ago about
+
+32
+00:13:30,240 --> 00:13:46,430
+It's called Crossing the Imagination Chasm, which I think we are all in, and what it takes to get to an A2A1, and I started with definitions, because I think definitions define the ceiling of our imagination, and without properly defining the word agent, it's very hard to talk about this conversation. So here's...
+
+33
+00:13:46,430 --> 00:14:14,350
+My definition of agents feel free to disagree. In the developer world, like, down to its roots, I think an agent is just any model, at least one model, that can act as your brain and think and reason, plus tools, so it can interact with the world, plus enough harnessing. So that's how I would define an agent. So does anyone have any other definitions before we proceed with a definition?
+
+34
+00:14:14,480 --> 00:14:43,070
+I think I can give you a simple definition that I like to think of an agent in terms of, you know, when you can give something a goal and it can plan and reason and then act on that goal, even if it has not done that task before, it can still find a way to get there and then delegate if needed to other agents and we can talk about those as well. So it's something that can plan and reason and then delegate on your behalf.
+
+35
+00:14:43,070 --> 00:14:53,810
+And still find a way to get to a final goal. I think that to me is an agent. And you can call it whatever you would like, but you know, that's the non-marketing definition that I go with.
+
+36
+00:14:53,810 --> 00:15:22,180
+Wait, I 100% agree with that. I think the core fundamental thing about agents is that they are capable of reasoning, and hence they can tackle unfamiliar tasks, right? They're not predefined like a workflow, which means that they're by default unpredictable and undeterministic, which is great, but also why you really need good harnessing and good guardrails. Okay, with this definition in mind, let's revisit the question again. So I actually have a question for Bon, right? So we talked a lot about, like,
+
+37
+00:15:22,180 --> 00:15:52,180
+What it takes to be agent-native or like AX. But broadly speaking, I still think there are two types of companies right now. There are companies that started with just humans as their end users and that are trying to move towards becoming more agent-native. And then there are companies that are agent-native since day one. Like you're probably primarily just building for agents. So you work a lot with founders. What are some of like the trends and behaviors you've seen in recent founders and what ideas they choose? And why? Why do you think that's the case?
+
+38
+00:15:52,820 --> 00:16:19,790
+I think it's all over the spectrum. To be honest, I don't have a great answer to this. You know, I see a lot of different founders, you know, they're building agents that, you know, the type that we already talked about, you know, where they're still kind of, you know, they still have an interface and, you know, an agent is doing something to that interface or with that interface. And then, obviously, founders like Eric here, you know, they're building, you know.
+
+39
+00:16:19,790 --> 00:16:48,210
+Agents in the agentic commerce space and payment space. So yeah, it's a fast-moving industry, and I can't at this point say that this is where the trends are shifting. In the YC ecosystem, what we've seen is that there are startups building services directly for agents. There's an agent mail, there's an agent phone, and it's kind of like a Gmail for your agent.
+
+40
+00:16:48,210 --> 00:17:11,650
+Pretty looking UI. It's an API that your agent can access. Yeah, I think there definitely is a very interesting dichotomy here, especially in YCRA. You have companies like Resend, which I just mentioned. Email APIs for developers that are trying to become more agent-native. And then you have companies like Agent Mail. They just serve email products to agents. And they're two very different companies, but...
+
+41
+00:17:11,650 --> 00:17:35,700
+One day in the very near future, they're going to converge on the users, broadly speaking, their targeting. One thing that I want to point out here, because you cannot talk about agent nativeness without talking about what, again, great agent experience is, great AX is, and a lot of what I've noticed so far, regardless of what type of company you are, like first or second, especially in YC as well, is that
+
+42
+00:17:35,700 --> 00:18:03,820
+People don't understand what truly good AX is because they don't think they need it yet. They're like, oh, we're so early in this world. It is unimaginable what an Asian native future truly looks like, and therefore, I'm just going to target people that I can actually concretely see, and then when agents suddenly erupt, proliferate, maybe that's the day I'm going to start thinking about great AX. I think that's the wrong take. My take here is that there are already
+
+43
+00:18:03,820 --> 00:18:28,740
+Countless agents scraping the web every single day, and if you don't make it into their training data now, as in like the agents cannot access your platform, they don't know what you do because you don't have an LLMS.txt on your website that tells them what your website does, and they cannot sign up and trial your product, then chances are you're not making it into GEO. You're not making it into the next model when it comes out. You are not making it into all the web search, web searchable agents.
+
+44
+00:18:28,740 --> 00:18:51,970
+Agents capable of web search when they're finding tools and they're recommending those tools to their human users. And you are already behind in the game. This is something that we have thought about a lot ever since, like, I want to say since the day OpenClock came out, maybe even before that, which is when I think the world suddenly woke up and they're like, oh, like agents can be really powerful. Like one general agent can really be powerful.
+
+45
+00:18:51,970 --> 00:19:24,190
+But I think OpenCode did not open up enough of the world's imagination. So next question, what is still under-imagined or unimaginable right now when it comes to what we talk about A2A? Let me, one second. I think what is interesting, and it kind of relates to the earlier point, is whether the outcome of what the agent is doing
+
+46
+00:19:24,190 --> 00:19:49,700
+I think a lot of the examples that people talk about especially with payments is when the agent is buying something where the end consumer of that product is still the human. Like it's buying the Nike's or it's like buying the API key that the human will then go and use and like
+
+47
+00:19:49,700 --> 00:20:14,640
+Yes, that will definitely still make the human's life easier. And theoretically, an agent that's able to transact is more powerful than an agent that is unable to transact because it can interact with the outside world. But I think to what Eric had mentioned, if you look at the next generation of companies, if you really want to think about things that are like more on the frontier, I think it's actually about
+
+48
+00:20:14,860 --> 00:20:35,310
+Kind of like a recursiveness to it. So the outcome and the actual thing the agent is buying is something that it's going to use. So the end consumer isn't actually immediately the human, but it's actually the agent. And I think that gets you into this style of like one.
+
+49
+00:20:35,310 --> 00:21:04,860
+Right now, people are using agents to do complex tasks. They're just chaining one, two, three, four. But I think it gets really interesting if you're able to actually have agents do recursive tasks for you. So the agent is going to buy something that it's then going to use to do something else. And then that is going to be something that it's going to use to do something else. And that level of complexity is something that is going to help. Theoretically, it's way more powerful than just a serial event.
+
+50
+00:21:04,860 --> 00:21:30,960
+That it can perform for the human. So I think coming up with those types of examples I think is really important. I think this is where I could use everyone's health imagining what these recursive use cases would be. But an example is, for example, I think Agent Mail is a good example of something being branded for an agent. They're using something that humans theoretically are doing today. But I would also even say things like,
+
+51
+00:21:30,960 --> 00:22:01,810
+V0, lovable. What's interesting about that is, theoretically, you could have an agent basically try to do something for you, realize it can't, and then realize that it should be building something so it can do it for you even better, and then the thing that it's going to pay for it in order for it to build something is going to require other things, and then expands to this level of complexity that we don't need to worry about because your agent's taking care of it for you. I think one thing that
+
+52
+00:22:01,810 --> 00:22:30,340
+People aren't, or maybe they're just starting to sort of consider is that like, and this might be a whole other discussion topic too, is that agents are eventually going to be like their own sovereign individual. Like maybe many years out, but like when that's the case, they're less of an extension of the human, right? Because that's what agents are kind of today. They're helping you get stuff, they're helping you do stuff. But when you start to view agents as like their own like thing that needs its own email address, its own
+
+53
+00:22:30,340 --> 00:22:55,870
+It's interesting that you say that because I definitely agree that we are increasingly starting to think of agents as their own entities, right? They're not just like an extension of us or our company or our work. But when you think of that, what comes with the
+
+54
+00:22:55,870 --> 00:23:03,680
+Entity, my gosh, and aside from just identity and like email addresses and things like that, it's also preference, right?
+
+55
+00:23:03,680 --> 00:23:32,980
+And at its core, the preference is really what the foundation model was trained on and the weights and stuff like that. But every model has its own biases and the things that it prefer. And something that we talk a lot about in the YC community is this concept of buy versus build. Like, what does an agent prefer to buy or outsource as opposed to build in-house? And recent studies have shown that agents prefer to build basically everything in-house, even if it's worse. They just prefer to build it for some reason, depending on the model they use.
+
+56
+00:23:32,980 --> 00:23:59,280
+And when that's the case, it's actually especially important to have specialized marketing targeted towards agents, whether it's going onto like moatbook and like running some kind of campaign directly targeting agents, or having really good LLM.txt or really good skills that teach your agent how to use your product. If you don't have these things and don't clearly explain why, it's easier to buy.
+
+57
+00:23:59,280 --> 00:24:18,940
+Your product versus just having the agent build it from scratch, then chances are your product's not getting used or seen or valued by agents. I think that's super interesting, right? So, okay, so the next thing I'm going to talk about is it's interesting that, again, so agents are entities and
+
+58
+00:24:18,940 --> 00:24:48,880
+The value that they largely bring to us is the amount of productivity and work that they can do for us, at least in this current world. Recently, I believe Sequoia has been talking about how SaaS is dead. PaaS is dead. It is no longer about buying some subscription to some recurring service. It's just about what the value of the work is, like the work itself and work as a service or agents as a service, so AS, I guess. In light of that,
+
+59
+00:24:48,880 --> 00:25:14,140
+We actually had a product called Ask that we axed, funny enough, but it might still come out at some point down the line. So in light of that, I have a hot take. And my hot take here is that I think general agents are not what's going to win in the future. Open clause and general agent. Hermes agent is a general agent. I don't believe in that. If work is truly the most important thing in this world, then I think...
+
+60
+00:25:14,140 --> 00:25:43,300
+Work that is more specialized and tailored to you, your industry, your use case, is going to be what's winning. And when you really look into what that entails, specialized agents, where experts in the field knowing that use case are going to create just for your personalized setting, I think that's really important. So I don't think general agents are going to win. What do people think?
+
+61
+00:25:43,300 --> 00:26:11,780
+I'm pretty bitter lesson-pilled here, and a lot of what I've seen is that, like, in general, a lot of the challenges with architecting an agent, right, and trying to build out, eval, set up the harness, that's really freaking hard, and a lot of what we've seen with the development of skills over the last few months is that we have a lot of really good
+
+62
+00:26:11,780 --> 00:26:41,540
+Like pre-training data and the models are getting increasingly good at instruction following. So I don't necessarily disagree that like general, like specialized agents are going to like outclass general agents, but I don't, but I think it doesn't follow that like general agents can't specialize, if that makes sense. A lot of the bets that like OpenAI has been making with Codex, for example, is that the harness is
+
+63
+00:26:41,540 --> 00:27:09,500
+Becoming a new class of primitive rather than something that everybody is going to start building themselves. We've seen this from going from LLMs are a next token predictor to LLMs are now giving you the next action, the next blurb of text to show to the user, to the next response to a tool call. And that's going to go further to the agent or the
+
+64
+00:27:09,500 --> 00:27:36,670
+Like the LLM is now going to be a unit of, like a unit of outcome that like then we are going to tune and we are going to like, the current primitive is going to be plugins and skills. I think that there might be a next one. I hope not. But as we start building out more specialized agents, I think that the growth in the general agent capabilities are going to become narrower and narrower to the point where
+
+65
+00:27:36,670 --> 00:28:05,940
+We are really just building plugins and evals, and that's going to be, in my opinion, a fantastic future because it means that what we're talking about, specialization, is stripped down to its core. It's the domain knowledge, and it is the verification work that we are really just trying to build against. Yeah, I agree. And I think it, honestly, it's like a thing that happens in tech time and time again where you bundle them just to unbundle them.
+
+66
+00:28:05,940 --> 00:28:22,750
+And then you re-bundle them. But the reason why that happens is because you need to unbundle them so they can get really good at the niches. And then you aggregate them so then it's a better experience for everyone. And I think we'll follow the same cycle here as well.
+
+67
+00:28:22,750 --> 00:28:51,150
+I think I'll just say, I think we're seeing a network of agents, you know, that is getting popular where you have a generalized agent as the front door, and, you know, it delegates tasks to specialized agents, you know, that are domain experts and, you know, can actually get that domain-specific task done. A single model or agent winning, I don't see it happening that way. You know, it's not economically viable or reliable, so.
+
+68
+00:28:51,150 --> 00:29:21,330
+At least that's, going back to your previous question, you know, in terms of agentic development and what kind of agents we are seeing being built, it's a network of agents where, like, you know, one general agent kind of routes it to a specific domain expert specific agents and kind of, you know, they coordinate to get the work done. Could I bring up a, like, I'm curious about this because I feel like this is something I just never got because a bit of my experience has been, like, working on a lot of early iterations of agent builders where we, like,
+
+69
+00:29:21,330 --> 00:29:48,210
+We're actually really challenging the idea of, for example, workflow builders and then networks of agents in favor of a single loop that ends up being able to do most of the work in orchestrating. I'm curious to hear where you think that has failed, or do you think that in the limit that is going to start to fail, and why? I think one of the things that
+
+70
+00:29:48,210 --> 00:30:07,620
+I've seen as context rot happens, you know, when you have like one big model kind of doing everything, you know, context window, even if it is a million tokens, is still limited, it's arbitrary, right? So that starts happening, and then, you know, a lot of people are still writing prompts, and, you know, if you have to tweak the behavior of your application, you are
+
+71
+00:30:07,620 --> 00:30:26,610
+Doing that at a prompt level and going back to the principles of software engineering, you ought to have separation of concerns, and if you're doing everything in one prompt, you are going to break it at some point. So I think that those are some of the things that I'm seeing at least.
+
+72
+00:30:26,610 --> 00:30:43,550
+I agree with context routing, but okay, here's actually my take, but more refined. So I don't believe in general agents, and this is why I don't know where the future is headed. I see a future where everyone has something like you described, like a personalized assistant, so general router.
+
+73
+00:30:43,550 --> 00:31:08,510
+That then routes to specialized agents. I also see a future where that doesn't exist, or you have a personal assistant, but they're just your personal assistant, and then you still use different agents or different platforms with agents for different things like banks or food delivery or things like that. Which future is more likely to happen? I don't know yet, but going back to Casey's question,
+
+74
+00:31:08,510 --> 00:31:30,990
+I actually think the problem isn't really context routing, it's that the harness isn't good enough. Part of harnessing is having, for example, a really good memory extension, or a memory tool, or a context management tool, which is why this is a super hot space right now. And with proper context management, you're not going to have context route, hopefully, as models get better.
+
+75
+00:31:30,990 --> 00:32:00,910
+Proper tools, you're probably going to, so plugins basically, or connectors, you're probably going to be able to access most things as well with a general agent, like a loop, in which the loop calls different things, but the loop sets up the guardrail so that it plans things in a way that makes sense for the agents to take action without having too much access to things. But this also brings me to the next point in our conversation. I want to talk a bit more about protocol. So Casey, you mentioned like plugins and connectors. These are really
+
+76
+00:32:00,910 --> 00:32:29,380
+To me, at least, they're specific to a platform, right? Like an OpenAI plugin is just an OpenAI plugin. Like all these tools plug into OpenAI. But that's not a universal language that everyone speaks. So I know that Casey, you worked on like early MCP products at OpenAI. And MCP has long since died, unfortunately. We started out with hosting MCP and the MCP as a trend has died. But I do think the concept of having a tool calling protocol where models can call tools.
+
+77
+00:32:29,380 --> 00:32:58,560
+Is important. I also think the concept of having a protocol where models can interact with other models is important, whether that is Google's A2A or something else that involves not just like interaction, but also payments, also other things, right? Or delegation, right? Like a multi-agent architecture. I don't know what that's going to look like yet, but I think protocol is still very important. What's your take on that? Like, tools cannot just plug into OpenAI, right? It needs to be able to plug into anything.
+
+78
+00:32:58,560 --> 00:33:22,450
+That everyone chooses to use. My favorite flame war. This is funny because actually I think my, I saw over the weekend my manager ended up getting a, having a very weirdly controversial Hacker News post about this talking about the state of MCP because there was another MCP is dead blog post on Hacker News on Saturday.
+
+79
+00:33:22,450 --> 00:33:51,410
+What's new? Yeah, it's been going on since, I think, late January was the original post that Eric Holmes put up. So, my take on whether or not, or what protocol it is, is, I personally think the future is, I don't care what the protocol is. What I care is that we're all speaking the same protocol. Yeah, precisely. Yeah, to me, it's like,
+
+80
+00:33:51,410 --> 00:34:20,739
+So, one of the older terms about this, back from the 70s, is this thing called Lisp curse. And essentially, like, if you know Lisp, it's like, it's a programming language that is so powerful that you can write just about anything in it natively, and then, as a result, everything that, like, every limitation about it is gone. So, what happens is that all the technical problems, and this is kind of from the original post, they become social problems. I want an if statement.
+
+81
+00:34:20,739 --> 00:34:50,500
+I can write an if statement in 15 different ways in Lisp because it's so powerful. I can build out my own parser in any way that I want. And I think we're running into something very similar with agents where the agent can figure out any CLI. It can figure out any API, right? But what we're running into is we need to coordinate on that and we need to make sure that when we're talking about, for example, the observability aspects, when we're talking about
+
+82
+00:34:50,500 --> 00:35:19,330
+Making sure that the agent experience is good. Speaking the same language makes a lot of that a lot easier, right? CLI still don't have a lot of the solutions there around like, oh, how do you observe it? How do you make sure that the permissions are wrong? How do you eval against it? Or even how do you make sure that this runs the same way on everybody's computer? MCP, I think, is really powerful.
+
+83
+00:35:19,330 --> 00:35:46,130
+Not necessarily because the protocol is better than CLI or that the tool exposure is necessarily better, but because we are all using it. And the more that people are using it, the better it gets. And that's why we see a lot of enterprises kind of going all in on MCP gateways. I think that'll change, to be clear. A lot of our thinking internally has been, we don't know what that future will be. We want to be able to support it all.
+
+84
+00:35:46,130 --> 00:36:14,300
+But I think that MCP has become a really powerful way to do that because anytime you run into a limitation, it is an open world, and we can talk with everybody and make sure that we're all on the same page. I tried to kill MCP at OpenAI last year, and I just like got, and the response I got was like, what's wrong with it? And I was like, oh, it doesn't have trigger support. Oh, it doesn't have like long-running tasks. And I was like, go fix it. You know, that's so funny because
+
+85
+00:36:14,300 --> 00:36:16,660
+I'm gonna come back to this, but...
+
+86
+00:36:16,660 --> 00:36:46,190
+MCP died because everyone went on the skills train, right? And then skills died because everyone was like, oh, CLI is just much cooler. Guys, they're not the same thing. Like, MCP is a protocol. Skills are tools. They're really just markdown files that tell you how to use tools, right? And then CLIs are like glorified SDKs. They're really simple SDKs. They're not really a protocol that everybody speaks at once. And MCP as a protocol, at least in its early stages, like, it definitely sucked, right? It was a really bad protocol. It was really primitive. There wasn't a lot of things that
+
+87
+00:36:46,190 --> 00:37:07,330
+It's solved, but that's not really a protocol level. Sorry, let me think about how to phrase this. That's not really a unsolvable problem. As a protocol, you can keep evolving so long as everyone is still using it. So funny that you say that, but like if you fix things at the protocol level, like for example, one really big complaint about MCP was that it
+
+88
+00:37:07,330 --> 00:37:30,720
+You don't bloated up to much context, right? At skills, you can selectively load something in. As MCP, everything shows up, and your models context rot. But really, like, you can also selectively load MCPs, right, at the protocol level or the infrastructure layer. Then you're probably fine, and I believe this has been solved, and many other things along the way as well. Long Horizon Task was one of them, but then at the SDK level, because we used to build an open source SDK.
+
+89
+00:37:30,720 --> 00:38:00,610
+We solved that, right? A lot of people were building better harnessing in the infrastructure layer, which I believe sits one layer above protocol, in order to fix things. But fundamentally, I completely agree that we just all have to speak the same language, and unfortunately, we do not at the moment. But under the hood, we still use MCP, which is really funny, even though it's completely died on Twitter. I want to pass this question along to Jen and Eric now. What is converging in the payments protocol layer?
+
+90
+00:38:00,610 --> 00:38:29,440
+A lot. There's definitely nothing that everyone agrees on in terms of payments. Yeah, I think everyone is sort of incentivized to like put their protocol first. You know, we have X402, MPP, Stripe, I'm sure, has like a bunch of extra stuff too. Google has UCP, A2A. So, yeah, I think it's just like there's a lot of
+
+91
+00:38:29,440 --> 00:39:00,130
+There's a lot of stuff out there. No one's really agreeing on it. And we'll have to see what plays out. I think that is totally fair. I think how I would think about the protocols is essentially each of them are solving some sort of matrix in the agent payment journey, like a user journey, but for the agent. So let's say an agent is trying to figure out how to perform this task for the human.
+
+92
+00:39:00,130 --> 00:39:28,660
+And then along the way, it has to go make a payment. Step one is that they actually have to do the discovery of the service that it needs to actually use to perform the task. Step two is they need to actually encounter the agent equivalent of a checkout page and know how much it costs, what they can pay with, things that humans would see on the checkout experience.
+
+93
+00:39:28,660 --> 00:39:55,250
+And this goes to the trust layer and identity layer of it all. It needs to prove who it is or prove that it's good or bad or prove whatever the end merchant needs it to prove. Four, it needs to actually make the payment. And then five, in some cases, it actually needs to actually have the fulfillment. So it actually needs to receive the end product. Those are the five steps that all the protocols
+
+94
+00:39:55,250 --> 00:40:18,260
+I think that's actually good because if those five steps remain the same, then it kind of doesn't matter because the agents will use whichever protocols make sense for whatever steps it needs to do. So, for example, the set of machine payments protocols, which include X402 and MPP, which we co-authored with Tempo,
+
+95
+00:40:18,260 --> 00:40:34,620
+It essentially mainly opines on the payment challenge, which was step two, and the payment step itself, which was step four, and a little bit of step five, which is actually receiving the paid resource on the other end of the 402 challenge.
+
+96
+00:40:34,620 --> 00:41:03,950
+A little bit of a primer in case folks don't know what the machine payments protocols do. They basically, these are protocols in which it uses the HTTP 402 response code, basically telling the agent that payment is required, and the actual delivering of the paid resources in the same HTTP request as the agent is trying to make the payment. But I think what's interesting is that people are like, oh, like, how do I use, like, should I use that, or should I use UCP or ACP? And I'm like,
+
+97
+00:41:03,950 --> 00:41:32,290
+You can use both. It kind of doesn't matter because ACP, UCP opines on different parts of it. So it actually has much more of like the cart building experience. That is actually the step above the payment piece. It includes a payment piece, but the machine payments protocols can just be a payment handler in UCP, ACP anyways. So I think as long as the five steps, as long as the protocol is solving one of the five steps, it can like
+
+98
+00:41:32,290 --> 00:42:04,590
+Go forth and conquer whichever step that it wants to do, and the agents will basically be able to use whichever one makes the most sense for them. That's interesting. So Jen is definitely biased from the Stripe team, but Eric, which protocol do you think is currently winning? I really don't think there is a winning protocol right now. Why is that? What is the biggest discourse?
+
+99
+00:42:05,460 --> 00:42:32,220
+It really is just, like, everything's out there. I think everyone kind of supports everything. Like, we, for example, we support everything. So, like, an agent with a sponge wallet can interact with every protocol and pay however the protocol is supported by the business. And, you know, on the business side, on the merchant side, I think they're also incentivized to just have support for everything as well because, you know, why leave some agents hanging if they only have to support one protocol?
+
+100
+00:42:32,220 --> 00:43:00,270
+And so, really, we just have, like, a bunch of these different protocols. And, you know, you could use one to buy an API key or use another one to buy an API key. And that's where the state things are right now. I don't know. Yeah, I kind of agree. Because we also actually support all of them. We're also on the foundation for X4O2. So a little bit of everything. But I actually think that it reminds me of the, like,
+
+101
+00:43:00,430 --> 00:43:27,520
+The proliferation of payment methods, actually. So at Stripe, we think about payment methods a lot because we need to meet consumers wherever they are regardless of whatever they're paying from because our merchants want to accept all these different types of payment methods. But you look at even the list of like digital wallet payment methods that exist out there. Each country has their own, each like, and they're all like slightly tailored to that country's like banking model.
+
+102
+00:43:27,520 --> 00:43:57,140
+And it's fine. Everyone's going to use whatever makes the most sense for them. And I think that the space is too nascent for anyone to can make anything. Because if you do, then you're just really holding the industry back. And there's not, you know, both XFOR2 and MPP do not have enough transactions for the turf wars to really begin. Maybe later on when things are really, when agents are actually continuously making transactions. But it's too early.
+
+103
+00:43:57,260 --> 00:44:15,620
+Yeah, it's definitely super nascent. It's like, you look at XOR2M3 volume, it's like, oh, we're in the lead, but it's like two hobos fighting over who's richer. It's like, you know. Wait, so that's just like the predicament of building software, right? Like, especially in the developer tool space. Like, you cannot be that opinionated.
+
+104
+00:44:15,620 --> 00:44:45,010
+You have to be unopinionated enough to support a lot of things and a lot of different use cases, but at the same time, like, opinionated enough so that, like, you don't have to actually build everything. We're not at that stage yet, obviously, right? Here's, okay, here's my prediction for the future. People are very scared to make predictions for the future, but I am not because I am not biased. But my prediction for the future is that there are at least two ways in which we will eventually converge if we
+
+105
+00:44:45,010 --> 00:45:06,930
+Speaker 1 And one is if a big player in the space like Stripe or someone else decides to be opinionated. They're like, we're only going to support something and we're just going to really push for it. And given that a lot of people are building on us, they just have to do it or we're just going to cut them off. That's one way in which like a payment protocol can
+
+106
+00:45:06,930 --> 00:45:32,640
+It's also one way in which a big model lab can close their ecosystem, right? Another way in which a protocol can converge is when, like Jen said, enough people are just using it and the trend kind of plays itself out. We will probably not get there anytime soon because most people don't have agents and most agents are not paying, unfortunately, and most people's agents are not.
+
+107
+00:45:32,640 --> 00:45:59,420
+Readily accessing blockchain technology, for example, because most people don't really understand. But once agent payments, again, this is totally my opinion, but once agent payments move towards something a little bit more accessible, like RAM's agent card, a card that a human understands, because we all use credit cards, I think it's going to be a very different world. Or, for example, once ChatGPT can directly buy something for you, and you trust it to do so.
+
+108
+00:45:59,420 --> 00:46:29,780
+There are cases in which the numbers will eventually go up, but before that happens, I think we're still unfortunately a very long way away. I don't work in this space, so I'll leave it to the experts, but I think the trust is what's missing right now. It's super early. I think the tech is there. There are many protocols, and obviously some protocol could win at some point. I think some of the use cases...
+
+109
+00:46:29,780 --> 00:46:58,270
+Speaker names and company names and company names. Speaker names and company names and company names. Speaker names and company names and company names and company names. Speaker names and company names and company names and company names. Speaker names and company names and company names and company names. Speaker names and company names and company names and company names. Speaker names and company names and company names and company names. Speaker names and company names and company names and company names. Speaker names and company names and company names and company names and company names. Speaker names and company names and company names and company names and company names.
+
+110
+00:46:58,270 --> 00:47:18,900
+Do shopping on my behalf. Yeah, it's actually, it's interesting because this is probably in like the top three questions the average merchant that speaks to us about agentic commerce thinks about. And what's interesting is that in the data, there isn't, there hasn't actually been, it's like
+
+111
+00:47:18,900 --> 00:47:32,980
+Less fraud than just the average amount of fraud that's happening on these merchants at Stripe. Practically, it's actually currently not happening. However, I do agree. I think that I would think about it
+
+112
+00:47:33,200 --> 00:48:00,660
+Mainly based on three questions. Most merchants care about if it's a good bot or a bad bot. Second, it cares about which human this bot belongs to. And then third, it cares about if it's like a new or returning bot. And that's usually maybe less so, like it's a bit fraud related, but it's also a little bit of like more on the positive side, like loyalty and like all of those pieces that me and you know about when we go and shop and like subscribe to things, think about.
+
+113
+00:48:00,660 --> 00:48:30,580
+So I think that's something that we're trying to figure out what to do here in this space. But to be honest, it actually hasn't prevented merchant adoption because the data is so early, which I think is good because it allows for experimentation, but we do know we have to solve it. I think there are a couple important components, right? Let's break down what Jen just said. First of all, merchants care about identifying the end buyer, I guess.
+
+114
+00:48:30,580 --> 00:48:53,440
+The person or agent buying. And when you break it down, really, it's authentication, right? How do you authenticate the identity of the buyer and also their intent, which is really hard, actually. And along other things, metadata, like returning or not. There is also, aside from authentication, liability involved, right? Like, if this buyer...
+
+115
+00:48:53,440 --> 00:49:14,160
+Doesn't pay me, or I don't know, like money doesn't come through. I don't work in this space, clearly. Who is liable, right? Is that, is the person behind that? How do you ensure there is a person behind the agent buying? Things like that. What's Stripes take on this? I think that's a, yes, it's a good question. It usually, so the liability usually happens.
+
+116
+00:49:14,160 --> 00:49:27,700
+So this is like the whole world of disputes and chargebacks. So that's the main thing that merchants worry about. So the liability shift for disputes and chargebacks for human payments basically.
+
+117
+00:49:27,700 --> 00:49:54,460
+Stripe is the role that the payment processor, the car network, and the issuing bank play. So an example of all three of those stakeholders would be Stripe is a payments processor, Visa is a car network, Visa, MasterCard is a car network, and then Chase, Capital One, blah, blah, are the issuing banks. And what's actually interesting about the whole disputes and chargeback mechanism is basically the
+
+118
+00:49:54,460 --> 00:50:22,770
+If a consumer issues a chargeback, the merchant by default is liable, but they can present an evidence packet to the issuing bank. The issuing bank can then decide, oh, I agree, I'll take on the risk and basically give the merchant back the funds. Or they can go into this process called arbitration, and then that involves the car networks. And then that's essentially the entire ecosystem that exists.
+
+119
+00:50:22,770 --> 00:50:49,600
+So just like a little bit of like a payments 101 piece. And I think it's interesting, but it's interesting because what's cool about the agentic payment space is that each of those stakeholders are actually actively working in agentic commerce. So the liability shift and all those questions basically is something that we talk to the card networks about. And essentially they...
+
+120
+00:50:49,600 --> 00:51:01,920
+They being a big part of the arbitrator in this ecosystem also have a stake in the game too. So that's a current world. What I think will happen is
+
+121
+00:51:01,920 --> 00:51:30,160
+When we have the ability to have agents prove themselves in that framework that I laid out, that's where the liability shift could happen. Currently, what exists is equivalent of when the App Store came out and parents basically made a big deal about their kids stealing their iPad or iPhone and racking up a $3,000 bill on some app or game.
+
+122
+00:51:30,160 --> 00:51:57,170
+And at the end of the day, the parent is theoretically liable because it was like an authorized transaction by the kid that is responsible for it. But the liability shift is going to happen when we can partner with the car networks and issuing banks to basically manage the risk. And this is where it's like, ideally, we would love to solve it in a way that just helps the whole ecosystem and make it so we can keep the bad actors out.
+
+123
+00:51:57,490 --> 00:52:23,920
+So far we've been talking about like the merchant trust angle of like merchants trusting that the agent is being a good actor in buying stuff. But there's also like the consumer trust angle of consumers actually trusting that their own agent is buying the thing that they want it to buy. And I think that that to me is the bigger blocker for more widespread adoption of agentic payments and commerce because you know I think merchants will just support
+
+124
+00:52:24,050 --> 00:52:53,810
+Any sort of good business that's happening on the platform. But what really needs to happen is consumers need to fully trust their agent to like buy the thing that it wants to and like know its preferences and like reliably choose the right product. And I think that's like actually the missing trust piece. So sponge is a wallet, right? Exactly. So which part of the thing, the whole process that Jen described, do you, are you responsible for? Yeah, so the actual like order execution part where it's like I know what I want to buy because my agent is like magically aware.
+
+125
+00:52:53,810 --> 00:53:22,770
+So we're not exactly solving that quite yet. But yeah, we help you do the actual purchasing after you figure out what to buy. But that is actually probably the big blocker for this proliferating. And so maybe that'll come from the agents and the models having a persistent memory of who you are and your preferences. I think that could be a thing. I think we just need
+
+126
+00:53:22,770 --> 00:53:52,110
+A better personal assistant agent sort of set up. And I think OpenClaw was like sort of the start of that, where it's like it has like that persistent memory. True. You know, I think the super scary thing about building a wallet is that it holds real money, right? And when you hold real money, lots of things can happen, obviously. But for example, what if someone charges back? Or like your agent wants a refund. Or like money needs to go in and then out and then in and then out again.
+
+127
+00:53:52,110 --> 00:54:18,690
+How does liability play into that for Spongebob? Yeah, I mean, so agents are still sort of the extension of yourself, and so, like, legally, you are liable for everything that your agent does. So you, like, very strictly verify the identity of the human? Well, like, you can set limits. So it's sort of just like, you know, your Ramp or Brexit card where you can set spending limits on, you know, my agent can only spend at these merchants.
+
+128
+00:54:18,690 --> 00:54:48,240
+Or only spend, like, this much, and if it spends past, like, you know, $10 or whatever, it has to, like, ask me for manual approval. There's also, like, the agentic card networks. They have their paying protocols, like, these intelligent commerce, mass current agent pay. Those generally require you to always, like, say, I'm spending at this merchant. You know, I'm spending this much for this reason. So there's, like, that audit trail for why you're making this purchase. So that's, like, the liability part of it.
+
+129
+00:54:48,340 --> 00:55:12,640
+But for us, we just handle the transaction. Fair enough, yeah. You know, when we were working with Stripe, one of the biggest reasons why we chose to work with Stripe was because we didn't want the liability of having to do KYB and KYC, like knowing your customer or the business you're working with when you're doing the transaction.
+
+130
+00:55:12,640 --> 00:55:30,580
+But in the case of knowing your agent, like KYA, how do you really identify intent of an agent? Is it like a credit score thing? Or like, I don't actually know. So I think first, you have to be able to lay the foundation for
+
+131
+00:55:31,060 --> 00:55:59,360
+Basically, I think the main foundation to lay right now is for the agent to prove which human sent them. So making that connection ahead of the actual span intent or request, I think it's really important. So I think that layer, even at its most basic level, has not been solved in a way that makes sense. So I think we should work on that. Yes. And then I think the layer on top of it,
+
+132
+00:55:59,360 --> 00:56:24,880
+The way that people have solved it right now is a little rudimentary, where I think like Eric was saying, basically what happens is that the agent has to seek approval for everything it has to do outside of the spend policy that you have given it. So I think the other thing is how do you make your spend policies as equivalently non-deterministic as your agent?
+
+133
+00:56:24,880 --> 00:56:29,650
+I think that's like the actual really interesting layer to operate in because
+
+134
+00:56:29,650 --> 00:56:58,130
+Right now, the spend policies are like, oh, if you spend more than $10, let me know first, and I'll click a button, and then you can go ahead and make the payment. But what you would actually want to do is set a range and then say, beyond this range, it's a deal breaker. Within this range is fine. And as a human, you are making a contractual agreement with your agent that that is what you're authorizing for it to do. And I think that's where it gets more interesting, more dynamic, and actually
+
+135
+00:56:58,130 --> 00:57:29,410
+It enables us to have those really interesting use cases where your agent is surprising you with predicting your intent. So I think agent intent is almost like we want to get to a point where that is actually helping the human, not the human setting every single individual intent one by one because then it's very brute force actually. So the interesting underlying thought
+
+136
+00:57:29,410 --> 00:57:56,640
+The concept that Jen is actually touching on is this thing that we started talking a lot about NYC and also on Twitter. It's the trust by default mode. I think that's what it's called, right? So I'm actually, so I'm going to, they look a little bit bored, and I'm going to throw this question towards the other side of the panel, but trust by default is something that we are starting to adopt, especially in the harnessing layer when working with models or chatbots, depending on like developer or consumer.
+
+137
+00:57:56,640 --> 00:58:25,970
+What are some of the interesting use cases and also behaviors you guys are starting to see emerge when it comes to not having to humanly approve everything, so the human is not always in the loop, but still sort of needs to be in the loop, I hope. I have a follow-up question, especially for Casey on Codex, because I realize when people think about agent payments, they think about what we've been talking about buying something, but you know where I've been spending money and just trusting my agent to do whatever it wants?
+
+138
+00:58:25,970 --> 00:58:54,590
+It's when I'm in like cod code or codex, and I'm like, oh, like solve this problem for me, and it gets to just spend whatever it wants, and then sometimes it builds something, and I'm like, wow, you wrote that very inefficiently, go fix it. And I'm like, I'm letting it spend more money to fix a problem that it created for itself. So I'd particularly like to hear your take on this regarding the coding agents. Okay, so just to make sure I got the question right, it's about the like
+
+139
+00:58:54,590 --> 00:59:15,180
+Like a trustful world and then talking a bit more about like, oh, the actual cost of running an agent in itself. And emerging behaviors and use cases. Okay. So I guess some grounding understanding. So Codex has introduced like, so when we first launched the apps ecosystem in ChatGPT.
+
+140
+00:59:15,180 --> 00:59:43,630
+The safety team was scared. They were, like, they did not like this. And for a couple of very valid reasons, right? Prompt injection and data exfiltration are kind of the two main threat, like, threat vectors that we were looking at. So, actually, the way that this works is very similar to what's in Codex now called, I think, Guardian mode or, like, auto-approve. That code then copied. And a lot of the movement there has been from
+
+141
+00:59:43,630 --> 01:00:12,400
+Going to manual approval to, like, full auto-approval to, like, this kind of in-between state. And talking about, like, oh, how are we going to make it so that, like, when we build trust, the challenge with trust is, one, we have to make sure that we have it, and two, we have to make sure that the trust that we build scales with model capabilities. So a lot of the failure modes of kind of, like, agent builders in 2025 was that the trust modes were not there yet.
+
+142
+01:00:12,400 --> 01:00:38,030
+Figure out a lot of these kinds of questions. Nowadays with things like auto-proof, I think this is getting a lot better where like we have models that are like building and understanding your entire agent trajectory to make things safer. Around the costing, I think that's something where I work at a token factory, so this is something that I don't experience from a day-to-day basis. I think I'm at
+
+143
+01:00:38,030 --> 01:01:08,100
+I checked my stats yesterday on 8 billion tokens in the last seven days. No, literally, I don't even do more. All I did was this technique a coworker taught me, open three sub-agents to simplify your code, open three sub-agents to deeply review your code. It's glorious. Anyway, I think a lot of the question around cost efficiency is about to become very important.
+
+144
+01:01:08,100 --> 01:01:35,980
+I don't think there's a clear answer here yet, but I do think the one thing that we are going to start seeing is that, like, that judgment is starting to become something that, like, we are starting to crystallize, and then once it's crystallized, it can be post-trained, and that's what I'm really excited about. You actually do already see a lot of this kind of work where it's, like, you see, like, online, there's a lot of people who, like, build, like, ROI analysis.
+
+145
+01:01:35,980 --> 01:02:07,650
+For like cloud code runs, for example. And I think that idea is something that like the community is going to shake out well before the core harnesses will. Yeah, I think in general what I would say is instead of looking at it as a binary, you know, I look at it and what I'm seeing in the field is, you know, thinking of it in terms of a dial you can turn in terms of risk and scope. And it's not always, you know, human in the loop or human out of the loop.
+
+146
+01:02:07,650 --> 01:02:26,480
+The trend right now, at least right now, is human on the loop where humans are setting some guardrails and assigning their agents budgets and giving them some high-level caps, and the agent acts within that boundary, and that's a goal as well, right? Full autonomy within that boundary, and the human only gets...
+
+147
+01:02:26,480 --> 01:02:57,970
+Nudged or pinged, you know, when, you know, the edge of that boundary is reached. So at least that's what, you know, how we are tackling it today and, you know, what I see how Field is handling it as well. Going back to emerging behavior and use cases, I'm also curious, for example, so Eric mainly works with agents, but also developers who develop agents, right? And also, I guess, like, Stripe also works with merchants. But I'm curious, what are some of, like, the,
+
+148
+01:02:57,970 --> 01:03:20,990
+More popular use cases right now. Because again, like revisiting, we cannot even imagine what an agent-native world looks like. So help us imagine. Yeah, like my favorite go-to use case on our platform is like this guy who runs Airbnb, a couple of Airbnb rentals, and he's also an OpenClaw power user.
+
+149
+01:03:20,990 --> 01:03:50,060
+And so he loves just using his, instead of hiring some guy to like help manage his Airbnb, he asks his OpenClaw to kind of do sort of like the simple tasks such as restocking, paper towels and toiletries, booking cleaners. And so he kind of treats his OpenClaw as his personal assistant to do that. And so they need to make payments. And so that's... How does he know when to restock? Oh, it's like, it reads his Airbnb like itinerary, or like...
+
+150
+01:03:50,060 --> 01:04:19,700
+His schedule, and it knows when people are checking in and out. If someone complains, I think it notifies his OpenClaw agent. Yeah. So that's one use case. Another one we've seen is people using agents to manage their financial portfolio and having their agent buy certain tokens when they're trading. This is on the crypto side of our product. Buying tokens or stocks, we also support.
+
+151
+01:04:19,700 --> 01:04:49,060
+Prediction markets, so some people are using their agents to gamble on things, you know, buy some, you know, buy the next money line and stuff like that, so. I think that's, yeah, I think those are really good examples of like the personal agent use case. I think in addition to that, when we think about the target user set, I would say P0 are
+
+152
+01:04:49,060 --> 01:05:15,630
+Essentially software. So I think that like P0 is like what I guess we would call like stateless software where it's pay per use. So it is like deep search, research, browser use, WAFs, maybe like document processing. And then I think the next layer is stateful software. So this is where it's like
+
+153
+01:05:15,630 --> 01:05:34,270
+Content generation, image generation, things where you kind of maybe would want actually some more association with like an account and you actually need it to be a little bit stateful. Then after that is the idea of like data access and
+
+154
+01:05:34,270 --> 01:06:02,400
+Actual media, so it's like the classic paywall use cases. And then I think this is where, and the reason why those are the main ones that we see so far is because those are inherently already headless, like going back to the first answer that I had, where they're most set up for success because they're already selling something that is an endpoint or a tool. Then I think that where we see desire for
+
+155
+01:06:02,400 --> 01:06:27,460
+A set of products to be machine payable is where you get into services, digital goods, travel, hospitality, retail. For those, I think you get a lot of really big names experimenting, which is really cool. And we need to basically help them become more headless in order for them to participate in this economy, which is why the stateless and stateful software pieces.
+
+156
+01:06:27,460 --> 01:06:58,910
+So I am very time-conscious, and it's been more than an hour since we started talking, and they were worried we couldn't make it one hour, but I was like, no, don't worry about that. But I want to revisit the title of this panel, which is, who wins and what's missing? You're all probably here because, raise your hand if you're a founder.
+
+157
+01:06:58,910 --> 01:07:16,160
+Or want to found. Okay, so pretty much the entire room, right? Like, you're here because you want to know what to build. Like, is the thing you're building the right thing to build? Is the thing you want to build something that will have PMF now or in the future? So let's revisit this idea.
+
+158
+01:07:16,160 --> 01:07:36,580
+And I want to start by telling an anecdote. So Daedalus actually pivoted a little bit. We started, like we went into YC summer 25 hosting MCPs and building an open source multi-model agent SDK. And the reason why we pivoted around two months ago to doing VMs is because we were too early. And sometimes...
+
+159
+01:07:36,580 --> 01:07:54,670
+Being too early is good. But most of the time, it is not good because you just don't have a market, right? Like, do I still believe in the thing I've built? Yes. Do I still think that sometime in the future, multi-model-ness is going to matter? Yes. Because I don't think people want to be locked in to one thing. But that being said, like...
+
+160
+01:07:55,820 --> 01:08:17,359
+Last year, I guess, like 11, 10 months ago, I could not imagine that the VM space, for example, is a space that's going to be super hot because we didn't have OpenClaw needing to be hosted somewhere. Most people didn't need to host their agents. They just run it locally. Or, for example, we didn't really have Claw code when I first started, which is kind of crazy.
+
+161
+01:08:17,359 --> 01:08:28,319
+So there isn't really the use case of having like 10 clock code agents running at the same time with three reviewing your work and three cleaning it up, right? Things like that. But now there are, and this is a new emerging.
+
+162
+01:08:28,319 --> 01:08:52,319
+Field, which is also why the VM space is super hot, and like Jen said, statefulness is something that people now care about, running long horizon tasks, or just tasks where the agent remembers and continues to do things recursively, like important stuff, right? Which is why we are building fast, persistent VMs. But what are the other low-hanging fruits in this space? Another example I can say is like, recently, ChatGPT gave me an ad, which I'm not very happy about, but...
+
+163
+01:08:52,319 --> 01:09:26,370
+Like, two years ago, nobody would have thought, right? Like, when GBT 3.5 first came out, like, that you couldn't actually see ads there. And, like, yes, GEO kind of did that for us, but now OpenAI is endorsing this as a platform. So what are some, like, new emerging sectors or products people should be thinking about building? And what are the remaining or new emerging low-hanging fruits in this space? If I knew I might be working on it. I guess, like, I will...
+
+164
+01:09:26,370 --> 01:09:54,130
+I think the very durable answer to this is going to be infrastructure for what everyone else is building, right? The challenge always is can you find PMF and can you build something that is usable faster than anyone else, especially now in this space? So the thing that I've seen happen time and time again is the thing that even if it's built for
+
+165
+01:09:54,130 --> 01:10:20,180
+2025, ages ago. And like, it's actually super powerful for 2025. The value is still there, right? I think one example is like MCP gateways, where like, yeah, maybe the Twitter hype has died down around MCP, but gateways are still signing three-year contracts. It's still like something that's extremely durable as a result of this. Yep.
+
+166
+01:10:20,180 --> 01:10:48,580
+And there's still some crazy deals to be found there. On the consumer side, which I think is a little closer to my heart, I would say there's still, we're still waiting for a killer app inside of all of these AI ecosystems. I think that we're moving from a world in which people are seeing AI agents, like embedding AI agents and like, for lack of a better word, like
+
+167
+01:10:48,580 --> 01:11:18,510
+ChatGPT embeds into your help desk software to something where we want to see integrations inside of your AI agents. And I think for a consumer, for a business, that's really easy. You just sign a contract and you go. People are already very good at doing the diligence. What if 95% of them fail right now? That's going to change. For consumers, that story is a lot harder right now.
+
+168
+01:11:18,510 --> 01:11:50,190
+The killer app for something that doesn't exist inside of a site on its own, that doesn't work inside of ChatGPT on its own, you bring it together, and you make those two things work together better than each one of them works individually, has yet to be found. And that PMF still, like, I think that PMF is still to be found and still to be taken. I would say trust and governance layer. You know, many people are...
+
+169
+01:11:50,190 --> 01:12:16,910
+You know, building agents, but not many or very few are actually looking at how to debug, you know, multi-agent systems when two agents are stuck in a negotiation loop or, you know, they fail to communicate effectively. You know, a lot of studies have been done in the last 12 months, 18 months, and I was surprised, you know, about 20%, about 70 to 85% of the prototypes that started.
+
+170
+01:12:16,910 --> 01:12:46,260
+In the last 18 months, they never made it to production, and that's a big bottleneck for enterprise adoption. They need to trust that your agents will solve their problems, and they also need full end-to-end observability and full audit trails, so there is a big gap there. And other thing I would add is solving their data quality issues, data lineage issues, that there's a big gap there as well, because if you give an agent
+
+171
+01:12:46,260 --> 01:13:18,240
+Non-compliant bad data is not going to get better over time. It's just going to make bad decisions at a much faster rate. And that's a big bottleneck for enterprise adoption as well. So if you can, I think if you want to make big money, that's where I think you should focus. I think going to Casey's point about a killer consumer app, I think that is definitely what we're all waiting for. I don't think it's low-hanging fruit, but I do think if you were able to do that, you're going to be
+
+172
+01:13:18,240 --> 01:13:47,410
+Be able to capture tremendous amounts of value. I know operating in the infrastructure tooling space, and maybe it's because I'm constantly bombarded by what's going on in this space and seeing all the competitors in this space, but there's a lot of picks and shovels kind of plays. And we're all kind of just waiting for the gold diggers. Where are the actual consumer apps utilizing agents effectively that need payments? So I don't know if it's low-hitting fruit.
+
+173
+01:13:47,410 --> 01:14:15,150
+I don't think there's that much low-hanging fruit because if it was, then, you know, someone would probably be building it already or it would have been done by someone or the Frontier Labs or something. But there's still definitely value to be captured because we're all waiting for, like, a killer consumer app for sure. I think for me, and this is, like, really going full circle, one, basically building anything that enables businesses to become headless.
+
+174
+01:14:15,150 --> 01:14:44,660
+And doing that on a per-vertical basis or on any sort of niche that you and your team have a specific reason to be successful in, I think that's a no-brainer. There's so many merchants out there that finally got their website running how they thought it should be running, and then now they have to go deal with this new emerging economy. And essentially, if you look at the businesses, if you look at all that trend that has happened in other shifts,
+
+175
+01:14:44,660 --> 01:15:13,200
+Like one, is getting everyone's websites ready. Two, was actually getting everyone to like get a mobile app. This is like the new version of it. So basically, if you're going to be building a way where your business is helping these types of businesses go headless, that's going to be huge. And then two, I think a huge part of our thesis is all around payments. So I would love for someone who's building like
+
+176
+01:15:13,200 --> 01:15:41,600
+Either a consumer-facing agent or a business-facing agent to just integrate the ability for that agent to pay natively and to actually prove to everyone that an agent who can transact is more powerful than an agent who cannot. Adding on to what Jen and everyone else said here, but here's my different take. I'm not waiting for a killer app. I'm waiting for many killer apps because I don't think there will be a killer app. Why is that? Let me elaborate.
+
+177
+01:15:41,600 --> 01:15:56,960
+Again, going back to what I said when I gave another hot take, I don't believe in a general agent precisely because I think what matters in the future is experience. Experience that is tailored to you, and in order for that to happen, you need a lot of context.
+
+178
+01:15:56,960 --> 01:16:23,100
+On the user, context comes from data, it comes from memory, it comes from your behavior online, your usage of different apps, hopefully that are not closed ecosystems, and literally how you interact with AI, right? This is all context that matters. It comes from tracking newer types of data. There are so many types of data out there we are not tracking. And I, this is so interesting to me. Unfortunately, I'm not building that space, but like, do we track, should we be tracking
+
+179
+01:16:23,100 --> 01:16:51,860
+Eye movements when someone looks at a screen, how many times a person blinks their pupil dilation, you know, like where their cursor is clicking. These are a lot of things that we don't really track because we don't even have a file format for stuff like this, right? Or like the amount of times a person's breath pauses if you're using something like plot or like an AI note-taker in real life that records something, right? Like things like that. What is the file format? I'm not sure, but at the end of the day, it makes
+
+180
+01:16:51,860 --> 01:17:17,260
+Any experience more personalized to you, and when experience is personalized to you, it cannot be generalized, right? So I actually think there's going to be many killer consumer apps out there that are specialized, they have domain expertise, and they make your exact use case great. But let's take a step back because that doesn't mean anything. So a lot of what I see in YC and as an infrastructure company, we don't build the application layer by
+
+181
+01:17:17,260 --> 01:17:36,830
+You see a lot of applications. A lot of what I see and what I see is when, for example, you take something only accessible to a small group of people, usually developers or their agents, and you make a consumer accessible. So for example, cloud code into cloud code work. So now everyone can use cloud code, even though developers are already using cloud code for cloud code work.
+
+182
+01:17:36,830 --> 01:17:51,230
+Similar things where you take something and you make it easier to access for merchants to build their websites on like better recommendation ad algorithms or things like that or easier for a consumer to do something that they could not because they just
+
+183
+01:17:51,230 --> 01:18:20,480
+Cannot get over a small technical barrier to using cloud code back in the day or something like that. That's one thing. Another thing that I'm seeing a lot of is actually very tailored enterprise use cases. So when you're building for developers, it's still actually very different than when you're built specifically for enterprise who usually have stricter data requirements, stricter privacy requirements. They need to follow a lot more different things. That's also probably how you get acquired, by the way.
+
+184
+01:18:20,480 --> 01:18:39,380
+That being said, I think these are like two different routes, obviously. There are also a lot of things in the agent space, right? So I'm friends with the founder of Agent Mail and Agent Phone, but funny enough, Agent Mail was actually in my batch, Summer 25, YC. And when they first started building Agent Mail, nobody gave a shit.
+
+185
+01:18:39,380 --> 01:19:06,400
+Because nobody thought it mattered for agents to own emails because nobody used agents back then. But they just had this really clear thesis. And I remember talking to Adi from Agent Mail. I'm like, why do you guys just like believe so much in this vision of the world? They were like, because we were opinionated. And we just believed that one day agents would become entities and therefore need to own email addresses and ways of communication. Agent Mail, unfortunately, is not a protocol. It's a tool that...
+
+186
+01:19:06,400 --> 01:19:23,650
+It allows people to communicate, but eventually it actually sits on an email protocol layer, right? But there are also things to be done with existing protocols, a lot of low-hanging fruits there that Casey can probably talk more about and Bond can also talk more about. There are lots of new things that agents now as
+
+187
+01:19:23,650 --> 01:19:45,570
+Entities owning identities and other things need, not just wallets, but probably like, I can't even imagine, sorry guys, I'm suffering from the exact same problem everyone else is, right? Like, I'm not crossing the imagination chasm yet, but okay, what else? And last but not least, I think portability is actually a really important thing.
+
+188
+01:19:45,570 --> 01:20:15,500
+I'm just like thinking about what to build. But something that I've noticed, and this has more so to do with model labs than anything else, is people like to use different things because different models perform differently on benchmarks, different models are good at different things, they have different personalities, and this will only become more apparent in the future, right? As base model capabilities all become really good, it comes down to very nuanced things like cost, like personality, like performance on a certain specialized benchmark,
+
+189
+01:20:15,500 --> 01:20:31,570
+Things like that or even like how trustworthy or how unhinged this model is, right? When this is the case in that version of the future that I think is very near, it matters that you're able to use different models together or
+
+190
+01:20:31,570 --> 01:21:00,290
+One step up, not just models, but different tools together, right? Different people, CLIs or skills, or whatever, CLIs or other things. And hence, portability is very important. Can your tool plug into many different things? At the same time, take data or things you own from one platform and take it to another? Many cases, the context management or like a memory tool, but it could also not be, right? Portability in real life, also important, AI note-take. I'm just, I'm talking a lot, but there's a lot of...
+
+191
+01:21:00,290 --> 01:21:19,570
+Things you guys can all touch on before I open up to questions. Oh, like properly, properly, that's it? Oh, y'all, this panel took way too long. Okay, you know what? Let's end with one last question. Who has a burning question? And then we're just gonna let y'all out. Okay.
+
+192
+01:21:20,400 --> 01:21:56,140
+For those of you who are building agent systems, please, for dear God, use something neurosymbolic using theorem provers and delegated permission systems like deontic logic so that we don't have to clean up security messes in the future. Thank you, Ben from the Linux Foundation. Okay, I think we do have time for one more question. Yes? I think that we use in the last decades to have buttons, colors, and screens.
+
+193
+01:21:56,140 --> 01:22:24,960
+As how human interacted with the machine. But that's over. We know it. How do you see it's coming forward? And to add to this, I feel like the user used to be more proactive to the machine, where we now, the machine is, we're passive, and the machine is active to us. How do you see all that thing emerge and connects to, I don't know, five, ten years from now? My take on this is that
+
+194
+01:22:24,960 --> 01:22:51,520
+Everything your product offers has to be accessible via an API or CLI by equivalent, I guess, to an agent in a machine-readable format. So for example, your CLI needs to have like a JSON mode or something like that. And if your product is not accessible, like there is no UI basically, right? In the world of agents, agents don't see. They just make tool calls. They make a tool call and then they...
+
+195
+01:22:51,520 --> 01:23:19,440
+See the response. So if you don't, if the agent cannot make a tool call to do what it wants, then that's basically the UI layer. Any other thoughts? I think that interfaces have become more important, not less, as we spend more time, like as the agents kind of do more. Because now we're at like, we're back to attention economy. We're back to the place where it's like, oh, the agent can only surface like a few things. And what do we surface? What controls do we give?
+
+196
+01:23:19,440 --> 01:23:40,400
+This is why I'm very pro, I'm very bullish on like generated, generative UI, and I think that that's a huge reckoning that's about to come as we start seeing like, oh, one common example is like nowadays instead of creating a, like instead of like just pushing up a PR, I will create a review site.
+
+197
+01:23:40,400 --> 01:23:58,860
+Like I'll just create a mini site that I share with the people that are reviewing it, showing exactly what I did, like the system diagram, and all the screenshots that I'd like that the agent walked through. Like the UI is going to become both commoditized and the attention that we give to the UI I think is going to become extremely, extremely valuable.
+
+198
+01:23:59,250 --> 01:24:28,930
+Great point. Okay, I am told that we all have to evacuate this room, but the speakers will hang around if you want to talk to them outside near the popcorn area. And last but not least, as you evacuate the room, shameless plug from me, so we are still in closed beta for Daedalus's persistent VMs, but we are 10% cheaper than market. We are persistent with true live migrations, and we're really simple to use, and we can support your entire platform because everything we have has API access for your agents and just your
+
+199
+01:24:28,930 --> 01:24:56,210
+Coding agents, therefore. And if you're interested, we are hosting two more events. We're hosting a workshop tomorrow where we will help your agent become more accessible to all the agent-available tools out there and also our VM. And we're also hosting a super cool after party where we have a fashion runway. We will have models, like real-life models walking, not AI models, unfortunately, real-life models walking the runway with our new merch line.
+
+200
+01:24:56,210 --> 01:25:26,670
+Which I am wearing. If you're interested, get a merch. I think we still have some. I'm not sure. And every guest that comes is going to be given a quest where you have to interact with other guests to complete some adventurous thing. I think it's really cool. And you all get your own agent and you sign in through agent phone. So you will be texting your agent in our event as you watch the models walk the runway. How cool is that? And we have DJs. Come. Thank you all so much. Thank you for the panelists. I learned a lot today.
+

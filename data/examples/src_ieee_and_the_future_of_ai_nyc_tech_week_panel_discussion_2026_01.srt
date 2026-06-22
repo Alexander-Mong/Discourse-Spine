@@ -1,0 +1,832 @@
+1
+00:00:06,740 --> 00:00:32,910
+Okay, thanks everyone for their patience. So again, welcome to our IEEE and the future of AI. This is part of our New York Tech Week, where there's hundreds of activities going on all across the city. So hopefully you had a chance to look into some of those. Abhi, if you want to hit the next slide over for me.
+
+2
+00:00:34,030 --> 00:00:51,470
+And I'm just going to again go through some logistics for our in-person people as well as our audience that is joining us from Zoom. So I did mention where the bathrooms are and our helpful attendant outside if you need some additional assistance.
+
+3
+00:00:51,470 --> 00:01:20,720
+And today we are going to have a great panel on talking about different AI aspects and how IEEE is involved with them. So some of you may not have heard of what IEEE is. So I'm just going to kind of go through that very high level. So we are, I think, the largest technical nonprofit in the whole world. We have over 500,000 members and we are involved in more than 160
+
+4
+00:01:20,720 --> 00:01:46,690
+So it's very vast, the activities that we do across education, humanitarian standards development, as well as empowering different demographics and people to better themselves and better their communities. So if after this you want to talk with me about how IEEE is saving the world, I would love to tell you in more detail.
+
+5
+00:01:46,690 --> 00:02:04,800
+But some of the things I want to give a couple thanks to today, I want to give thanks to some of our IEEE Communications Society, also known as COMSOC directors, such as Sin and Trish and Christine and Abhi, that made this event possible.
+
+6
+00:02:04,800 --> 00:02:25,810
+As well as our local IEEE sections, namely the New York section, Philadelphia section, and the North Jersey section, who have all collaborated with these activities. So I think, Avi, I'm going to ask for you again to go to one more slide for me.
+
+7
+00:02:27,020 --> 00:02:53,620
+Oh, and on the screen, if anyone needs access to the Wi-Fi, it is the IEEE guest, and you would put my name as c.polk at IEEE.org as the person to approve you if you need access to the Wi-Fi. And so without any further ado, I want to introduce Abhi, who is the IEEE Comsoc Director of IT and Communications.
+
+8
+00:02:53,620 --> 00:03:28,850
+Who is going to be the moderator for today's panel. So, Abhi, over to you. Welcome again, everyone. So just to tell you a little bit, I've been working as a staff for Communication Society for the last two years, building and managing technology infrastructure that drives a lot of the events and activities that we do as part of IEEE. You may be surprised to hear.
+
+9
+00:03:28,850 --> 00:03:54,430
+As IEEE as a whole, we organize around 2,400 conferences and events in a year around the world. So, you know, that's like six or seven events a day that we're doing throughout the year. And we also publish thousands of journals, magazines. And in addition, we have standards that we publish, Wi-Fi standards, et cetera, that you may be familiar. So, I'm working as a staff.
+
+10
+00:03:54,430 --> 00:04:23,070
+Helps support the web activities, building our websites, building our platform, building our systems here, and now also increasingly using our AI tools and technologies today. So I would like to start by introducing our panelists today, and I'll ask each panelist to speak a little bit more about themselves after I mention them. So first, our panelist is Bo Cheng. He's a technology leader, inventor.
+
+11
+00:04:23,070 --> 00:04:53,340
+He is an author, and he consults in networking and telecommunication industries, and he also serves as a co-chair of the IEEE's Future Networks Artificial Intelligence and Machine Learning Working Group since 2023. So, Baal, if you can introduce a little bit, tell us a little bit more about yourself. Yes, hello, good afternoon. I am Baal Ching, and thank you very much for that very nice introduction. I don't really have a lot to add. I very much look forward to thoughtful, interesting conversations with members of the audience and fellow
+
+12
+00:04:53,340 --> 00:05:14,300
+Our next panelist is Matthew Andrews. He is the department head of the modeling and optimization group at Nokia Bell Labs in Murray Hill, New Jersey. Thank you again. Thank you very much for the invitation. So yes, I started my career as a mathematician, which I think is...
+
+13
+00:05:14,300 --> 00:05:43,390
+A lot's been going on in math and AI just over the past few days. There's been a lot of news about new mathematical advances from AI. With my current job, a lot of the things where we're interested in AI, one is around AI for physical spaces, how to use a network to understand what's going on in a physical space and connect that to a model, and also how do we just use AI to improve the design and operation of communication networks. Okay.
+
+14
+00:05:43,390 --> 00:06:06,400
+Greg, if you can go to the next slide. And after Matthew, our third panelist, Mariel Machado, she is the senior director. I think she has a new title of the IEEE. So she coordinates IEEE humanitarian technologies and tech for good activities in the past. And now you can tell us more about your new role and title.
+
+15
+00:06:06,400 --> 00:06:35,650
+Thank you. So the new role, I'm still doing the same thing, but a little expanded. So my new title is Senior Director of Technology for Social Impact and Sustainability. So I'm leading now the Climate Tech Group, assigned from the Tech for Good or Humanitarian Technologies Group at IEEE. Just my quick background, I teach a class at Columbia University for the School of International Affairs. I do an introductory class of technology, emerging technologies for good or for impact. And I do basics of AI, IoT, blockchain.
+
+16
+00:06:35,650 --> 00:06:53,440
+You know, to be sure that the policy makers and the development practitioners are equipped to actually develop this for good. And I think, you know, one of the questions we'll tackle in the balance around policy. So how can policy be adapted when the basics of technology are not understood by these policy makers? Just to give you a couple of
+
+17
+00:06:53,440 --> 00:07:20,720
+You know, additional context for some of my remarks. The first part of my career was in the telecommunication industry. I did a lot of deployment in broadband, in TV, in IoT in the first part, and then I transitioned into this field of technology for social impact. You will be hearing a little bit about what IEEE does throughout my remarks, but I just wanted that context, you know, to be sure that everyone knew where that was coming from. Thank you. Yes, so we have all incredible engineers up here.
+
+18
+00:07:20,910 --> 00:07:50,590
+Just in mind. Our fourth panelist is Jeff Lontock. He is the director in the AI and data practice at GuideHouse, where he leads a firm's workspace planning and analytics solution. Jeff, you can. Yes, good afternoon. Thanks, Abhi. So, Jeff Lontock, as the slide mentioned, I am a director in our AI and data practice, but for the last two decades, I've been focused on workforce planning and analytics. So, if you're not familiar with that space, it's basically,
+
+19
+00:07:50,590 --> 00:08:15,460
+Helping clients or organizations make decisions on their workforce using data, which is very far from where folks were at 10, 20 years ago, where a lot of workforce decisions were made based off of that. So now with AI, you could imagine the exponential capabilities there are with AI being in that space. So I hope to bring that perspective.
+
+20
+00:08:15,460 --> 00:08:40,350
+So this panel, but outside of my day job as a director, I'm also an angel investor that invests in early tech startups. So seeing how early stage tech startups use AI is also another interesting aspect that I think a lot of folks would love to hear. So looking forward to sharing those experiences. Can everyone here in the back, everyone?
+
+21
+00:08:40,350 --> 00:09:08,060
+Or is anyone having trouble? Okay. I think we may have to put the microphone closer to our mouth when speaking. Okay. Just something to keep in mind. And our final, and the fifth finalist is Ghatmi Nankani. She is a senior AI ML customer engineer specialist at Google Cloud based in New York City. She has been working at Google since 2018, and she was also a global nominee for the Women in Tech Awards, a very prominent speaker in technical talks.
+
+22
+00:09:08,060 --> 00:09:35,540
+Thank you. Firstly, hi, everyone. The minute someone walks in with sneakers, you know, they work for big tech, right? I'm the only one wearing sneakers. But jokes apart, I'm so happy to be part of the panel. As Abhi said, my name is Gautami. I am a senior solutions architect at Google. I've been with Google for almost eight years now and in the cloud industry for almost 10. I work in the weeds of AI. I help...
+
+23
+00:09:35,540 --> 00:10:04,820
+Build and develop solutions specifically to AI and cloud for our healthcare customers from an industry standpoint. I also have a lot of experience. I worked in media and retail. So I've seen both ends of the spectrum where the adaptability of AI was so fast. And on the other hand, healthcare and obviously the regulatory industries have a lot more governance and security. So bringing that perspective as well. Yeah, I love doing the panels and I am part of IEEE for various committees as well.
+
+24
+00:10:04,820 --> 00:10:30,320
+It's good to be back in the IEEE world. Thank you. Thank you. So, you know, of course, we all know about AI, what's going on, and there's so many hundreds of questions and topics that are out there. We have identified a few questions that we'll start with. We'll ask panelists to answer them, and then we'll also open up the question and answers for our guests over here. So maybe we'll start with got me on that side. I'm just going to the reverse order.
+
+25
+00:10:30,320 --> 00:10:55,120
+So our first question we had is, when we strip away the marketing buzz, what is the single biggest reason AI actually matters for the long-term future of your respective fields? Yeah, so this is a very good question because I think we all are in a situation where the biggest question is, is AI going to replace me, right? Like, because the way the tech is working right now and the AI is.
+
+26
+00:10:55,120 --> 00:11:17,040
+Going in the direction of transformation. That's often something which is asked by all our customers. And in terms of when you see at the broader picture, right, like we are moving from a more strategic transformation piece where AI is more of a collaborator, right? It will help you kind of transform yourself or multiply yourself.
+
+27
+00:11:17,040 --> 00:11:46,420
+10 or 20 times. So in terms of how it can help, there is so much manual automation right now, which is happening, moving into more strategic and dynamic workload management, not just from an industry standpoint, but also from an individual productivity standpoint. How we look at AI, how it can help enhance our own personal brands from a professional standpoint, but also how it can help customers really transform their workloads and use cases.
+
+28
+00:11:46,420 --> 00:12:14,670
+Work with the healthcare industry. It's really changing lives, right? Like there is, we have the latest LLM model or model which is called 4Scientists. It helps you brainstorm the next cure for some of the rare diseases out there. And how can you augment some of the brain power that our scientists and doctors have with the power of AI to kind of, you know, transform some of the future proofs and
+
+29
+00:12:14,670 --> 00:12:42,640
+So from a healthcare standpoint, that's there. From media and retail, obviously, like the way we interact with the application, how personalization works, it's much more than that. Obviously, there is the AI hype, and we all are in that bubble right now. But if we look beyond that, there is a lot of real value that comes out of it if we start holding hands with it. Yeah, sounds like we need to go beyond the hype cycle to figure out the real solutions using AI. Jeff?
+
+30
+00:12:43,120 --> 00:13:11,550
+Yeah, there's so many different ways I could answer this question. Well, one, from a standpoint of professional services or management consulting, AI is going to have a heavy impact on the business model of how we operate. But from the standpoint of what I specialize in with workforce planning, for those who may not know what workforce planning is, it's basically getting the right people in the right place at the right time.
+
+31
+00:13:11,550 --> 00:13:41,550
+So it's the capabilities and powers of AI, I think are going to help just bring big data into that conversation of how do you get the right people at the right place at the right time. But I think another way of looking at this question is what type of talent are organizations going to need once AI gets into the fabric of their operations? There's going to need to be new skill sets. There's going to need to be an expectation of what the predictive is.
+
+32
+00:13:41,550 --> 00:14:11,790
+So I think there's going to be a significant shift. In the good or the bad side, the significant shift? Let's say good, right? Good for people or good for businesses? It could be for both. I guess to address that, I think as employees, as staff, as people, we need to be proactive and not wait. That would be my point of view. And learning AI. Correct.
+
+33
+00:14:11,790 --> 00:14:24,660
+I will pass it to the participants right now and raise your hand if you have ever heard the term AI for good. Okay, so not, I mean...
+
+34
+00:14:24,660 --> 00:14:49,550
+Not half, at least. So this is why it's important for our work, for the work that we do at IEEE and beyond at Humanitarian Technologies to be involved with AI and to leverage AI because we are working towards the AI to be equitable and to be accessible by everyone. So again, you know, AI is like, as everyone is saying, right, is coming to us in every single sector that we live in.
+
+35
+00:14:49,550 --> 00:15:19,300
+You know, something that is important for our department that, you know, at IEEE, just to go back a little bit to what we do, we run programs that are devoted to advancing technology for the benefit of humanity, and that means for the good of humanity. So, access to all services, you know, gaps in connectivity and energy. And that, you know, with AI is really translated, like, completely into this gap of services, because how can a person in a rural setting access AI if they don't have a steady energy or electricity?
+
+36
+00:15:19,300 --> 00:15:38,560
+Right? They don't have connectivity. So how can we make it so that it's accessible for everyone? And what can we champion? And how can we adapt our program so that we enable innovation to reach this sector? So currently, we're working, and I will speak to this maybe in a couple of more questions, but just to go a little, a step.
+
+37
+00:15:38,560 --> 00:16:04,580
+We have a Gen AI for Good challenge now running where we're calling on innovators all over the world to actually deploy solutions that are open source. So leveraging the LLMs to actually solve challenges at a country level for countries that don't have the capacity to do that. So we're talking about countries like the Gambia, Lesotho, Bangladesh, and we're deploying the solutions, you know, in order to transfer to the country to solve.
+
+38
+00:16:04,580 --> 00:16:34,990
+Speaker 1 So, something just to go back to the main question, you know, why it's important for us to leverage AI is because in our work, we need to do that in order to help shape this sector and be sure that all voices are heard. Thank you. Matthew, also going back to the same question. Now, what is the biggest reason AI actually matters for the long-term future in your field? Okay, so coming from a large telecom vendor, I really see
+
+39
+00:16:34,990 --> 00:17:04,819
+Four areas where I can already see AI having a huge impact. One is just the development of products. So I think the acceleration that you now get from coding assistants has been immense. Just the time it takes to develop quite complicated pieces of software, you still need some human input to kind of figure out what you want to do, but both in terms of the planning stage and then the coding itself, there's been a massive acceleration there.
+
+40
+00:17:04,819 --> 00:17:33,140
+So development of the products. Then I would say operation of our products, so operation of the networks. So telecom networks are exceedingly complex. They generate many logs, many alarms. So AI is already proving very useful in terms of understanding the operations of an ongoing network, trying to understand where the problems are and then solve issues as they occur. So producing the networks, operating the networks.
+
+41
+00:17:33,140 --> 00:18:01,620
+Then I would say using the networks. So we have a lot of interest, and this is something my team is particularly interested in, is building physical AI models for understanding what's happening in certain environments. Say, understanding the activities of a factory, a warehouse, a traffic intersection. So there, there's typically with some kind of sensor that you then need the network to connect that to an AI model. And AI models are rapidly getting better in terms of
+
+42
+00:18:01,620 --> 00:18:25,620
+Understanding what's going on in the visible world and also connecting robot applications, those types of things. And then lastly, where I see a big impact is also in how the networks can actually help the AI to operate. So a lot of us think of AI models as now running in a data center. Increasingly, there's work in kind of disaggregating models.
+
+43
+00:18:25,620 --> 00:18:54,620
+So that now we're running AI models across data centers, and now the concept of the AI grid is coming out, where you really basically, you're sending queries, AR queries to the cloud, and having those really being answered by many agents working in collaboration. So I see that as a big trend. For this question again about are we seeing AI enhancing the people or replacing the people, I think I see a little bit of both.
+
+44
+00:18:54,620 --> 00:19:23,470
+I would say, optimistically, I feel it's mostly on the enhancing end. I mean, our hiring mostly starts off with interns, and I see still the need to bring in interns, but I think what's changing is AI is becoming a sort of must-have as one wants to move into these type of fields. It used to be you had to make sure the interns knew how to code so they could implement their solution. Now you need...
+
+45
+00:19:23,470 --> 00:19:51,540
+To ensure that they're AI fluent, so they can leverage the AIs to help them do what we ask them to do. No, definitely. Bao, your thoughts, like, what's the biggest reason that actually matters in your field? Yes, now, I'm also a telecom slash networking person, so I come from that field. Now, when I see that question, and we panelists did get to see the question ahead of time.
+
+46
+00:19:52,240 --> 00:20:21,840
+I type that question into an AI model and ask what it thinks. So I will tell you what AI told me, and then I'll tell you what I, as a human expert, tells you, right? So I asked the chat GPT this question, right? The answer I got back largely falls along the line of because the world and the system we built are becoming increasingly bigger and much more complex, AI is therefore needed to help us deal with all this complexity.
+
+47
+00:20:22,320 --> 00:20:51,140
+Now, on the first block, that's a very reasonable answer, right? We are living in an ever more complex world, and we are building larger and larger systems with more and more components that fewer and fewer people understand. That is essentially a trend that I don't think we can reverse easily. Now, as a human, I will tell you this. With all my experience as a system architect, as a...
+
+48
+00:20:51,140 --> 00:21:20,380
+As an operator of large systems, of deployed large systems, I will tell you this, try to hold that line of not architecting or building systems that you cannot understand to begin with. Now, there will be times where, for various reasons, you have to accept certain things you don't understand in pockets of the system. Even when those times come, please try to insist that bottom line of having a firm grasp on
+
+49
+00:21:20,380 --> 00:21:49,280
+Drawing a boundary around the things that you accept you will not understand. And that's okay, but at least you have to know what parts of the system you do not quite understand. I see AI as a powerful productivity multiplier. Nonetheless, it is not a linear multiplier, it's a non-linear multiplier. It is sometimes unpredictable multiplier. It is sometimes irreproducible multiplier.
+
+50
+00:21:49,280 --> 00:22:17,040
+That also tells you why you need to understand what you don't understand when you design systems with AI, such that you can maintain some control around the things where, you know, if things were to go bad, at least you can draw a boundary around this. It says, okay, this area I don't quite understand, but I have other things in place to keep this part that I don't understand in check so that it doesn't bring down my whole system. So that is my human answer. Very nice.
+
+51
+00:22:17,040 --> 00:22:36,190
+Thank you. Maybe we can go to the next question with you also. In the next question, as we are increasingly using AI, we are moving from experimental projects and now trying to put them into the foundational infrastructure.
+
+52
+00:22:36,190 --> 00:23:05,040
+And as we are running into a lot of challenges, you know, nowadays there's a lot of talk about tokens being very expensive and not having enough electricity in America to build all the infrastructure. So from your technical perspective, what kind of architectural breakthrough do we need to make this sustainable, the scale of AI implementation that we are aiming for, for imagining? So we want AI to operate at infrastructure scale.
+
+53
+00:23:05,490 --> 00:23:34,530
+That also means we need AI to behave like infrastructure. Okay? So, when you say infrastructure, you don't really want that infrastructure to behave in a way that you cannot predict. You don't want it to operate in a way that you cannot reproduce. Say, electricity. You don't understand how that works. You flip a switch, you expect the light to come on. That's reproducible. That's predictable. You want AI to more or less have that.
+
+54
+00:23:34,530 --> 00:24:00,880
+So that's the first and foremost. Make AI behave in a way that people feel they can depend on, even for life and death situation. If you can't get there yet, then at least for that part of the work, try not to do AI yet. Understand what you're doing, why you use it. I mean, rather than starting from the point of, I have this AI, let's try to use it everywhere.
+
+55
+00:24:01,230 --> 00:24:30,300
+Try to start with the problem statement. What problem are I trying to solve? And then evaluate whether AI is the right solution at that point in time. Now, I very much like AI as technology. It's a very useful tool, and it keeps improving all the time. It will keep improving all the time. So today, AI may not be suitable for certain tasks, but tomorrow it may be. So we have to keep an open mind on that one. And as for the cost, you're talking about token getting more and more expensive. I think we're still in the early phase.
+
+56
+00:24:30,300 --> 00:24:59,760
+Speaker 1 of implementing AI. Every now and then, just in this past couple of years, every now and then, you see a major seminal paper coming out that says, oh, I found this new way of making AI more efficient, right? Say, January 2024, DeepSync came up with a mixture of experts that vastly lowered the cluster for AI, right? Then recently, Google, my Google friend there, came up with a technique called TurboQuant that drastically compressed
+
+57
+00:24:59,760 --> 00:25:29,760
+The tokens, right? And then DeepSync also came up with something called compressed attention, right? So all these different techniques work towards reducing the cost of AI, and we're still early in the game. So I'm very optimistic that the cost will be brought under control. Not only that, but also have hardware improvements, right? I mean, today, everybody is obsessed over NVIDIA. You're building the next great piece of GPU-like hardware.
+
+58
+00:25:29,760 --> 00:25:54,420
+But NVIDIA is not the only game in town. It's the only game in town for certain things. But in the whole universe of AI, people are doing other things as well. Like Apple built this neural engine into all their Apple silicon. It's not all that expensive. You can still affordably buy an iPhone. And Google came up with Tensor Processing Unit. Good job.
+
+59
+00:25:54,420 --> 00:26:23,900
+Yeah, MATLAB has its own processor coming up. Amazon has its own processor. Microsoft has its own hardware coming up. So we're still in the game. So I'm quite optimistic that this AI cost curve would wrestle out the control. Matt, to your thoughts, you know, what are the other architectural breakthroughs do we need to scale AI, perhaps a new industry? Yeah, so maybe I could start by just echoing some of the things Bro said. I think definitely when faced with technical problems, it's always good to take a step back and say, is this something where we need?
+
+60
+00:26:23,900 --> 00:26:41,100
+And I think, obviously, where...
+
+61
+00:26:41,100 --> 00:27:09,390
+Where AI has been amazing and where things are maybe a little bit unstructured, so the function that takes sort of a set of pixels and maps that to cat or dog, you know, that's obviously something that sort of traditional mathematics couldn't solve. And so I think it's always good to take a step back and try and figure out, okay, are there more traditional techniques that can solve these problems? Because often then, it's much cheaper to do it by the traditional techniques. And I think we're doing a lot of that in telecom as well, is trying to figure out what aspects of the network can stack.
+
+62
+00:27:09,390 --> 00:27:39,520
+Can AI truly give a benefit? I think just more generally in terms of architectural challenges, and obviously I can only speak from experience, one thing that struck me is how oftentimes when you're trying to deploy AI models, oftentimes the hard part is not actually associated with the models themselves. It's about getting the data to the models. So as one particular example, we've been working with a soccer team in Milton Keynes in the UK where we're trying to
+
+63
+00:27:39,520 --> 00:28:07,250
+Give the fans real-time player tracking application. So something that the fan could look at their phone in the stadium and get a sort of diagram of where the players were on the field. So this was basically recognizing players on the field. So that's, you know, something that, you know, a YOLO model, they're getting extremely good at doing those type of things. But actually building the app end-to-end was very challenging. And it was really due to the sort of real-time aspects.
+
+64
+00:28:07,250 --> 00:28:32,610
+And it was about getting all the data from multiple cameras that we had at the field and getting them all that data synchronized at this right place at the same time. And so a lot of network challenges doing that. So again, especially since I'm interested in a lot of physical AI problems at the moment, it's oftentimes the AI is the easy part and it's getting the data to the models is where the challenge is.
+
+65
+00:28:32,610 --> 00:28:59,250
+And I think also, echoing Bo's comment, I think just the efficiency is obviously one of the big ones, that these data senders are taking huge amounts of electricity, huge amounts of water, and that's going to be a challenge, and where we see a lot of the current backlash. And I know some of the people sort of proposing these mondial nuclear reactors as one solution, but, you know...
+
+66
+00:28:59,280 --> 00:29:23,250
+It's already hard to get zoning approval for a data center. Are you really going to want to put a nuclear reactor next to somebody's house? So I think there's a lot of challenges there. But I think also the industry is starting to address some of them. And I think there's a lot of interest, again, with the sort of different hardware and also disaggregating lots of parts of the AI, again, between the training and the inference, but also just within one inference query as well. A lot of people now are looking at
+
+67
+00:29:23,250 --> 00:29:47,940
+Separating the so-called pre-fill and decode. So doing the initial understanding of the query from generating the output, and that can be done on different hardware. And so I think people are really driving the efficiency in different parts of it. So I'm sure a lot of that will continue to happen. I think that's very interesting. Mariel, do you want to share something? Yeah. Yeah, so I think I will bring back again.
+
+68
+00:29:47,940 --> 00:30:16,240
+The AI for good, AI for all perspective. We're now, you know, I mentioned the competition that we're running, the challenge with the United Nations. Now we selected the winner. These solutions are all open source, so can be transferred. So we're tackling one problem that we have, which is the technical capacity to build these models that has been kind of solved. But now that we're transferring it to the country, you know, there's not enough infrastructure to actually take those models and deploy them nationally. So I would suggest that
+
+69
+00:30:16,240 --> 00:30:45,550
+The breakthroughs that are needed to bring it also to the Global South and some areas that are still lacking that connectivity will be models that are a little more efficient, that could run locally, energy-wise, you know, connectivity-wise, that are also multilingual and can work on multiple languages. So I think the breakthroughs that are needed, you know, for these technologies to actually reach all corners of the world are actually a little more analog in nature, you know, and we need to figure out how we can make these models, for example,
+
+70
+00:30:45,550 --> 00:31:14,880
+The first part, you run locally and more advanced tasks you can put on the cloud because, again, cloud services in some of these countries and the speed which these countries are running on are very, very different from what we have here in the States or in any country in the global north. So I think that is what I want to add to the conversation. How can we be sure that this infrastructure and the breakthroughs are also considered for the bottom and the rural areas that are not yet connected?
+
+71
+00:31:14,880 --> 00:31:42,140
+Jeff, any thoughts? Yeah, I'm going to answer this from a different perspective because I think there's no denying that technology is going to get better and better and better. Right now, it's powerful as is. But technology alone doesn't make or break whether or not it gets sustainable. It's that trust layer that I feel a lot of organizations are starting to...
+
+72
+00:31:42,140 --> 00:32:04,820
+To understand that the adoption of tech requires trust and how can you gain that trust with tech typically involves having the tech become auditable, like having people understand how these LLMs work, how the tech works. It's a leadership decision. It's a leadership decision on whether or not
+
+73
+00:32:04,820 --> 00:32:34,640
+They're going to decide, okay, now that this AI gives me extra capacity or gives my staff extra capacity, what do I do with that extra capacity? Do I lay off people or do I just increase my expectations for productivity? That decision is going to impact or influence the trust that the company, that the organization is going to have on leadership. So the adoption piece, I think that's the critical step that's going to be needed to make sure that tech.
+
+74
+00:32:34,640 --> 00:33:02,530
+I think AI is going to be sustainable. Thank you, Gawadmi. Maybe you can shed some light on, you know, what are the next architectural breakthrough that do you see coming in the future that can help us, you know, broaden the adoption? Yeah, absolutely. Well, both stole half of my answers, but I think the number one aspect of architectural breakthrough is understanding what you're using, like monitoring and observability as a piece is important because
+
+75
+00:33:02,530 --> 00:33:29,760
+A lot of times we are just using, obviously AI is tied to a lot of like aspects of sustainability as well, right? Like the tokens that you use, the prompts that you're using, all of it is tied to how much of resources are being utilized. And a lot of times as individuals, we are not even aware what we are using. So I think number one is taking a step back for all the companies that are adopting AI to actually know that how much of these resources are.
+
+76
+00:33:29,760 --> 00:33:52,660
+Being utilized at the architectural level. For you to change something, you need to know what exactly is happening. So there are two problems with this, right? One is the providers that are providing the AI should be responsible, obviously, to be able to provide infrastructure. Like I mentioned about this, like TPUs, we have our latest on Ironwood that
+
+77
+00:33:52,660 --> 00:34:21,100
+Actually runs probably like eight times more efficient than a normal GPO processing unit, right? So overall, using infrastructure and technology that is sustainable and making sure that is good for obviously the planet. The other part of it is being responsible as an organization of how you build these solutions. Now everything is an agent. Have we all heard of agents before in the room? Yes, I see like big nods.
+
+78
+00:34:21,100 --> 00:34:48,719
+You don't need agent for everything. You can probably solve it by a simple algorithm or even a math equation, as I think some of us said here. So not everything needs AI. I guess just taking a step back and seeing, okay, is this problem being solved by my traditional architecture that is there? Or do I need to add more agents or a multi-agent architecture for this? So just grounding yourself with some of the use cases.
+
+79
+00:34:48,719 --> 00:35:16,660
+Upgrading yourself with, okay, if this is something that can be solved for in a different way, that's more sustainable, I think that's something the leadership in your organization also is responsible for. So it's kind of a two-way approach where, yes, the architectures that you're building need, has to be more specialized for the use cases that you're trying to build for, but also using tech and infrastructure that is allowing you to do that is also extremely important.
+
+80
+00:35:16,660 --> 00:35:42,960
+No, I think that's very interesting that I think we all need to realize that AI is not the solution for everything. AI is not a deterministic system. Oftentimes, you know, as we know, let's say we just use ChatGPT, we put the same question, it comes up with a different answer multiple times. And so we have to, I guess, you know, see AI as a tool and see if the problem that we are trying to solve, is it a right fit for that tool or not.
+
+81
+00:35:42,960 --> 00:36:12,400
+Take it to the next question, you know, along these lines, maybe you can answer. How do we make sure, you know, in the agentic world that is happening, that AI is augmenting human workers rather than just disrupting them or, you know, replacing them? How do we ensure that we as a, you know, we're already seeing this disruption in software industry. Software engineers, they're the first one being, you know, their work is being automated in large degree, but how do we make sure that in other fields, we're augmenting humans?
+
+82
+00:36:12,400 --> 00:36:26,620
+I think number one is stop resisting it. That's really important. I think treating it as something that is going to disrupt your work is it's coming or it's already here, right? Whether you like it or not.
+
+83
+00:36:26,620 --> 00:36:55,810
+It is going to be a part of your job every day in a way that organizations are adapting and going forward. It is going to be part of something that you're building. So I guess accepting and just seeing how can you place yourself around it is the most important thing that you can think about. That's number one. Number two, in terms of your own employee productivity, integrating that is more
+
+84
+00:36:55,810 --> 00:37:17,740
+Of a cultural shift rather than just a tool adoption, right? So how do your organization slash you personally are using it and adapting? Like for example, I stopped reading newspapers. I have an AI agent that drops the news on my email every morning at 7 a.m. across all industries that is happening in Kylo.
+
+85
+00:37:17,740 --> 00:37:36,220
+You know, AI technology, like obviously from a tech standpoint. And then automating it, like for this panel, obviously, I think Bob mentioned this, like you, I put in the questions, sure, like, you know, it gave me perspective, but it also is grounded by my own data. It reads through my emails, my...
+
+86
+00:37:36,220 --> 00:38:01,660
+The meetings that it has, the projects that I've worked, and it pulls in the right information. So make sure that you are actually having that context layer because it is generic. It would give me the same answer as it would someone else, right? How will it personalize to you is then you have to integrate all these systems and add more context to it. So that can help you kind of augment it.
+
+87
+00:38:01,660 --> 00:38:30,960
+And also, don't be afraid to be hands-on keyboard. I feel like the best way to adopt AI is to actually, like, learn how to use it. Antigravity is one of the launches that we have. It's similar to CloudCode, where you can build apps. Go get, you know, get hands-on keyboard with building an application with your integration system. I built an app for, like, something like fitness app, where it counts, started counting calories and, like, very basic.
+
+88
+00:38:30,960 --> 00:38:58,420
+I mean, the minute it tells me I'm not drinking enough water, I'm like, I don't need this extra notification. But anyway, so you go and build things on your own, fail at it, really. And then that's how you are going to improve from it, right? And, you know, moving beyond software engineering as well, if you're not in that field, how can you just like be comfortable in talking about it, right? Because again, there is a lot of AI fluff.
+
+89
+00:38:58,420 --> 00:39:23,470
+And, you know, in the market right now, how can you actually, you know, integrate that with your personal lives, but also in your company and having that thought process around how can it augment and add on to the solutions that you're building is kind of the way to go, I feel. So Jeff, I want to also, if you can add, like, what are the business leaders thinking? You know, we would like...
+
+90
+00:39:23,470 --> 00:39:52,130
+Humans should be augmented, but while you're consulting with the clients, are they in that mode, or are they interested in reducing their costs just by replacing humans? Yeah, I do think there's no one-size-fits-all answer or solution to that. I mean, just to be real, it depends on is the organization or company big enough to pivot quickly? If you're a 100,000-person organization, pivoting is going to be hard.
+
+91
+00:39:52,130 --> 00:40:13,140
+And AI is going to have some drastic decisions or drastic impacts on what your workforce looks like. If you're a smaller company, yes, I think you have more of the liberty to decide, okay, do I keep my employees at the same pace and just expect higher productivity or more efficiency?
+
+92
+00:40:13,140 --> 00:40:38,690
+So I think it really depends. It's a leadership choice. But what about, you know, I was reading a blog, for example, they re-architect their whole organization with assuming that AI can do a lot of the software development work. They laid off a large amount of people. So are you seeing like other business leaders thinking along those lines or are they want to keep their workforce? Yeah, I do. And I think a big mistake is for leaders to look at their org chart and say, okay.
+
+93
+00:40:38,690 --> 00:41:08,210
+This is how my organization looks like. I need to apply AI to each of these organizations, which, again, could work, but I think the more logical approach would be to design AI systems around the tasks for the mission of your company, less around the org chart. The org chart is going to look very different once you apply AI and different tech to your organization, but if you understand what your organization should be doing from a task or mission perspective, then I think it makes a cleaner
+
+94
+00:41:08,210 --> 00:41:31,330
+Systematic approach. No. Mariel, I'll go next question to you, I think. So we had a question about how can we use standards and policies to keep AI development safe and inclusive to solve real-world humanitarian crisis now and in the future without running into the risk of unchecked automation? Yeah.
+
+95
+00:41:31,330 --> 00:41:57,740
+I think, you know, aside from the standards and the policies that are needed to shape this to be ethical, you know, inclusive and everything I have mentioned before, you know, I think something that is very important is for us to start doing things, like just trying out things. And that's what, you know, we're doing at IEEE, you know, trying to deploy programs that are putting the innovators to work on these challenges so that we can actually test and see.
+
+96
+00:41:57,740 --> 00:42:04,750
+This solution is actually deployable in some of these contexts. How can we be sure that we're adapting it to the language?
+
+97
+00:42:04,750 --> 00:42:34,060
+You know, in the context and the culture of some of these areas, because, you know, I want, I always bring this in my class, you know, at Columbia University, and I always say, who is designing these systems? You know, I want you all to think about that for a second, right? We are having this be designed here, you know, in Silicon Valley, not even here. Well, yeah, here in New York, but in the Global North, you know, mostly, in English, most of the time. So, you know, these are the type of things that we really need to start thinking about.
+
+98
+00:42:34,060 --> 00:42:56,210
+How can we be involved and start shaping the sector so that it's ethical and how we cannot say, you know, what are the risks and deploying in this place if we're not doing it? So I remember in one conference, just when ChatGPT got released around this sector, the, you know, let's call it digital tech for good. It was around digital more than any other technology.
+
+99
+00:42:56,370 --> 00:43:25,970
+And some of the people were asking, should we, you know, really start deploying this chat GPT? Like, you know, what about the harms that it could bring? Like, are there any ethical considerations? Who's doing the policy for this, you know, for these models that, you know, we don't understand, right? And, you know, my perspective is always like, yes, we need to deploy them in order to shape them and change them because, you know, if not, they will be deployed and they're running on their own and we're there watching, you know? So I think from the sector perspective.
+
+100
+00:43:25,970 --> 00:43:56,260
+Speaker 1 of the humanitarian technologies, technology for good, you know, the nonprofit sector that is trying to drive this equitable AI, I think it's very important for us to just get our hands dirty, like we're doing, you know, at IEEE, Gen AI for Good Challenge, and just start, you know, testing and see, you know, what are the things that need to be shaped and change. And with that, you know, will come policy and standards for sure, at least for the, you know, aspect that I'm bringing up of the AI for All. You want to add anything, Matthew? Yeah. Yeah, so,
+
+101
+00:43:56,260 --> 00:44:21,730
+I think for the previous question, I would have been on the optimistic side. I think on the whole, for replacing the humans, I think on the whole, it is augmentation rather than replacement. For this one about the dangers of unchecked automation, I think I'd be more on the pessimistic side. I think it's already happening. We are seeing the dangers of unchecked automation. And I think, just going to Mariella's point, one needs to distinguish between
+
+102
+00:44:21,730 --> 00:44:48,960
+There's AI built by organizations that I think are trying to be ethical and trying to do the AI for good versus organizations that are not. And I think there's two, or arguably none, I think two areas where we're already seeing this. One is cybersecurity and the other is defense applications. So in terms of cybersecurity, I recently saw a talk from one of our internal security teams, which was very dramatic.
+
+103
+00:44:48,960 --> 00:45:13,260
+Number of denial of service attacks they're seeing on networks over time. And it was kind of at this level until 2025, and then it was basically exponential. And so basically AI has proven to be extremely good at generating attacks on networks. And the things they're saying is they used to be designed by people. So maybe if you're obfuscating IP addresses, maybe this is like one level of obfuscation now.
+
+104
+00:45:13,260 --> 00:45:42,740
+You get AI just doing like seven or eight layers of obfuscation. And so it's much, you know, you could argue that's unchecked automation. And a lot of these tools are being built directly into hardware. Another interesting factoid I recently learned is that a lot of the low-end phone manufacturers are actually taking money to build malware directly into the phone. So some of the cheap phones that you buy at Walmart, for instance, they will actually be manufactured with malware in them.
+
+105
+00:45:42,740 --> 00:46:11,230
+And a lot of this is now AI-generated. So I think the cybersecurity is one area where we're already seeing the unchecked, you know, the bad side, but of course, the AI can also provide the tools to solve that. And I guess we've seen that again with the Claude Mythos model, you know, it's finding a lot of holes in what was thought to be very good hardware and software, but also it can help to patch them. And also, I think we're now increasingly seeing AI
+
+106
+00:46:11,230 --> 00:46:38,610
+Going into military applications, we're obviously there, there's an extreme risk. You know, who's making the decisions when you have robots with a large amount of firepower? And, you know, clearly the Ukraine war is becoming a robot and drone war. And I think a lot of companies now are, you know, looking into what role should we play. Certainly our company, because we're a networking company, telecom company.
+
+107
+00:46:38,610 --> 00:47:04,260
+Orchestrating drone networks is something that we're thinking of. And I know the European Union, they're putting a lot of money now into defense funds for these type of networks. So I guess these are just the questions from all time about the balance between different powers and where should the defense investment go?
+
+108
+00:47:04,260 --> 00:47:32,900
+I think on the other side, there are some more optimistic applications. We have a project with a professor in Ukraine who's also interested in kind of smart city models for understanding reconstruction tasks. So how do you understand the damage in an area and, you know, how can you look at the sort of architectural plans from when this neighborhood was first built versus what it looks like now and understand then what are the needs for reconstruction? But I think...
+
+109
+00:47:32,900 --> 00:48:01,390
+Clearly, that's going to be a big part of AI, unfortunately, going forward. No, that's very interesting. I think, you know, a lot of the fears that used to be theoretical just a few years ago, now they're becoming very real. That models which can use multiple vulnerabilities and craft an attack on your system. Okay, so we're talking about ethical guidelines and inclusiveness guidelines and how to keep AI from doing the wrong things.
+
+110
+00:48:01,390 --> 00:48:32,420
+Or keep AI from doing evil things. And how do we use standards? And what's the other term here? Policies. Policies as tools to do that. Now, I'm not entirely sold that we need to draft standards and policies differently because AI is there. Now, take a simple example. Thou shalt not kill. Very simple policy. Don't kill people. Does it matter whether the killer is a human or an AI? It probably matters, right?
+
+111
+00:48:32,420 --> 00:49:00,400
+Person sell the AI model, but it doesn't quite matter that the person got killed. Okay, so at some point, we have to decide that, hey, does the rule apply equally across everything, or do I really need special rules for AI? Now, where AI and automated systems, where they excel, is they, whatever you tell them to do, they can do things quickly, very, very quickly, right? The time it takes for a human to do things one time, automated AI systems can probably do it.
+
+112
+00:49:00,400 --> 00:49:29,280
+100 million times in the same time span. That's about the real difference there. So I don't necessarily see the need for ethical policies and standards to be all that different in terms of what AI and the humans can or cannot do, but rather I care more about enforcement mechanism. I care more about where liabilities are signed.
+
+113
+00:49:29,280 --> 00:49:58,580
+When you tell the toolmaker, you are liable for the bad that your tools make, it sends a message to society. But instead, if you tell the tool, if you tell the world, it doesn't matter what the tool make, how the tool is built or how the tool is designed, that's the operator or the person using the tools, the one always has the final, has the liability. Again, it's a different message that you send to the world, a different message that you send to society. So we,
+
+114
+00:49:58,580 --> 00:50:27,840
+As a democratic society, have to work through this, not necessarily through technological means, but as a matter of humans, as a society, working out collectively how we want our society to look like without AI. Thank you for all those very insightful answers. I want to now open the floor to our guests here as well, if you have any questions, if you can raise your hand, anything that, you got any comments from you?
+
+115
+00:50:27,840 --> 00:50:55,680
+Go ahead, sir. Can you say it a little louder? Do you have a microphone? I was going to say, if you can hear it, maybe you can repeat the question online. Okay, I'll try. We have a lot of advancements to make AI more efficient, and I guess to bring tokens cost down. But when I talk to a lot of the business people that talk about costs increasing, I guess it touches upon the fact that you don't necessarily know what you're using.
+
+116
+00:50:55,680 --> 00:51:25,060
+But at the same time, I see a lot of investment in data centers and trying to increase the energy grid. So it seems that the technology is moving to be more efficient, but we're preparing for it to be more inefficient in terms of explosion of use. So I don't know why things are moving in different directions in the business world for the folks on the AI side, and then all those inventions as well to be more efficient. And what will happen?
+
+117
+00:51:25,060 --> 00:51:54,260
+Once the technology is more efficient, then we have more breakthroughs, and then we have all these data centers that we don't necessarily need. Yeah, that's my question. Yeah, I guess the question is, you know, we're building all these data centers, and if the technology becomes more efficient, won't we be overbuilding things? Any thoughts? I guess I was wondering, the person who said that, you know, AI will be getting more and more efficient. Okay, now...
+
+118
+00:51:54,290 --> 00:52:22,990
+What I just described and what you described are not in conflict in the sense that, yes, people are building more and more data centers. They're complaining about not having enough electricity or water to keep things running. At the same time, it is also true that the cost per token is going down. So it's just, right now, it's just a matter of demand, outstripping supply faster than the
+
+119
+00:52:22,990 --> 00:52:49,020
+So I'm quite optimistic that give it more time, and as a society, we'll find the right equilibrium, and the technology will allow us to do that. Anyone want anything else? I think it's an interesting investment question because for those of us in networking, we saw the internet bubble.
+
+120
+00:52:49,020 --> 00:53:18,940
+In the late 90s, right? And there was massive overbuilding in optical fiber, which took a long time to fill. Are we doing that now with the data centers? I think that's a very interesting question. I mean, I think that in terms of the cost for the business, I mean, certainly when I look at what's happening internally in our company, there's a huge increase in the adoption of these AI coding tools, and that's generating a lot of cost. And I know that's something a lot of people are concerned about.
+
+121
+00:53:18,940 --> 00:53:46,320
+You know, the cost for getting the AI to do a certain piece of coding is still much less than paying somebody to do it. So I think there's a lot of, you know, so that won't stop the adoption of these type of tools. But then you also see things like the SORA model for video generation. I guess OpenAI more or less turned that off, right? Because I guess it was just hard to make that efficient enough based on the amount that people were willing to pay for it.
+
+122
+00:53:46,320 --> 00:54:15,360
+And then I guess you get things like Jensen Huang's comment that you should give everyone essentially as many tokens equivalent to their salary, that that was the right balance. So I don't know. We're certainly not doing that at Nokia, so I don't know what the balance of other companies is. Go ahead. Next question. Can I address that question real quick? Because I think that's a great question and I think it's a big mystery around how low
+
+123
+00:54:15,360 --> 00:54:43,550
+Token costs are going to, how low they're going to go. We were talking as a panel earlier, side conversations around open models and how if you do have these local models running, the cost per token, of course, dramatically decreases or is non-existent. So I think the technology will mature to the point where it does democratize.
+
+124
+00:54:43,550 --> 00:55:12,910
+A lot of the power of AI. So that's going to be exciting, but we'll see how quickly that gets in. Yeah, I think looking at history, we have always managed to build applications that fill the pipes. You know, we figured out Netflix. And then on the mobile side, we had all the streaming and everything also. So, you know, the data usage exploded once we had the iPhone introduced in our telecom network. So I think we have figured out all this, you know.
+
+125
+00:55:12,910 --> 00:55:42,290
+In the history to fill those pipes. Maybe we'll use all the capacity that we're building. Go ahead. Yeah, my question is for Bob, but actually really for the whole, I really like this concept of infrastructure and predictable and reliable systems. And I'm in healthcare. So in healthcare, it is life or death. I'm curious, how do we get there? Really, that's really the question. I mean, the car companies are trying to say, well, we kill less people than it was to. And that's good enough.
+
+126
+00:55:42,290 --> 00:56:11,760
+But in healthcare, we can't do that. We need to say our outcomes are better, we need to validate and run clinical trials and all those things, which we will do, but we're going to do it after we get to a predictable and reliable system. So how do we get there is a question. Yeah, so the question, just to repeat, you know, how do we build predictable and reliable systems that can deliver better outcomes in the health sector, for example, as well as, you know, automated driving sector, I think similar challenges there. Godme, I think you worked in that field, so maybe we can.
+
+127
+00:56:11,760 --> 00:56:38,720
+Start with that. Do you want to go first, and then I can... You might, Igor? Yeah, go ahead. Okay, so there is a lot of ongoing work to make AI predictable and repeatable. Okay, now, even when bit-by-bit predictability is not there, there are also mathematical tricks that I can play to say when these two things are, they don't have the same set of bits.
+
+128
+00:56:38,720 --> 00:57:07,340
+That they are still semantically or syntactically equivalent. So there are works along that line that would then allow regulated industries such as healthcare to be able to deploy this kind of system. But a lot of people are working on this and you will see more and more papers in this coming up, but we need time. That's the end of it. That's really the answer. We need time and you cannot rush to implement before you get there.
+
+129
+00:57:07,340 --> 00:57:33,260
+Regardless of what your shareholders might want to see, you just have to hold the line that says, hey, human life is paramount. I'm not going to force an AI system that doesn't quite meet my predictability or dependability requirement onto my medical systems, end of story. We just have, we need time. There are people working with us, very smart. I have so many opinions.
+
+130
+00:57:33,260 --> 00:57:59,420
+I work with healthcare almost, I mean, every day, from an AI standpoint. There is, you know, believe it or not, the adoption of AI is accelerated in healthcare right now. There is an issue in the sense of it's very siloed. Like, there are so many tools and technologies specific to particular industries and organizations that needs to be connected.
+
+131
+00:57:59,420 --> 00:58:25,600
+So number one is like identifying like do we need such siloed systems and tools for so many applications out there. So we really help guide companies to understand that all right based on what you have right now can we what are some immediate value adds that we can do which is like discharge documents or even you know understanding some handwritten notes and
+
+132
+00:58:25,600 --> 00:58:52,140
+Applying AI to it. Can we add on or accelerate some of the use cases from a healthcare standpoint? That's number one. And obviously, sustainability and all of those conversations are part of those, making sure that the solutions that you're deploying are not only just adding efficiency, but also they are doing the right things for the infrastructure as well.
+
+133
+00:58:52,140 --> 00:59:17,120
+So from an architecting standpoint, it is important to stop, I mean, first of all, it's important to A, do these proof of concepts for high value, high value use cases, right? If you are able to do that and prove out from a business standpoint, then sure, it makes to do further investments in expanding it and deploying it across different segments. But if it's very siloed and if
+
+134
+00:59:17,120 --> 00:59:45,100
+It happens where in an organization there are 10,000 teams trying to do the same thing and there is no communication. No one knows what everyone is doing independently. So bringing that together and hence top-down approach is extremely important so that you have a holistic view of what's happening across the whole organization to be able to do that. But you're right, I think you need not rush it from
+
+135
+00:59:45,200 --> 01:00:13,280
+Perspective of, okay, you know, you need to adapt it. It can be at the tactical level to begin with, and then slowly adopting it to other levels inside the org. Anyone want to add anything else? Yeah. Okay. I want to add one more thing is that when we say predictability and dependability, even when you have humans do it, you do not have perfect predictability, you don't have human perfect dependability.
+
+136
+01:00:13,280 --> 01:00:41,630
+So that's why the concept of semantic equivalent is kind of important there. If you give a same set of clinical facts to a physician, give it to him before breakfast, give it to him after lunch, he may actually come back with different comments. The words may be different, but if a human doctor is more or less up to snuff, the meaning that he conveys should be almost identical. That's all in my semantic equivalence. You don't exactly have the same words, but they mean the same thing.
+
+137
+01:00:41,630 --> 01:01:09,070
+And if you allow that for human, I think it stands to reason that they should also allow that to AI. So I think, yeah, go ahead, just respond to that. And gentlemen, doctors get tired, right? So why you should have a surgery in the morning, the afternoon, because you're going to get better results. And back to your other point about using the same witness test for whether it's AI or anything. We have clinical trials. That's the gold standard.
+
+138
+01:01:09,710 --> 01:01:39,090
+Yeah, I think maybe, you know, the question is, at what point do we launch the systems? Are these, when they are perfect, or when they are better than the current solutions, or better than the current standards that we have? So, a question in the back? So, given that the core barrier to AI adoption is incompatibility... Can you come up a little bit? Oh, yes. Oh, yes, it'll be easier for us. What do we do here? So, given that the core barrier to AI adoption is incompatibility, it's the missing trust layer between humans and new systems.
+
+139
+01:01:39,090 --> 01:02:10,700
+What does the actual scaffolding look like to bridge the gap? And I'm not talking about like the policy level, but at the point of like actual interaction. So what needs to exist for a person to move from skepticism to reliance? How can we become more reliant on AI? I mean, I would say a lot of this is already happening with the reasoning models and the chain of thought models.
+
+140
+01:02:11,150 --> 01:02:40,060
+Understanding more than maybe anything else in mathematics, there's a lot of work recently on so-called chain of thought models where you actually get the AI not just to produce the answer, but to also produce its reasoning in terms of how it got to the answer. And that really is a way to get you from the kind of probabilistic realm into something that you can trust more, in that generally these models work by trying a lot of different areas.
+
+141
+01:02:40,060 --> 01:03:08,460
+And it will run into some dead ends, but at some point it will get to something that it thinks is a solution, and that has ways of checking whether that was correct. And you can go beyond math to other realms where there is some sort of type of dependability. So I think these things are already getting much better than the sort of hallucinations that we had a few years ago. So maybe there's other techniques that can be...
+
+142
+01:03:08,460 --> 01:03:36,560
+But I think this idea of a chain of thought that you can actually check after the initial inference is going to go a long way towards that. Yeah, I think you asked about the trust, if I'm not mistaken. And I think part of what I work with in the sector, we're talking about policy. You mentioned that you were not asking about policy, but things that have helped, that are helping is...
+
+143
+01:03:36,560 --> 01:04:05,900
+Having policies in place to make it a little more ethical and trustworthy. You know, and I think we're going back in some countries like the U.S., unfortunately, where we're, you know, just scrapping away that, but European Union is moving forward in creating frameworks and guardrails that could enable that trust to grow with time. You know, when you say, well, you know, if my government or the European Union is saying that they need to follow these rules, you know, and these guardrails, then, you know, the system should be a little more trustworthy.
+
+144
+01:04:05,900 --> 01:04:33,870
+So I think that's one. And the second one, you know, is to talk about, you know, when they contacted me for this panel, it was around the AI Readiness Index. I don't know if you have seen that graphic of the world. Anyone has seen that report? So I think it's the map of the world. And, you know, basically that AI Readiness Index is really similar to, you know, maybe the level of income of some of these countries and also related to democracy versus, you know, dictatorships in the world. So, you know, I think...
+
+145
+01:04:33,870 --> 01:04:57,940
+On that aspect, you know, the trust is kind of linked to that, you know, but that readiness, I think it's, you know, one important piece that I know you mentioned is the policy, and I think we need to work on that. And again, you know, part of my class actually is enabling policymakers to understand technology because, you know, in the understanding of the technology, you can create policies around it if you don't understand any of it because for you it's...
+
+146
+01:04:57,940 --> 01:05:27,460
+Speaker 1 And other language, then it's very hard to enable, you know, that to have guardrails and to work in a setting that could be trustworthy, you know, and reliable. Yeah, I do think that's a great question. I know I brought up earlier the trust layer that's needed. I do think that transparency always is a great place to start to get that trust, but how do you get transparency with AI, right?
+
+147
+01:05:27,460 --> 01:05:53,460
+Second best would be auditability. How do you audit the results or output that you're receiving from the AI? Or also, how do you hold somebody accountable to it? You have to have a human in the loop. I think organizations need to have somebody, a point of contact or a subject matter expert that does validate the output coming from that AI. And I think as time...
+
+148
+01:05:53,460 --> 01:06:18,940
+I think when it passes on or time goes on, there's going to be more trust. It's just like the internet. When the internet came out, I'm sure everybody didn't believe what's on the internet. Now they do believe it, but then now with AI, there's this distrust. So it's cyclical. I do feel that AI is going to mature into something similar, but yeah, auditability and having a human in the loop, I think, will encourage trust.
+
+149
+01:06:18,940 --> 01:06:46,660
+Yeah, I think we have gone too far on the internet side. People believe too much what's on internet nowadays. I want to add something. So when you build your AI systems, the most important aspect is explainability, right? Responsible AI works hand-in-hand in designing some of that. You can ask, so whenever you build anything, definitely you can know what's going behind the picture by explainability, right? Like when you build systems, you can actually
+
+150
+01:06:46,660 --> 01:07:13,250
+Audit the model, that why is it giving that response? What are the citations? What are some of the grounding mechanism it's using? So all of that can be increased, right, through transparent modeling and solution architecting through that. So very much it is possible. And as you know more what's behind the scenes, you will be able to trust it more. So that's a good approach. Don't trust it.
+
+151
+01:07:13,250 --> 01:07:32,180
+To begin with, and then once you kind of build the systems and give, the model give you an explanation of why it's saying the things it is, what are the sources it's citing, then eventually I think the adoption is much higher. Yeah, I think definitely one area that we are growing is citing the sources. A lot of times you have seen instances of
+
+152
+01:07:32,180 --> 01:07:50,530
+So, hallucinating, making up case and laws, et cetera, I think citing those will be important. And if I can add to that, you know, I think that what she's bringing is super important, the explainability of the model for responsible or ethical AI, you know, but some things that we find when we go, you know, to the sector with policymakers, you know, they don't understand.
+
+153
+01:07:50,530 --> 01:08:19,890
+You know, what that even means, you know, so I think the AI, you know, literacy is something that we need to continue to work on. You mentioned it, you know, like go and build something because I think that it's something that the world should focus on for the future here or anywhere. You know, how can we understand these AI models so that we understand the explainability so that we can shape them, change them? Because I think that's lacking, you know, not in the tech world, but in the rest of the world. We have a question in the back.
+
+154
+01:08:22,189 --> 01:08:37,020
+Excuse me? Yes. So with AI changing so fast, if you have kids, what skills do you like your kids to gain, and what do you want them to do? Yes. So the question is, you know, with AI growing, what...
+
+155
+01:08:37,020 --> 01:09:05,120
+We want kids to use and what not to use, and I would say... Skills do you want them to develop, and what kind of future they have in 10, 20 years? Yeah, what kind of future our kids will have, you know, in future, in 10, 20 years, and especially what skills should they learn now? Has anyone thought about these things? I don't have kids. I do, and I think about this a lot, you know, and I have seen a couple of reports around this, you know, that they say that...
+
+156
+01:09:05,120 --> 01:09:21,939
+For the future, we should really focus on AI literacy. So not necessarily coding and making all the models, but understanding how they work. So really going into the depths of that. And I would say also kind of the context and working across like cultures and across different.
+
+157
+01:09:21,939 --> 01:09:51,540
+You know, sectors because maybe the future of work would be kind of a mix of things. You won't be like just a lawyer. You would be working in a couple of things because the AI will be doing a lot of the work that we're now currently doing. So these are reports of the future of work that I have heard, but yeah, just part of it. Like, you know, social skills, like multicultural skills, and, you know, and really AI literacy that I mentioned, like how to understand this model so that we're not afraid of them and we can use them for our benefit.
+
+158
+01:09:52,340 --> 01:10:14,500
+I don't have kids, but I have an opinion. So the most important thing right now in any like with or without AI is human connection, right? And I feel like that's something that shouldn't be taken away from the generation that's, you know, doing right now. And how as a parent we are
+
+159
+01:10:14,500 --> 01:10:35,760
+Stripping some of the things that are being introduced like so early on for the kids. I think that's kind of our responsibility as an adult to make sure that we are giving them and utilizing AI to benefit their growth rather than hindering because you know a lot of the image generation and also like the AI.
+
+160
+01:10:35,760 --> 01:10:53,390
+So I think the data out there is all about like the standards in general for everything are now so high, right? Like beauty standards, filters, and so many of the other things. So how do we protect them from that and making sure that, you know, grounding them with the experience that
+
+161
+01:10:53,520 --> 01:11:20,780
+Use it to help you grow rather than comparing it against things out there. So I guess as an adult, we are kind of responsible to make sure that you are exposing these tools and technologies at the right time, and hopefully the school systems and the education systems will adapt to it. Yeah, I do have two kids who both recently graduated from college, so it's something I think about a lot.
+
+162
+01:11:20,780 --> 01:11:50,340
+I mean, what I see, so one thing I've recently read about is employers saying that this year's set of college graduates were the first year that had four years of ChatGPT, and they say they're already saying that the job applicants know less because they were just asking ChatGPT. So I guess one answer is, you know, try not to be that person, try to actually know things and not just rely on the agents. But I think I would go to the early point, I think the soft skills will remain important, right?
+
+163
+01:11:50,340 --> 01:12:19,710
+You know, unless we just devolve to just only talking to AIs and never talk to each other, I think the ability to just communicate with each other. So one example, a family member worked at a startup this past January, and, you know, the products now are being bi-coded in days. And so, you know, what it means to actually produce a product is completely changing. But there's still all the need to go out and sell and talk to potential customers. So I think...
+
+164
+01:12:19,710 --> 01:12:49,380
+We're kind of shifting back to that. So I think it seems that there'll be a lot of work that will get automated, but a lot of things won't be. And we just need to kind of figure out what those are and kind of guide our kids. And then there's all the interacting with the physical world. And so one thing I see a hugely hot area at the moment is robotic startups and companies that have a sort of physical world component where you actually got to build a device. And that's much harder to do directly with AI.
+
+165
+01:12:49,380 --> 01:13:15,020
+And another example, maybe slightly along the same lines, we were talking to telecom companies that provide rural broadband, and they're seeing a lot of their employees poached by companies that are building data centers and those type of things because they know how to dig trenches and provide electricity and provide water.
+
+166
+01:13:15,120 --> 01:13:44,430
+There's maybe, it's just a shift back to engaging with the physical world, because engaging with the digital world, which maybe was very valuable recently, maybe that's the part that AI will take away. But I guess that's the question we're all asking, yeah. I think we're all wondering a question in the back. Hey, greetings everyone. My name is Amr. I'm a visiting researcher at NYU and Morgan State and a hacking professor. I'm also...
+
+167
+01:13:44,590 --> 01:14:13,180
+Speaker's full chair for IEEE, MILCOM, and joint communication center in Europe. So one question that's happening within the chairs is our policy for AI. Four papers. So in 2025, the policy was AI is prohibited. And within the last six months, and ironically, a lot of the papers are about AI. So we know the students are actually using it. Within the last six months, now we have a target group within the chairs.
+
+168
+01:14:13,180 --> 01:14:41,330
+And what we're coming is interesting. One, they're saying they're actually encouraging students to build block diagrams. Then it came into, oh, they are using and bipoding and using it for algorithm. And now we're getting to the point, how could we make sure that the data sets are actually real data sets that are collected through experimentation? So maybe not to put IEEE in the hot spot here.
+
+169
+01:14:41,330 --> 01:15:07,580
+But we are waiting for policies from IEEE, and we're actually looking at our own budget to look at tools that will help us look just like if AI is being used in these papers, and is it also influencing the IP? So I just want to share what's happening in our chair sessions and get feedback here.
+
+170
+01:15:07,580 --> 01:15:36,620
+Just to repeat the question, I think it's about how, what are the IEEE policies with regards to using AI to write papers as more and more people in their research are using AI. And I think that's one of the very hotly debated topics within IEEE as well. How do we ensure the quality as well as then provide, you know, IEEE, our core value is we provide, you know, we review those papers. And how do we ensure that we are able to review those papers also effectively?
+
+171
+01:15:36,620 --> 01:15:47,500
+I'm not from the publications and journals department, let's say, but I think
+
+172
+01:15:47,500 --> 01:16:16,000
+You know, at IEEE, we're also figuring out, you know, and we for sure will come with a policy around this. You know, I'm sure that they're working hard on that because we have been integrating a lot of Gen AI and AI into the, you know, into the business, but also facing, you know, the users, right, like you. So we're working on it. It's the bottom line. And, you know, for me to share in addition, you know, because I teach the class, I also see at Columbia University, they don't have
+
+173
+01:16:16,000 --> 01:16:44,830
+A real strong policy around the usage of AI. And you see, you know, it's one of the leading institutions you could think, you know, in some sectors, but they don't have that figured out. So I think we're all, you know, trying really to digest and see how the world will move forward. In my class, I actually have the students write their papers at one pager. Like, so I have, before I had 10 pages for their assignments. Now I'm like, I'm not wanting to read what your model is telling me.
+
+174
+01:16:44,830 --> 01:17:13,520
+So, just do a one-pager where you're telling me the analysis of your usage of the Gen.AI, and you're comparing three models at a time, you know, and I usually told my students, like, the worse that that paper is written, the more great you will get. So, you know, I want mistakes, you know, and I think next, you know, I will just have them just hand it over to me, you know, handwritten, because even for the one-pager, they use AI, you know, and I made them use a presentation, like I...
+
+175
+01:17:13,520 --> 01:17:27,420
+And the presentation was done with Gen.AI. You know, so some of them were like, I don't know that slide where it came from, you know, and it was really comprehensive. And I'm like, but that part that you say there in the second bullet, like, what does that mean? And they looked at each other and...
+
+176
+01:17:27,420 --> 01:17:54,380
+You know, and they said, this was created by the model, you know, we're disclosing it. So, you know, I think we're figuring out how, you know, especially the education world will change, and I think will change completely, you know, in a couple of years. But, you know, to wrap it up, I think IEEE is working on it. You should be hearing, hopefully soon, some sort of policy. Yeah, I think the struggle is, you know, even if we make a policy, how do we enforce it also? What are the mechanisms to enforce it besides, you know, self-certifying?
+
+177
+01:17:54,380 --> 01:18:24,670
+So I think it's a big challenge, and we are all facing it in IEEE. And I think one of the side effects is we are getting a larger number of papers being published in our conferences and publications as a result in the last couple of years. Can I add a suggestion? So have you heard of a concept called LLM as a judge? So basically, it's training the model to be a judge. What it means is you train the model,
+
+178
+01:18:24,670 --> 01:18:35,140
+With the actual papers that were written by humans and train the model that whenever you're reviewing the papers across whatever submissions are there.
+
+179
+01:18:35,140 --> 01:19:02,340
+Is this AI written or not based on that? So this is a very common architectural concept we have for any agentic applications that we generate. So what it does, it adds the supervision or the audit layer that whatever answers are being generated are being tested against the existing foundational repository that you have. So you can use the power of existing papers that some...
+
+180
+01:19:02,340 --> 01:19:31,300
+And again, I don't know if this will work, I just thought about this right now, is some of the papers that are being written by humans are trained by the model and it would understand that, okay, this is how the language should be. And then training it for AI-generated content and basically flagging it. So that could be your automated system. And from there, it would go to peer reviewing. So it just reminded me of a study I read recently, I don't know how true it is, is that
+
+181
+01:19:31,300 --> 01:20:01,330
+If you use one of those models to create your resumes, and then on the recruiter side, if they're using those models to also evaluate resumes, the models prefer the resume generated by their own model. So if you use ChatGPT to write your resume, then if the recruiter is using ChatGPT, they prefer the ChatGPT resumes over Gemini or Clock or anything. So I read something recently, very interesting. But any other questions? One last question, yeah.
+
+182
+01:20:01,330 --> 01:20:23,460
+A lot of the panelists have mentioned that AI might be a very good camera, but not every problem is a nail. So what characteristics do you use to judge what problem is good for AI or generative AI, and what problem is good for traditional mass optimization or people's guilt and communication? Yeah, so just a question for everyone. The question is, how do we figure out AI is a better solution?
+
+183
+01:20:23,460 --> 01:20:49,330
+For the problem that we're trying to solve, or if there are any other solutions that we should be using. Any thoughts? Okay, this is where domain expertise comes in. As a domain expert, hopefully you know your field, and it's a state of the art, and you feel well enough that you have some sense of where to start. Now, where to start, as it says, where to start, doesn't mean that final answer, how do you start?
+
+184
+01:20:49,330 --> 01:21:20,800
+Before you actually pull all in on AI, you should do a bunch of testing to verify that your hunch is correct. When you say, this problem, AI can solve better. After somebody comes up with an AI solution, you still have to test it, make sure it really is better before you deploy. Anyone else wants to add anything? Yeah, actually, that's a very good question. Something internally, we've actually tried to build some little flowcharts to actually figure out, is this a problem we should apply AI for? Sorry, you know, I have various versions of this, but if I can remember from the top of my head, you know,
+
+185
+01:21:20,800 --> 01:21:48,700
+First of all, you ask, well, can you actually create a mathematical formulation of this problem? And then you ask, well, is it something that's tractable? Because obviously, just because you write it down mathematically, it doesn't necessarily mean it's tractable. And then if it is, then you just say, okay, we'll just apply the traditional techniques. If not, then you have to ask, well, can I get training data for it? And there's various questions you can ask. I mean, I think it probably depends a little bit from one domain to another.
+
+186
+01:21:48,700 --> 01:22:17,890
+But I think it is something that can be kind of formalized. And you can compare, you know, in this situation, probably it's best to train a model. In that situation, it might be best to solve from first principles. But... So I think, you know, I think it's about time I want to wrap up by giving our panelists a chance to share anything else, you know, last minute or two, any last comments or thoughts that you have with our guests here. Anything?
+
+187
+01:22:17,890 --> 01:22:42,830
+Yeah, maybe we can go one by one. Maybe, Bao, we can start with you. Well, as a concluding thought, I would say I very much welcome this opportunity, and I thank I completely for giving this opportunity to sit here with my fellow panelists and discuss these AI issues with all your fellow audience here. Just this one question about how to raise your kids with AI.
+
+188
+01:22:42,830 --> 01:23:12,180
+I'm not using the address, but... My own kids are too old for me to run this kind of experiment. But if you still have kids that still ask you for spending money for allowance, and Penfield suggests, see if you can make part of their allowance token budgets. See what your kids can do with that token budget.
+
+189
+01:23:13,870 --> 01:23:40,260
+I guess, again, thank you very much for the invitation. It's been a very enjoyable conversation. One thing that actually struck me was something Mariana was saying about responsibility and how the Europeans maybe are looking more with the EU AI Act and those type of things. I think that's actually interesting because I'm coming from a European company and they actually see things maybe a bit from the other end. They see...
+
+190
+01:23:40,260 --> 01:24:02,080
+All this sort of regulation, those type of things in Europe as, well, okay, is this a reason why most European countries haven't been able to build a frontier model? And I think this is something that actually a lot of countries have grappled with because only a few countries have been able to build frontier models. So I think this is actually one of the big challenges is sort of capabilities versus...
+
+191
+01:24:02,080 --> 01:24:17,970
+The guardrails, I think that's the word you used. I think that's a fascinating question that's probably impossible to answer, but it's, and I think different countries see it now. A lot of countries are very worried about, you know, not being able to keep up and seeing all the good jobs go to other countries that have built the frontier models.
+
+192
+01:24:19,090 --> 01:24:40,780
+Yeah, and I think that might be a good, you know, also, like, thing to put on. Thank you, by the way, for having me, and thank you everyone for staying and listening to us. Something that I want to mention is that, like, I think that, you know, balance between, like, policy, ethical, and the continuation and evolution of these models is really...
+
+193
+01:24:40,780 --> 01:24:55,920
+You know, a topic kind of top of mind for a lot of these companies. I'm not sure if you guys saw that. I think it was yesterday that the White House released an executive order around like opening everything, you know, for AI and its development. And I think, you know, the AI...
+
+194
+01:24:55,920 --> 01:25:13,730
+And big companies are really happy about that. And I have no really strong feelings about that because I do feel that the race is on and these models and these companies are going to continue to build here or anywhere.
+
+195
+01:25:13,730 --> 01:25:38,690
+We're here, and it's going to continue to grow. So we just, again, as I mentioned, you know, when they asked me this question in 2024, you know, do we need to get, you know, and when we say do we, is it people that were devoted to the tech for good sector, you know, the development practitioners, USAID, government, nonprofits, you know, should we do this? Is this ethical, you know, but we cannot stay put and...
+
+196
+01:25:38,690 --> 01:26:05,580
+Hold and ask ourselves, you know, to get an answer because these companies will continue to move forward. So I invite you, all of you, to think about this intersection. Where do you want to play a role, you know, and really type and Google, you know, the AI for good. Take a look at our programs at IEEE, humanitarian technologies, if you're interested in what we're doing because I think we all need to play a role in shaping this for the better of the world and for the better of everyone.
+
+197
+01:26:07,310 --> 01:26:34,750
+So my closing thoughts is, I think in my lifetime, this is the most exciting time with tech. So much opportunity, so much capabilities at your fingertips, whether you're a large company like Google, or whether you're a mom-and-pop shop that has access to Cloud or something. That's going to open up a lot of doors, and we talk about equitable AI.
+
+198
+01:26:34,750 --> 01:27:02,000
+Hopefully, this gives opportunities for smaller organizations to compete and maybe help a better cause. So I'm bullish on AI. I do know that there's dangers and uncertainties, but that's where the human element comes in. And to address the question about what your kids need to focus on or whatnot.
+
+199
+01:27:02,000 --> 01:27:29,040
+Of course, critical thinking skills, that can't go away. You still need to communicate with the AI. You need to be able to articulate what you need. That element will never go away, and the design element too. Yes, the AI could pretend it has feelings, but I don't think you could take away the human aspect of empathy and whatnot, emotion.
+
+200
+01:27:29,490 --> 01:28:00,430
+Thanks for having me on the panel. Great conversation. And thanks to the audience for listening in. Firstly, again, repeating everyone's thoughts. Thank you for having me as well. It is so good to be here with real humans and not AI models. Don't be scared of AI. I guess I would start with that. Humans created AI. It's our making, right? Like in terms of just embracing it.
+
+201
+01:28:01,460 --> 01:28:27,970
+Being something that will help us grow and help us make sense of a lot of things, but make sure that you also read what is responding as well in the sense that, you know, degrees and educational background that all of us come from are not going to be replaced ever. Like the effort, the years you put in to develop yourself, build your...
+
+202
+01:28:27,970 --> 01:28:54,380
+So, I think that the brand and also work is not going to be replaced. The years of experience that you have, the human connections that you make are still far more important in today's world. So, make sure that the first and the last thing that you say is to a human being and not AI. And having that real connection is still very, very important. But overall,
+
+203
+01:28:54,640 --> 01:29:22,960
+One homework for everyone today is go home and build an app on either Antigravity, Cloud, Transgipity, whatever your choice is. But go build something today. Thank you so much for, you know, very inspiring ideas and thoughts. And I want to thank our panelists. A big round of applause for our panelists to make it happen. And before we close, I also want to thank my colleague, Craig.
+
+204
+01:29:22,960 --> 01:29:52,910
+For putting this together and, you know, doing the 99% of the work to make this happen for us. So thank you, Craig. And we have some snacks in the back, some drinks, and also we have a swag that you can pick up in the back if you're interested. So it's a small bag from the Communication Society. My colleague, Tammy, will be in the back if you want to take one.
+
+205
+01:29:52,910 --> 01:30:00,110
+Go ahead, Craig.
+
+206
+01:30:00,110 --> 01:30:29,420
+So again, thank you everyone for coming. We invite you to stay for some additional networking for our online audience. You should have noticed in the chat there was a link just posted for a Zoom networking session that's going to open as soon as this webinar closes. So we invite you to click on that link, save that link, have it so when that closes you get a chance to also connect online and hopefully everyone will connect here as well.
+
+207
+01:30:29,420 --> 01:30:55,200
+So thank you again for coming, and we look forward to having more of these opportunities and sessions with you. So thanks.
+
+208
+01:30:55,200 --> 01:31:02,190
+No, absolutely.
+

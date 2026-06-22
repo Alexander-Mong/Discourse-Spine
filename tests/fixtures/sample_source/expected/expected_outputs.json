@@ -1,0 +1,665 @@
+{
+  "units": [
+    {
+      "unit_id": "unit_src_fixture_sample_01_000000",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "method": {
+        "stage": "ingest",
+        "normalization_profile": "norm_v0_1"
+      },
+      "anchor": {
+        "char_span": [
+          0,
+          53
+        ],
+        "timecode": {
+          "start": "00:00:01,000",
+          "end": "00:00:05,000",
+          "srt_index": 1
+        }
+      },
+      "text": "Welcome to our panel on the foundation model economy.",
+      "segmentation_quality": "punctuated_clean",
+      "source_hash_ref": "source_lockfile.json#transcript.sha256",
+      "authority_level": "source",
+      "review_state": "n/a"
+    },
+    {
+      "unit_id": "unit_src_fixture_sample_01_000054",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "method": {
+        "stage": "ingest",
+        "normalization_profile": "norm_v0_1"
+      },
+      "anchor": {
+        "char_span": [
+          54,
+          134
+        ],
+        "timecode": {
+          "start": "00:00:05,000",
+          "end": "00:00:09,500",
+          "srt_index": 2
+        }
+      },
+      "text": "It's not a feature you bolt on at the end, it's the architecture you start from.",
+      "segmentation_quality": "punctuated_clean",
+      "source_hash_ref": "source_lockfile.json#transcript.sha256",
+      "authority_level": "source",
+      "review_state": "n/a"
+    },
+    {
+      "unit_id": "unit_src_fixture_sample_01_000135",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "method": {
+        "stage": "ingest",
+        "normalization_profile": "norm_v0_1"
+      },
+      "anchor": {
+        "char_span": [
+          135,
+          196
+        ],
+        "timecode": {
+          "start": "00:00:09,500",
+          "end": "00:00:13,000",
+          "srt_index": 3
+        }
+      },
+      "text": "If you're building here, you need to focus on unit economics.",
+      "segmentation_quality": "punctuated_clean",
+      "source_hash_ref": "source_lockfile.json#transcript.sha256",
+      "authority_level": "source",
+      "review_state": "n/a"
+    },
+    {
+      "unit_id": "unit_src_fixture_sample_01_000197",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "method": {
+        "stage": "ingest",
+        "normalization_profile": "norm_v0_1"
+      },
+      "anchor": {
+        "char_span": [
+          197,
+          246
+        ],
+        "timecode": {
+          "start": "00:00:13,000",
+          "end": "00:00:17,000",
+          "srt_index": 4
+        }
+      },
+      "text": "The risk is that inference cost eats your margin.",
+      "segmentation_quality": "punctuated_clean",
+      "source_hash_ref": "source_lockfile.json#transcript.sha256",
+      "authority_level": "source",
+      "review_state": "n/a"
+    },
+    {
+      "unit_id": "unit_src_fixture_sample_01_000247",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "method": {
+        "stage": "ingest",
+        "normalization_profile": "norm_v0_1"
+      },
+      "anchor": {
+        "char_span": [
+          247,
+          287
+        ],
+        "timecode": {
+          "start": "00:00:17,000",
+          "end": "00:00:20,500",
+          "srt_index": 5
+        }
+      },
+      "text": "But who actually owns the model weights?",
+      "segmentation_quality": "punctuated_clean",
+      "source_hash_ref": "source_lockfile.json#transcript.sha256",
+      "authority_level": "source",
+      "review_state": "n/a"
+    },
+    {
+      "unit_id": "unit_src_fixture_sample_01_000288",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "method": {
+        "stage": "ingest",
+        "normalization_profile": "norm_v0_1"
+      },
+      "anchor": {
+        "char_span": [
+          288,
+          345
+        ],
+        "timecode": {
+          "start": "00:00:20,500",
+          "end": "00:00:25,000",
+          "srt_index": 6
+        }
+      },
+      "text": "For example, look at what the open source labs are doing.",
+      "segmentation_quality": "punctuated_clean",
+      "source_hash_ref": "source_lockfile.json#transcript.sha256",
+      "authority_level": "source",
+      "review_state": "n/a"
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_id": "ann_src_fixture_sample_01__54-134__reframe_001__s0_1",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000054",
+      "anchor": {
+        "char_span": [
+          54,
+          134
+        ],
+        "timecode_ref": "00:00:05,000"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_regex"
+      },
+      "rule_id": "reframe_001",
+      "rule_version": 2,
+      "label_vote": "reframe",
+      "taxonomy": "cue",
+      "trigger_text": "It's not a feature you bolt on at the end, it's",
+      "authority_level": "rule_vote",
+      "authority_mode": "active",
+      "review_state": "rule_matched"
+    },
+    {
+      "annotation_id": "ann_src_fixture_sample_01__54-134__reframe_v2a__s0_1",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000054",
+      "anchor": {
+        "char_span": [
+          54,
+          134
+        ],
+        "timecode_ref": "00:00:05,000"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_regex"
+      },
+      "rule_id": "reframe_v2a",
+      "rule_version": 3,
+      "label_vote": "reframe",
+      "taxonomy": "cue",
+      "trigger_text": "It's not a feature you bolt on at the end, it's",
+      "authority_level": "rule_vote",
+      "authority_mode": "active",
+      "review_state": "rule_matched"
+    },
+    {
+      "annotation_id": "ann_src_fixture_sample_01__135-196__advice_001b__s0_1",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000135",
+      "anchor": {
+        "char_span": [
+          135,
+          196
+        ],
+        "timecode_ref": "00:00:09,500"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_regex"
+      },
+      "rule_id": "advice_001b",
+      "rule_version": 2,
+      "label_vote": "advice",
+      "taxonomy": "cue",
+      "trigger_text": "If you're building here, you need to f",
+      "authority_level": "rule_vote",
+      "authority_mode": "active",
+      "review_state": "rule_matched"
+    },
+    {
+      "annotation_id": "ann_src_fixture_sample_01__197-246__caveat_002__s0_1",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000197",
+      "anchor": {
+        "char_span": [
+          197,
+          246
+        ],
+        "timecode_ref": "00:00:13,000"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_regex"
+      },
+      "rule_id": "caveat_002",
+      "rule_version": 2,
+      "label_vote": "caveat",
+      "taxonomy": "cue",
+      "trigger_text": "The risk is",
+      "authority_level": "shadow",
+      "authority_mode": "shadow",
+      "review_state": "rule_matched"
+    },
+    {
+      "annotation_id": "ann_src_fixture_sample_01__197-246__caveat_v2b__s0_1",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000197",
+      "anchor": {
+        "char_span": [
+          197,
+          246
+        ],
+        "timecode_ref": "00:00:13,000"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_regex"
+      },
+      "rule_id": "caveat_v2b",
+      "rule_version": 3,
+      "label_vote": "caveat",
+      "taxonomy": "cue",
+      "trigger_text": "The risk is",
+      "authority_level": "shadow",
+      "authority_mode": "shadow",
+      "review_state": "rule_matched"
+    },
+    {
+      "annotation_id": "ann_src_fixture_sample_01__247-287__question_002__s0_1",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000247",
+      "anchor": {
+        "char_span": [
+          247,
+          287
+        ],
+        "timecode_ref": "00:00:17,000"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_regex"
+      },
+      "rule_id": "question_002",
+      "rule_version": 1,
+      "label_vote": "question",
+      "taxonomy": "cue",
+      "trigger_text": "But who actually owns the model weights?",
+      "authority_level": "shadow",
+      "authority_mode": "shadow",
+      "review_state": "rule_matched",
+      "gate": "window_fallback"
+    },
+    {
+      "annotation_id": "ann_src_fixture_sample_01__247-287__question_003__s0_1",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000247",
+      "anchor": {
+        "char_span": [
+          247,
+          287
+        ],
+        "timecode_ref": "00:00:17,000"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_phrase"
+      },
+      "rule_id": "question_003",
+      "rule_version": 1,
+      "label_vote": "question",
+      "taxonomy": "cue",
+      "trigger_text": "who actually owns",
+      "authority_level": "rule_vote",
+      "authority_mode": "active",
+      "review_state": "rule_matched"
+    },
+    {
+      "annotation_id": "ann_src_fixture_sample_01__288-345__example_001__s0_1",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000288",
+      "anchor": {
+        "char_span": [
+          288,
+          345
+        ],
+        "timecode_ref": "00:00:20,500"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_regex"
+      },
+      "rule_id": "example_001",
+      "rule_version": 1,
+      "label_vote": "example",
+      "taxonomy": "cue",
+      "trigger_text": "For example",
+      "authority_level": "shadow",
+      "authority_mode": "shadow",
+      "review_state": "rule_matched"
+    }
+  ],
+  "term_occurrences": [
+    {
+      "term_occurrence_id": "term_src_fixture_sample_01__0-53__foundation_model",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000000",
+      "anchor": {
+        "char_span": [
+          0,
+          53
+        ],
+        "timecode_ref": "00:00:01,000"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_phrase"
+      },
+      "term": "foundation model",
+      "canonical_form": "foundation model",
+      "category": "technology",
+      "role": "rank_boost",
+      "trigger_text": "foundation model",
+      "authority_level": "shadow",
+      "review_state": "rule_matched"
+    },
+    {
+      "term_occurrence_id": "term_src_fixture_sample_01__135-196__unit_economics",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000135",
+      "anchor": {
+        "char_span": [
+          135,
+          196
+        ],
+        "timecode_ref": "00:00:09,500"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_phrase"
+      },
+      "term": "unit economics",
+      "canonical_form": "unit economics",
+      "category": "economics",
+      "role": "rank_boost",
+      "trigger_text": "unit economics",
+      "authority_level": "shadow",
+      "review_state": "rule_matched"
+    },
+    {
+      "term_occurrence_id": "term_src_fixture_sample_01__197-246__inference_cost",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000197",
+      "anchor": {
+        "char_span": [
+          197,
+          246
+        ],
+        "timecode_ref": "00:00:13,000"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_phrase"
+      },
+      "term": "inference cost",
+      "canonical_form": "inference cost",
+      "category": "economics",
+      "role": "rank_boost",
+      "trigger_text": "inference cost",
+      "authority_level": "shadow",
+      "review_state": "rule_matched"
+    },
+    {
+      "term_occurrence_id": "term_src_fixture_sample_01__288-345__open_source",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "unit_ref": "unit_src_fixture_sample_01_000288",
+      "anchor": {
+        "char_span": [
+          288,
+          345
+        ],
+        "timecode_ref": "00:00:20,500"
+      },
+      "method": {
+        "stage": "annotate",
+        "matcher": "re_phrase"
+      },
+      "term": "open source",
+      "canonical_form": "open source",
+      "category": "market-structure",
+      "role": "rank_boost",
+      "trigger_text": "open source",
+      "authority_level": "shadow",
+      "review_state": "rule_matched"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "cand_6f9a3ab9",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "anchor": {
+        "char_span": [
+          135,
+          196
+        ],
+        "timecode": "00:00:09,500",
+        "unit_ref": "unit_src_fixture_sample_01_000135"
+      },
+      "context_window": {
+        "sentences_before": 2,
+        "sentences_after": 2
+      },
+      "segmentation_quality": "punctuated_clean",
+      "vote_refs": [
+        "ann_src_fixture_sample_01__135-196__advice_001b__s0_1"
+      ],
+      "method": {
+        "stage": "candidates",
+        "dedup": "span_overlap_same_family"
+      },
+      "routing": {
+        "bucket": "medium",
+        "reason": "1 active advice vote"
+      },
+      "attribution": {
+        "tier": "C",
+        "speaker": ""
+      },
+      "authority_level": "rule_vote",
+      "review_state": "candidate_assembled",
+      "evidence_ready": true,
+      "caps_applied": {
+        "family": "advice",
+        "rank_in_family": 1,
+        "kept": true
+      }
+    },
+    {
+      "candidate_id": "cand_6f68bc50",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "anchor": {
+        "char_span": [
+          197,
+          246
+        ],
+        "timecode": "00:00:13,000",
+        "unit_ref": "unit_src_fixture_sample_01_000197"
+      },
+      "context_window": {
+        "sentences_before": 2,
+        "sentences_after": 2
+      },
+      "segmentation_quality": "punctuated_clean",
+      "vote_refs": [
+        "ann_src_fixture_sample_01__197-246__caveat_002__s0_1",
+        "ann_src_fixture_sample_01__197-246__caveat_v2b__s0_1"
+      ],
+      "method": {
+        "stage": "candidates",
+        "dedup": "span_overlap_same_family"
+      },
+      "routing": {
+        "bucket": "low",
+        "reason": "shadow-only observational; excluded from routed caps + ablation"
+      },
+      "attribution": {
+        "tier": "C",
+        "speaker": ""
+      },
+      "authority_level": "shadow",
+      "review_state": "candidate_assembled",
+      "evidence_ready": true,
+      "caps_applied": {
+        "family": "caveat",
+        "rank_in_family": 1,
+        "kept": true
+      }
+    },
+    {
+      "candidate_id": "cand_06b4b35c",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "anchor": {
+        "char_span": [
+          288,
+          345
+        ],
+        "timecode": "00:00:20,500",
+        "unit_ref": "unit_src_fixture_sample_01_000288"
+      },
+      "context_window": {
+        "sentences_before": 2,
+        "sentences_after": 0
+      },
+      "segmentation_quality": "punctuated_clean",
+      "vote_refs": [
+        "ann_src_fixture_sample_01__288-345__example_001__s0_1"
+      ],
+      "method": {
+        "stage": "candidates",
+        "dedup": "span_overlap_same_family"
+      },
+      "routing": {
+        "bucket": "low",
+        "reason": "shadow-only observational; excluded from routed caps + ablation"
+      },
+      "attribution": {
+        "tier": "C",
+        "speaker": ""
+      },
+      "authority_level": "shadow",
+      "review_state": "candidate_assembled",
+      "evidence_ready": true,
+      "caps_applied": {
+        "family": "example",
+        "rank_in_family": 1,
+        "kept": true
+      }
+    },
+    {
+      "candidate_id": "cand_a8e990e7",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "anchor": {
+        "char_span": [
+          247,
+          287
+        ],
+        "timecode": "00:00:17,000",
+        "unit_ref": "unit_src_fixture_sample_01_000247"
+      },
+      "context_window": {
+        "sentences_before": 2,
+        "sentences_after": 1
+      },
+      "segmentation_quality": "punctuated_clean",
+      "vote_refs": [
+        "ann_src_fixture_sample_01__247-287__question_002__s0_1",
+        "ann_src_fixture_sample_01__247-287__question_003__s0_1"
+      ],
+      "method": {
+        "stage": "candidates",
+        "dedup": "span_overlap_same_family"
+      },
+      "routing": {
+        "bucket": "medium",
+        "reason": "1 active question vote"
+      },
+      "attribution": {
+        "tier": "C",
+        "speaker": ""
+      },
+      "authority_level": "rule_vote",
+      "review_state": "candidate_assembled",
+      "evidence_ready": true,
+      "caps_applied": {
+        "family": "question",
+        "rank_in_family": 1,
+        "kept": true
+      }
+    },
+    {
+      "candidate_id": "cand_fdcaa2e0",
+      "source_id": "src_fixture_sample_01",
+      "run_id": "RUNID",
+      "anchor": {
+        "char_span": [
+          54,
+          134
+        ],
+        "timecode": "00:00:05,000",
+        "unit_ref": "unit_src_fixture_sample_01_000054"
+      },
+      "context_window": {
+        "sentences_before": 1,
+        "sentences_after": 2
+      },
+      "segmentation_quality": "punctuated_clean",
+      "vote_refs": [
+        "ann_src_fixture_sample_01__54-134__reframe_001__s0_1",
+        "ann_src_fixture_sample_01__54-134__reframe_v2a__s0_1"
+      ],
+      "method": {
+        "stage": "candidates",
+        "dedup": "span_overlap_same_family"
+      },
+      "routing": {
+        "bucket": "high",
+        "reason": "2 active reframe votes"
+      },
+      "attribution": {
+        "tier": "C",
+        "speaker": ""
+      },
+      "authority_level": "rule_vote",
+      "review_state": "candidate_assembled",
+      "evidence_ready": true,
+      "caps_applied": {
+        "family": "reframe",
+        "rank_in_family": 1,
+        "kept": true
+      }
+    }
+  ]
+}

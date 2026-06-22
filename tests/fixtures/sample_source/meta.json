@@ -1,0 +1,6 @@
+{
+  "source_id": "src_fixture_sample_01",
+  "run_id": "run_fixture",
+  "attribution_tier": "C",
+  "_comment": "Golden fixture for CP2. The reframe line in cue 2 is the real reframe substituted for the hand-written trace placeholder. Expected rule fires are asserted in tests/test_rules.py."
+}

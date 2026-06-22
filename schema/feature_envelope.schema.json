@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "feature_envelope.schema.json",
+  "title": "Feature record (Stage 2.5 enrich): additive, standoff, non-gating instrumentation",
+  "description": "Produced at Stage 2.5 (enrich), AFTER candidates. A feature record is a calibrated, role-tagged signal that REFERENCES a parent unit/candidate by id and never mutates it. Standoff: records live in a separate feature_records.jsonl; enrich must leave units.jsonl/annotations.jsonl/candidate_case_files.jsonl byte-identical (enforced by the additive-invariant test). Non-gating by construction: this envelope carries NO routing/evidence_ready/ranking field, so a feature cannot change what is routed or judged. Role tag is the load-bearing interpretation label (D2); signal_basis is the secondary tag (renamed from the plan's 'authority_level' to avoid collision with the pipeline's existing authority_level field). Lifecycle state is NOT here — it lives per-feature in features/feature_registry.csv (this is per unit×feature).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["feature_record_id", "unit_ref", "source_id", "run_id", "scope", "method", "role", "signal_basis", "presentation", "triggered", "payload"],
+  "properties": {
+    "feature_record_id": {"type": "string", "pattern": "^feat_[0-9a-f]{8}$", "description": "Content-addressed via ids.py from (unit_ref, method.name, method.version). Never hand-constructed."},
+    "unit_ref": {"type": "string", "pattern": "^unit_", "description": "Parent unit this feature describes. Standoff reference — the unit is never modified."},
+    "candidate_ref": {"type": "string", "pattern": "^cand_[0-9a-f]{8}$", "description": "Optional. Present only when scope=candidate (the feature is surfaced in this candidate's Stage-4 pack)."},
+    "source_id": {"type": "string"},
+    "run_id": {"type": "string"},
+    "scope": {"type": "string", "enumRef": "feature_scope", "description": "What span the signal describes: a unit (sentence) or a candidate case file."},
+    "method": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "name", "version"],
+      "properties": {
+        "stage": {"type": "string", "enumRef": "stage", "const": "enrich"},
+        "name": {"type": "string", "description": "Feature name; join key to features/feature_registry.csv. e.g. surface_complexity_profile."},
+        "version": {"type": "string", "description": "Semantic version of the feature/lexicon, e.g. 1.0.0. Cue lexicons bump this on any term change."}
+      }
+    },
+    "role": {"type": "string", "enumRef": "feature_role", "description": "Load-bearing interpretation label (D2): measurement = a count/measure; cue = a marker that suggests a discourse move; warning = a flag that the unit may be hard to interpret in isolation."},
+    "signal_basis": {"type": "string", "enumRef": "feature_signal_basis", "description": "Secondary tag (D2; named 'authority_level' in the plan, renamed to avoid collision): deterministic_surface = computed from surface text/lexicon, reproducible; statistical_candidate = derived from a model/corpus estimate (deferred; none in the proof slice)."},
+    "presentation": {"type": "string", "enumRef": "feature_presentation", "description": "How this record may surface: stored_only = observational, never in a pack; pack_visible_when_triggered = enters the Stage-4 pack only if triggered=true; always_visible = always in the pack. Governs 'store generously, present sparingly'."},
+    "triggered": {"type": "boolean", "description": "Did the signal actually fire? Measurement features set true when a value was computed. cue/warning features set true only on a real hit — gates pack_visible_when_triggered."},
+    "payload": {"type": "object", "description": "Feature-specific values + false-positive metadata. Open object (the only un-fixed field). Shape is defined per-feature in feature_interpretation_guide.md, not here."}
+  }
+}
